@@ -1,0 +1,39 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+.wrap {
+  width: 240px;
+  padding: 14px;
+}
+
+strong {
+  font-size: 14px;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #888;
+  margin-top: 2px;
+}
+
+p {
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.hint {
+  color: #666;
+  font-size: 12px;
+}
+
+button {
+  padding: 7px 12px;
+  font-size: 13px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #111;
+  color: #fff;
+}

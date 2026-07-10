@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Read Any Language - Powered by ElevenLabs",
+  "version": "0.1.0",
+  "description": "Text-to-speech reader: highlight text in any language and hear it read aloud in a natural voice. Powered by ElevenLabs.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.elevenlabs.io/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

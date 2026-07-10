@@ -1,0 +1,10 @@
+# Packaged extension for the Chrome Web Store
+*.zip
+web-store/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

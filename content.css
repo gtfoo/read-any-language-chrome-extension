@@ -1,0 +1,35 @@
+.elr-button {
+  position: absolute;
+  z-index: 2147483647;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: #111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.elr-button:hover {
+  background: #333;
+}
+
+.elr-loading {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.elr-over {
+  background: #b00020;
+  cursor: not-allowed;
+}
+
+.elr-over:hover {
+  background: #b00020;
+}
