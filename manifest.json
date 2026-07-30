@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Read Any Language - Powered by ElevenLabs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "default_locale": "en",
   "description": "Text-to-speech reader: highlight text in any language and hear it read aloud in a natural voice. Powered by ElevenLabs.",
   "permissions": ["storage"],

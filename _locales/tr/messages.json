@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Ayarlar" },
+  "poweredBy": { "message": "ElevenLabs tarafından desteklenir" },
+  "aiTranslatedNote": { "message": "Not: Bu arayüz yapay zekâ tarafından çevrildi, olası hatalar için kusura bakmayın." },
+
+  "labelApiKey": { "message": "ElevenLabs API anahtarı" },
+  "labelModel": { "message": "Model" },
+  "labelVoice": { "message": "Ses" },
+  "labelMaxChars": { "message": "Seslendirme başına en fazla karakter" },
+  "btnPreviewVoice": { "message": "▶ Sesi önizle" },
+  "btnSave": { "message": "Kaydet" },
+  "btnCheckUsage": { "message": "Hesap kullanımını kontrol et" },
+
+  "hintVoices": { "message": "Yalnızca <strong>ücretsiz</strong> (hazır) sesler listelenir. Profesyonel, klonlanmış veya paylaşılan kitaplık sesleri ücretli plan gerektirir ve gizlenir." },
+
+  "permSummary": { "message": "İzinler ve gizlilik" },
+  "permIntro": { "message": "Bu uzantı yalnızca çalışması için gerekeni ister:" },
+  "permStorage": { "message": "<strong>Depolama</strong> — API anahtarınızı ve ses/model seçiminizi tarayıcıda saklar. Uyarı: Chrome profilinizde düz metin olarak saklanır, dolayısıyla bu profile (veya senkronize Chrome verilerinize) erişimi olan herkes okuyabilir. Harcama sınırı olan <em>kapsamı sınırlı</em> bir anahtar kullanın." },
+  "permHost": { "message": "<strong><code>api.elevenlabs.io</code> erişimi</strong> — uzantının bağlandığı tek site. Seçtiğiniz metin ve API anahtarınız sesi oluşturmak için buraya gönderilir. Başka hiçbir alan adına bağlanılmaz." },
+  "permAllPages": { "message": "<strong>Tüm sayfalarda çalışır</strong> — metin seçtiğinizi algılamak ve düğmeyi göstermek için gerekir. Kendiliğinden sayfa içeriğini <em>okumaz</em> veya iletmez. Yalnızca vurguladığınız <em>ve</em> düğmesine tıkladığınız metin, yalnızca ElevenLabs'e gönderilir." },
+  "permMeansHeading": { "message": "<strong>Bu sizin için ne anlama geliyor:</strong>" },
+  "permNoDev": { "message": "<strong>Bu uzantının geliştiricisine asla hiçbir şey gönderilmez.</strong> Geliştirici sunucusu, analiz veya herhangi bir izleme yoktur. Metniniz ve API anahtarınız tarayıcınızdan <em>doğrudan</em> ElevenLabs'e gider, başka hiçbir yere gitmez." },
+  "permThirdParty": { "message": "Vurgulanan metin ElevenLabs'e (üçüncü taraf) gönderilir ve onların gizlilik politikasına tabidir. Parolaları veya hassas verileri seslendirmeyin." },
+  "permKeyLocal": { "message": "API anahtarınız, ElevenLabs'e yapılan isteklerde kimlik doğrulama başlığı olması dışında tarayıcınızdan asla çıkmaz." },
+  "permSync": { "message": "Chrome'u cihazlar arasında senkronize ederseniz, kaydedilen anahtarınız da senkronize olur (geliştiricinin değil, kendi Google hesabınız aracılığıyla)." },
+
+  "guideSummary": { "message": "ElevenLabs API anahtarı nasıl alınır" },
+  "guideStep1": { "message": "<a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a> adresinde ücretsiz bir hesap oluşturun." },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys sayfasını</a> (Profile → API Keys) açın ve <strong>Create API Key</strong>'e tıklayın." },
+  "guideStep3Intro": { "message": "Kapsamını uzantının kullandığı şeyle sınırlayın:" },
+  "tblAccess": { "message": "Erişim" },
+  "tblLevel": { "message": "Düzey" },
+  "tblWhy": { "message": "Neden gerekli" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Seslendirmeyi ve ses önizlemesini oluşturur. <em>Gerekli.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Kullanılabilir ücretsiz (hazır) sesleri listeler." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Model listesini ve her modelin desteklediği dilleri yükler." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "<em>Hesap kullanımını kontrol et</em> düğmesini etkinleştirir." },
+  "guideStep3Outro": { "message": "Diğer her şeyi <strong>No Access</strong> olarak bırakın. Bir bölüm yüklenmezse, ilgili erişimi etkinleştirmek sorunu çözer." },
+  "guideStep4": { "message": "Bir sızıntı veya kontrolden çıkma hesabınızı boşaltmasın diye anahtara <strong>kredi/karakter sınırı</strong> koyun." },
+  "guideStep5": { "message": "Anahtarı kopyalayın ve bu sayfanın en üstündeki alana yapıştırın." },
+  "guideFreeNote": { "message": "Ücretsiz plan burada gayet iyi çalışır — yalnızca ücretsiz katmanda API üzerinden yalnızca <strong>hazır</strong> seslerin kullanılabildiğini unutmayın." },
+
+  "popupSettings": { "message": "Ayarları aç" },
+  "popupHint": { "message": "Herhangi bir sayfada metin seçin, ardından 🔊 düğmesine tıklayın." },
+  "stateChecking": { "message": "Kontrol ediliyor…" },
+  "stateReady": { "message": "✅ API anahtarı ayarlandı — hazırsınız." },
+  "stateNoKey": { "message": "⚠️ Henüz API anahtarı yok. Ayarları açın." },
+
+  "msgSaved": { "message": "Kaydedildi." },
+  "msgEnterKeyFirst": { "message": "Önce API anahtarınızı girin." },
+  "msgLoadingPreview": { "message": "Önizleme yükleniyor…" },
+  "msgNoResponse": { "message": "Yanıt yok — uzantıyı chrome://extensions üzerinden yeniden yükleyin." },
+  "msgChecking": { "message": "Kontrol ediliyor…" },
+  "msgPreviewing": {
+    "message": "“$voice$” önizleniyor…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Merhaba, benim adım $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ dil: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Bu model, metnin dilini otomatik olarak algılar." },
+  "usageLine": {
+    "message": "$tier$ plan · $used$ / $limit$ karakter kullanıldı · $left$ kaldı · $reset$ tarihinde sıfırlanır",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Ayrıntılı kullanımı gör →" },
+
+  "btnReadAloud": {
+    "message": "Sesli oku — $count$ / $max$ karakter",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Çok uzun: $count$ / $max$ karakter — seçimi kısaltın",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Yükleniyor…" },
+  "btnStop": { "message": "Durdur" },
+  "errUnknown": { "message": "Bilinmeyen hata" },
+  "errNoKey": { "message": "API anahtarı ayarlanmadı. Uzantı ayarlarını açın." },
+  "errTooLong": {
+    "message": "Seçim çok uzun: $len$ / $max$ karakter.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

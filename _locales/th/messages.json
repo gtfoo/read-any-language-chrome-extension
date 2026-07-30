@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – การตั้งค่า" },
+  "poweredBy": { "message": "ขับเคลื่อนโดย ElevenLabs" },
+  "aiTranslatedNote": { "message": "หมายเหตุ: อินเทอร์เฟซนี้แปลโดย AI จึงขออภัยหากมีข้อผิดพลาด" },
+
+  "labelApiKey": { "message": "คีย์ API ของ ElevenLabs" },
+  "labelModel": { "message": "โมเดล" },
+  "labelVoice": { "message": "เสียง" },
+  "labelMaxChars": { "message": "จำนวนอักขระสูงสุดต่อการอ่าน" },
+  "btnPreviewVoice": { "message": "▶ ฟังเสียงตัวอย่าง" },
+  "btnSave": { "message": "บันทึก" },
+  "btnCheckUsage": { "message": "ตรวจสอบการใช้งานบัญชี" },
+
+  "hintVoices": { "message": "แสดงเฉพาะเสียง<strong>ฟรี</strong> (ที่ตั้งไว้ล่วงหน้า) เท่านั้น เสียงระดับมืออาชีพ เสียงโคลน หรือเสียงจากคลังที่แชร์ต้องใช้แผนแบบชำระเงินและถูกซ่อนไว้" },
+
+  "permSummary": { "message": "สิทธิ์และความเป็นส่วนตัว" },
+  "permIntro": { "message": "ส่วนขยายนี้ขอเฉพาะสิ่งที่จำเป็นต่อการทำงานเท่านั้น:" },
+  "permStorage": { "message": "<strong>ที่จัดเก็บ</strong> — บันทึกคีย์ API และตัวเลือกเสียง/โมเดลของคุณไว้ในเบราว์เซอร์ ข้อควรระวัง: ระบบจัดเก็บเป็นข้อความธรรมดาในโปรไฟล์ Chrome ของคุณ ดังนั้นใครก็ตามที่เข้าถึงโปรไฟล์นี้ (หรือข้อมูล Chrome ที่ซิงค์ไว้) ก็อ่านได้ ควรใช้คีย์<em>ที่จำกัดขอบเขต</em>พร้อมกำหนดวงเงินการใช้จ่าย" },
+  "permHost": { "message": "<strong>การเข้าถึง <code>api.elevenlabs.io</code></strong> — เว็บไซต์เดียวที่ส่วนขยายติดต่อ ข้อความที่คุณเลือกและคีย์ API จะถูกส่งมาที่นี่เพื่อสร้างเสียง ไม่มีการติดต่อโดเมนอื่นใด" },
+  "permAllPages": { "message": "<strong>ทำงานบนทุกหน้า</strong> — จำเป็นเพื่อตรวจจับเมื่อคุณเลือกข้อความและแสดงปุ่ม ส่วนขยาย<em>ไม่</em>อ่านหรือส่งเนื้อหาของหน้าเองโดยลำพัง จะส่งเฉพาะข้อความที่คุณไฮไลต์<em>และ</em>คลิกปุ่มเท่านั้น และส่งไปยัง ElevenLabs เท่านั้น" },
+  "permMeansHeading": { "message": "<strong>สิ่งนี้หมายความว่าอย่างไรสำหรับคุณ:</strong>" },
+  "permNoDev": { "message": "<strong>ไม่มีการส่งสิ่งใดไปยังผู้พัฒนาส่วนขยายนี้เลย</strong> ไม่มีเซิร์ฟเวอร์ของผู้พัฒนา ไม่มีการวิเคราะห์ และไม่มีการติดตามใด ๆ ข้อความและคีย์ API ของคุณจะไป<em>โดยตรง</em>จากเบราว์เซอร์ของคุณไปยัง ElevenLabs และไม่ไปที่อื่น" },
+  "permThirdParty": { "message": "ข้อความที่ไฮไลต์จะถูกส่งไปยัง ElevenLabs (บุคคลที่สาม) และอยู่ภายใต้นโยบายความเป็นส่วนตัวของพวกเขา อย่าให้อ่านรหัสผ่านหรือข้อมูลที่ละเอียดอ่อน" },
+  "permKeyLocal": { "message": "คีย์ API ของคุณจะไม่ออกจากเบราว์เซอร์ ยกเว้นในรูปของส่วนหัวการยืนยันตัวตนในคำขอไปยัง ElevenLabs" },
+  "permSync": { "message": "หากคุณซิงค์ Chrome ระหว่างอุปกรณ์ คีย์ที่บันทึกไว้ก็จะถูกซิงค์ด้วย (ผ่านบัญชี Google ของคุณเอง ไม่ใช่ของผู้พัฒนา)" },
+
+  "guideSummary": { "message": "วิธีรับคีย์ API ของ ElevenLabs" },
+  "guideStep1": { "message": "สร้างบัญชีฟรีที่ <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>" },
+  "guideStep2": { "message": "เปิด <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">หน้า API Keys</a> (Profile → API Keys) แล้วคลิก <strong>Create API Key</strong>" },
+  "guideStep3Intro": { "message": "จำกัดขอบเขตให้เหลือเท่าที่ส่วนขยายใช้งาน:" },
+  "tblAccess": { "message": "การเข้าถึง" },
+  "tblLevel": { "message": "ระดับ" },
+  "tblWhy": { "message": "เหตุผลที่จำเป็น" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "สร้างการอ่านออกเสียงและการฟังเสียงตัวอย่าง <em>จำเป็น</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "แสดงรายการเสียงฟรี (ที่ตั้งไว้ล่วงหน้า) ที่ใช้ได้" },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "โหลดรายการโมเดลและภาษาที่แต่ละโมเดลรองรับ" },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "เปิดใช้งานปุ่ม <em>ตรวจสอบการใช้งานบัญชี</em>" },
+  "guideStep3Outro": { "message": "ปล่อยส่วนที่เหลือทั้งหมดไว้ที่ <strong>No Access</strong> หากส่วนใดไม่โหลด การเปิดใช้การเข้าถึงของส่วนนั้นคือวิธีแก้" },
+  "guideStep4": { "message": "กำหนด<strong>วงเงินเครดิต/อักขระ</strong>ให้กับคีย์ เพื่อไม่ให้การรั่วไหลหรือความผิดพลาดทำให้บัญชีของคุณหมด" },
+  "guideStep5": { "message": "คัดลอกคีย์แล้ววางในช่องด้านบนสุดของหน้านี้" },
+  "guideFreeNote": { "message": "แผนฟรีใช้งานได้ดีที่นี่ — เพียงจำไว้ว่าในระดับฟรีจะใช้ได้เฉพาะเสียง<strong>ที่ตั้งไว้ล่วงหน้า</strong>ผ่าน API เท่านั้น" },
+
+  "popupSettings": { "message": "เปิดการตั้งค่า" },
+  "popupHint": { "message": "เลือกข้อความในหน้าใดก็ได้ แล้วคลิกปุ่ม 🔊" },
+  "stateChecking": { "message": "กำลังตรวจสอบ…" },
+  "stateReady": { "message": "✅ ตั้งค่าคีย์ API แล้ว — คุณพร้อมแล้ว" },
+  "stateNoKey": { "message": "⚠️ ยังไม่มีคีย์ API โปรดเปิดการตั้งค่า" },
+
+  "msgSaved": { "message": "บันทึกแล้ว" },
+  "msgEnterKeyFirst": { "message": "โปรดป้อนคีย์ API ของคุณก่อน" },
+  "msgLoadingPreview": { "message": "กำลังโหลดตัวอย่าง…" },
+  "msgNoResponse": { "message": "ไม่มีการตอบสนอง — โปรดโหลดส่วนขยายใหม่ที่ chrome://extensions" },
+  "msgChecking": { "message": "กำลังตรวจสอบ…" },
+  "msgPreviewing": {
+    "message": "กำลังเล่น “$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "สวัสดี ฉันชื่อ $voice$",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ ภาษา: $list$",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "โมเดลนี้ตรวจจับภาษาของข้อความโดยอัตโนมัติ" },
+  "usageLine": {
+    "message": "แผน $tier$ · ใช้ไป $used$ / $limit$ อักขระ · เหลือ $left$ · รีเซ็ตวันที่ $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "ดูการใช้งานโดยละเอียด →" },
+
+  "btnReadAloud": {
+    "message": "อ่านออกเสียง — $count$ / $max$ อักขระ",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "ยาวเกินไป: $count$ / $max$ อักขระ — โปรดลดข้อความที่เลือก",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "กำลังโหลด…" },
+  "btnStop": { "message": "หยุด" },
+  "errUnknown": { "message": "ข้อผิดพลาดที่ไม่รู้จัก" },
+  "errNoKey": { "message": "ยังไม่ได้ตั้งค่าคีย์ API โปรดเปิดการตั้งค่าส่วนขยาย" },
+  "errTooLong": {
+    "message": "ข้อความที่เลือกยาวเกินไป: $len$ / $max$ อักขระ",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

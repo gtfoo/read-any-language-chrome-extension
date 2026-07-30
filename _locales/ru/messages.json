@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Настройки" },
+  "poweredBy": { "message": "Работает на ElevenLabs" },
+  "aiTranslatedNote": { "message": "Примечание: этот интерфейс переведён ИИ, поэтому просим прощения за возможные ошибки." },
+
+  "labelApiKey": { "message": "Ключ API ElevenLabs" },
+  "labelModel": { "message": "Модель" },
+  "labelVoice": { "message": "Голос" },
+  "labelMaxChars": { "message": "Макс. число символов на озвучивание" },
+  "btnPreviewVoice": { "message": "▶ Прослушать голос" },
+  "btnSave": { "message": "Сохранить" },
+  "btnCheckUsage": { "message": "Проверить использование аккаунта" },
+
+  "hintVoices": { "message": "Показаны только <strong>бесплатные</strong> (предустановленные) голоса. Профессиональные, клонированные голоса и голоса из общей библиотеки требуют платного тарифа и скрыты." },
+
+  "permSummary": { "message": "Разрешения и конфиденциальность" },
+  "permIntro": { "message": "Это расширение запрашивает только то, что нужно для работы:" },
+  "permStorage": { "message": "<strong>Хранилище</strong> — сохраняет ваш ключ API и выбор голоса/модели в браузере. Внимание: он хранится в виде обычного текста в вашем профиле Chrome, поэтому любой, у кого есть доступ к этому профилю (или к вашим синхронизированным данным Chrome), может его прочитать. Используйте ключ <em>с ограниченными правами</em> и лимитом расходов." },
+  "permHost": { "message": "<strong>Доступ к <code>api.elevenlabs.io</code></strong> — единственный сайт, с которым связывается расширение. Выделенный текст и ваш ключ API отправляются сюда для генерации звука. Никакие другие домены не используются." },
+  "permAllPages": { "message": "<strong>Работает на всех страницах</strong> — нужно, чтобы определять выделение текста и показывать кнопку. Расширение <em>не</em> читает и не передаёт содержимое страницы само по себе. Отправляется только текст, который вы выделили <em>и</em> по которому нажали кнопку, и только в ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Что это значит для вас:</strong>" },
+  "permNoDev": { "message": "<strong>Разработчику этого расширения никогда ничего не отправляется.</strong> Нет ни сервера разработчика, ни аналитики, ни какого-либо отслеживания. Ваш текст и ключ API идут <em>напрямую</em> из вашего браузера в ElevenLabs и никуда больше." },
+  "permThirdParty": { "message": "Выделенный текст отправляется в ElevenLabs (третью сторону) и подпадает под её политику конфиденциальности. Не озвучивайте пароли и конфиденциальные данные." },
+  "permKeyLocal": { "message": "Ваш ключ API никогда не покидает браузер, кроме как в виде заголовка аутентификации в запросах к ElevenLabs." },
+  "permSync": { "message": "Если вы синхронизируете Chrome между устройствами, сохранённый ключ тоже синхронизируется (через вашу собственную учётную запись Google, а не через разработчика)." },
+
+  "guideSummary": { "message": "Как получить ключ API ElevenLabs" },
+  "guideStep1": { "message": "Создайте бесплатный аккаунт на <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Откройте <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">страницу ключей API</a> (Profile → API Keys) и нажмите <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Ограничьте права тем, что использует расширение:" },
+  "tblAccess": { "message": "Доступ" },
+  "tblLevel": { "message": "Уровень" },
+  "tblWhy": { "message": "Зачем это нужно" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Генерирует озвучивание и прослушивание голоса. <em>Обязательно.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Показывает доступные бесплатные (предустановленные) голоса." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Загружает список моделей и языки, поддерживаемые каждой из них." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Активирует кнопку <em>Проверить использование аккаунта</em>." },
+  "guideStep3Outro": { "message": "Всё остальное оставьте на <strong>No Access</strong>. Если какой-то раздел не загружается, включение соответствующего доступа решает проблему." },
+  "guideStep4": { "message": "Задайте <strong>лимит кредитов/символов</strong> для ключа, чтобы утечка или сбой не опустошили ваш аккаунт." },
+  "guideStep5": { "message": "Скопируйте ключ и вставьте его в поле вверху этой страницы." },
+  "guideFreeNote": { "message": "Бесплатный тариф здесь вполне подходит — просто помните, что на бесплатном уровне через API доступны только <strong>предустановленные</strong> голоса." },
+
+  "popupSettings": { "message": "Открыть настройки" },
+  "popupHint": { "message": "Выделите текст на любой странице и нажмите кнопку 🔊." },
+  "stateChecking": { "message": "Проверка…" },
+  "stateReady": { "message": "✅ Ключ API задан — всё готово." },
+  "stateNoKey": { "message": "⚠️ Ключа API пока нет. Откройте настройки." },
+
+  "msgSaved": { "message": "Сохранено." },
+  "msgEnterKeyFirst": { "message": "Сначала введите ключ API." },
+  "msgLoadingPreview": { "message": "Загрузка прослушивания…" },
+  "msgNoResponse": { "message": "Нет ответа — перезагрузите расширение на chrome://extensions." },
+  "msgChecking": { "message": "Проверка…" },
+  "msgPreviewing": {
+    "message": "Воспроизведение «$voice$»…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Здравствуйте, меня зовут $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ языков: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Эта модель автоматически определяет язык текста." },
+  "usageLine": {
+    "message": "Тариф $tier$ · использовано $used$ / $limit$ символов · осталось $left$ · сброс $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Подробная статистика →" },
+
+  "btnReadAloud": {
+    "message": "Озвучить — $count$ / $max$ символов",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Слишком длинно: $count$ / $max$ символов — сократите выделение",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Загрузка…" },
+  "btnStop": { "message": "Стоп" },
+  "errUnknown": { "message": "Неизвестная ошибка" },
+  "errNoKey": { "message": "Ключ API не задан. Откройте настройки расширения." },
+  "errTooLong": {
+    "message": "Выделение слишком длинное: $len$ / $max$ символов.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

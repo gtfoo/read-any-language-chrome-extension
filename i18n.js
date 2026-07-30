@@ -5,6 +5,10 @@
 function applyI18n(root) {
   root = root || document;
 
+  // Flip the page for right-to-left locales (e.g. Arabic).
+  const dir = chrome.i18n.getMessage("@@bidi_dir");
+  if (dir) document.documentElement.setAttribute("dir", dir);
+
   root.querySelectorAll("[data-i18n]").forEach((el) => {
     const msg = chrome.i18n.getMessage(el.dataset.i18n);
     if (msg) {

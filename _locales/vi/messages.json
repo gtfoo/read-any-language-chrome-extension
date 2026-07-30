@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Cài đặt" },
+  "poweredBy": { "message": "Được cung cấp bởi ElevenLabs" },
+  "aiTranslatedNote": { "message": "Lưu ý: giao diện này được dịch bằng AI, nên mong bạn thông cảm nếu có lỗi." },
+
+  "labelApiKey": { "message": "Khóa API ElevenLabs" },
+  "labelModel": { "message": "Mô hình" },
+  "labelVoice": { "message": "Giọng nói" },
+  "labelMaxChars": { "message": "Số ký tự tối đa mỗi lần đọc" },
+  "btnPreviewVoice": { "message": "▶ Nghe thử giọng" },
+  "btnSave": { "message": "Lưu" },
+  "btnCheckUsage": { "message": "Kiểm tra mức dùng tài khoản" },
+
+  "hintVoices": { "message": "Chỉ hiển thị các giọng <strong>miễn phí</strong> (có sẵn). Giọng chuyên nghiệp, nhân bản hoặc từ thư viện chia sẻ cần gói trả phí và bị ẩn." },
+
+  "permSummary": { "message": "Quyền và quyền riêng tư" },
+  "permIntro": { "message": "Tiện ích này chỉ yêu cầu những gì cần thiết để hoạt động:" },
+  "permStorage": { "message": "<strong>Bộ nhớ</strong> — lưu khóa API và lựa chọn giọng/mô hình của bạn trong trình duyệt. Lưu ý: nó được lưu dưới dạng văn bản thuần trong hồ sơ Chrome của bạn, nên bất kỳ ai có quyền truy cập hồ sơ này (hoặc dữ liệu Chrome đã đồng bộ của bạn) đều có thể đọc. Hãy dùng khóa <em>giới hạn phạm vi</em> kèm hạn mức chi tiêu." },
+  "permHost": { "message": "<strong>Truy cập <code>api.elevenlabs.io</code></strong> — trang duy nhất mà tiện ích liên hệ. Văn bản bạn chọn và khóa API được gửi đến đây để tạo âm thanh. Không có tên miền nào khác được liên hệ." },
+  "permAllPages": { "message": "<strong>Chạy trên mọi trang</strong> — cần thiết để phát hiện khi bạn chọn văn bản và hiển thị nút. Tiện ích <em>không</em> tự đọc hoặc truyền nội dung trang. Chỉ văn bản bạn tô sáng <em>và</em> nhấn nút mới được gửi, và chỉ gửi đến ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Điều này có nghĩa gì với bạn:</strong>" },
+  "permNoDev": { "message": "<strong>Không có gì được gửi đến nhà phát triển của tiện ích này.</strong> Không có máy chủ của nhà phát triển, không phân tích, không theo dõi dưới bất kỳ hình thức nào. Văn bản và khóa API của bạn đi <em>trực tiếp</em> từ trình duyệt đến ElevenLabs chứ không đến nơi nào khác." },
+  "permThirdParty": { "message": "Văn bản được tô sáng sẽ gửi đến ElevenLabs (bên thứ ba) và chịu sự điều chỉnh của chính sách quyền riêng tư của họ. Đừng đọc mật khẩu hoặc dữ liệu nhạy cảm." },
+  "permKeyLocal": { "message": "Khóa API của bạn không bao giờ rời khỏi trình duyệt, ngoại trừ dưới dạng tiêu đề xác thực trong các yêu cầu đến ElevenLabs." },
+  "permSync": { "message": "Nếu bạn đồng bộ Chrome giữa các thiết bị, khóa đã lưu của bạn cũng được đồng bộ (thông qua tài khoản Google của chính bạn, không phải nhà phát triển)." },
+
+  "guideSummary": { "message": "Cách lấy khóa API ElevenLabs" },
+  "guideStep1": { "message": "Tạo tài khoản miễn phí tại <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Mở <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">trang API Keys</a> (Profile → API Keys) và nhấp vào <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Giới hạn phạm vi ở những gì tiện ích sử dụng:" },
+  "tblAccess": { "message": "Quyền truy cập" },
+  "tblLevel": { "message": "Mức" },
+  "tblWhy": { "message": "Vì sao cần" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Tạo phần đọc và nghe thử giọng. <em>Bắt buộc.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Liệt kê các giọng miễn phí (có sẵn) khả dụng." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Tải danh sách mô hình và các ngôn ngữ mà mỗi mô hình hỗ trợ." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Bật nút <em>Kiểm tra mức dùng tài khoản</em>." },
+  "guideStep3Outro": { "message": "Để tất cả những mục khác ở <strong>No Access</strong>. Nếu một mục không tải được, việc bật quyền tương ứng sẽ khắc phục." },
+  "guideStep4": { "message": "Đặt <strong>hạn mức tín dụng/ký tự</strong> cho khóa để rò rỉ hoặc sự cố không làm cạn tài khoản của bạn." },
+  "guideStep5": { "message": "Sao chép khóa và dán vào ô ở đầu trang này." },
+  "guideFreeNote": { "message": "Gói miễn phí hoạt động tốt ở đây — chỉ cần nhớ rằng ở gói miễn phí chỉ có thể dùng giọng <strong>có sẵn</strong> qua API." },
+
+  "popupSettings": { "message": "Mở cài đặt" },
+  "popupHint": { "message": "Chọn văn bản trên bất kỳ trang nào, rồi nhấp vào nút 🔊." },
+  "stateChecking": { "message": "Đang kiểm tra…" },
+  "stateReady": { "message": "✅ Đã đặt khóa API — bạn đã sẵn sàng." },
+  "stateNoKey": { "message": "⚠️ Chưa có khóa API. Hãy mở cài đặt." },
+
+  "msgSaved": { "message": "Đã lưu." },
+  "msgEnterKeyFirst": { "message": "Hãy nhập khóa API của bạn trước." },
+  "msgLoadingPreview": { "message": "Đang tải bản nghe thử…" },
+  "msgNoResponse": { "message": "Không có phản hồi — hãy tải lại tiện ích tại chrome://extensions." },
+  "msgChecking": { "message": "Đang kiểm tra…" },
+  "msgPreviewing": {
+    "message": "Đang phát “$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Xin chào, tôi tên là $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ ngôn ngữ: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Mô hình này tự động phát hiện ngôn ngữ của văn bản." },
+  "usageLine": {
+    "message": "Gói $tier$ · đã dùng $used$ / $limit$ ký tự · còn $left$ · đặt lại vào $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Xem mức dùng chi tiết →" },
+
+  "btnReadAloud": {
+    "message": "Đọc to — $count$ / $max$ ký tự",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Quá dài: $count$ / $max$ ký tự — hãy rút ngắn vùng chọn",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Đang tải…" },
+  "btnStop": { "message": "Dừng" },
+  "errUnknown": { "message": "Lỗi không xác định" },
+  "errNoKey": { "message": "Chưa đặt khóa API. Hãy mở cài đặt tiện ích." },
+  "errTooLong": {
+    "message": "Vùng chọn quá dài: $len$ / $max$ ký tự.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Instellingen" },
+  "poweredBy": { "message": "Mogelijk gemaakt door ElevenLabs" },
+  "aiTranslatedNote": { "message": "Let op: deze interface is vertaald door AI, dus vergeef ons eventuele fouten." },
+
+  "labelApiKey": { "message": "ElevenLabs API-sleutel" },
+  "labelModel": { "message": "Model" },
+  "labelVoice": { "message": "Stem" },
+  "labelMaxChars": { "message": "Maximaal aantal tekens per voorlezing" },
+  "btnPreviewVoice": { "message": "▶ Stem beluisteren" },
+  "btnSave": { "message": "Opslaan" },
+  "btnCheckUsage": { "message": "Accountgebruik controleren" },
+
+  "hintVoices": { "message": "Alleen <strong>gratis</strong> (vooraf ingestelde) stemmen worden getoond. Professionele, gekloonde of gedeelde-bibliotheekstemmen vereisen een betaald abonnement en zijn verborgen." },
+
+  "permSummary": { "message": "Machtigingen en privacy" },
+  "permIntro": { "message": "Deze extensie vraagt alleen wat ze nodig heeft om te werken:" },
+  "permStorage": { "message": "<strong>Opslag</strong> — bewaart je API-sleutel en je stem-/modelkeuze in de browser. Let op: het wordt als platte tekst opgeslagen in je Chrome-profiel, dus iedereen met toegang tot dit profiel (of je gesynchroniseerde Chrome-gegevens) kan het lezen. Gebruik een <em>beperkte</em> sleutel met een uitgavenlimiet." },
+  "permHost": { "message": "<strong>Toegang tot <code>api.elevenlabs.io</code></strong> — de enige site waarmee de extensie contact maakt. De geselecteerde tekst en je API-sleutel worden hierheen verzonden om de audio te genereren. Er wordt geen enkel ander domein benaderd." },
+  "permAllPages": { "message": "<strong>Wordt op alle pagina's uitgevoerd</strong> — nodig om te detecteren wanneer je tekst selecteert en om de knop te tonen. De extensie leest of verzendt <em>niet</em> uit zichzelf pagina-inhoud. Alleen tekst die je markeert <em>en</em> waarop je de knop klikt, wordt verzonden, en uitsluitend naar ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Wat dit voor jou betekent:</strong>" },
+  "permNoDev": { "message": "<strong>Er wordt nooit iets naar de ontwikkelaar van deze extensie verzonden.</strong> Er is geen server van de ontwikkelaar, geen analyse en geen enkele vorm van tracking. Je tekst en API-sleutel gaan <em>rechtstreeks</em> van je browser naar ElevenLabs en nergens anders heen." },
+  "permThirdParty": { "message": "Gemarkeerde tekst wordt naar ElevenLabs (een derde partij) verzonden en valt onder hun privacybeleid. Laat geen wachtwoorden of gevoelige gegevens voorlezen." },
+  "permKeyLocal": { "message": "Je API-sleutel verlaat je browser nooit, behalve als authenticatieheader bij verzoeken aan ElevenLabs." },
+  "permSync": { "message": "Als je Chrome synchroniseert tussen apparaten, wordt je opgeslagen sleutel ook gesynchroniseerd (via je eigen Google-account, niet die van de ontwikkelaar)." },
+
+  "guideSummary": { "message": "Een ElevenLabs API-sleutel verkrijgen" },
+  "guideStep1": { "message": "Maak een gratis account aan op <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Open de <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys-pagina</a> (Profile → API Keys) en klik op <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Beperk het bereik tot wat de extensie gebruikt:" },
+  "tblAccess": { "message": "Toegang" },
+  "tblLevel": { "message": "Niveau" },
+  "tblWhy": { "message": "Waarom nodig" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Genereert de voorlezing en het stemvoorbeeld. <em>Vereist.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Toont de beschikbare gratis (vooraf ingestelde) stemmen." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Laadt de lijst met modellen en de door elk model ondersteunde talen." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Schakelt de knop <em>Accountgebruik controleren</em> in." },
+  "guideStep3Outro": { "message": "Laat al het andere op <strong>No Access</strong> staan. Als een onderdeel niet laadt, lost het inschakelen van de bijbehorende toegang dit op." },
+  "guideStep4": { "message": "Stel een <strong>tegoed-/tekenlimiet</strong> op de sleutel in, zodat een lek of ontsporing je account niet leegtrekt." },
+  "guideStep5": { "message": "Kopieer de sleutel en plak deze in het veld boven aan deze pagina." },
+  "guideFreeNote": { "message": "Het gratis abonnement werkt hier prima — onthoud alleen dat op het gratis niveau via de API uitsluitend <strong>vooraf ingestelde</strong> stemmen bruikbaar zijn." },
+
+  "popupSettings": { "message": "Instellingen openen" },
+  "popupHint": { "message": "Selecteer tekst op een willekeurige pagina en klik op de 🔊-knop." },
+  "stateChecking": { "message": "Bezig met controleren…" },
+  "stateReady": { "message": "✅ API-sleutel ingesteld — je bent klaar." },
+  "stateNoKey": { "message": "⚠️ Nog geen API-sleutel. Open de instellingen." },
+
+  "msgSaved": { "message": "Opgeslagen." },
+  "msgEnterKeyFirst": { "message": "Voer eerst je API-sleutel in." },
+  "msgLoadingPreview": { "message": "Voorbeeld laden…" },
+  "msgNoResponse": { "message": "Geen reactie — herlaad de extensie via chrome://extensions." },
+  "msgChecking": { "message": "Bezig met controleren…" },
+  "msgPreviewing": {
+    "message": "“$voice$” wordt afgespeeld…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Hallo, mijn naam is $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ talen: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Dit model detecteert automatisch de taal van de tekst." },
+  "usageLine": {
+    "message": "$tier$-abonnement · $used$ / $limit$ tekens gebruikt · $left$ over · wordt gereset op $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Gedetailleerd gebruik bekijken →" },
+
+  "btnReadAloud": {
+    "message": "Voorlezen — $count$ / $max$ tekens",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Te lang: $count$ / $max$ tekens — maak de selectie korter",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Laden…" },
+  "btnStop": { "message": "Stoppen" },
+  "errUnknown": { "message": "Onbekende fout" },
+  "errNoKey": { "message": "Geen API-sleutel ingesteld. Open de instellingen van de extensie." },
+  "errTooLong": {
+    "message": "Selectie te lang: $len$ / $max$ tekens.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

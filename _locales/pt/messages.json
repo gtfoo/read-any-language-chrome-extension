@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Configurações" },
+  "poweredBy": { "message": "Com tecnologia da ElevenLabs" },
+  "aiTranslatedNote": { "message": "Observação: esta interface foi traduzida por IA, então perdoe eventuais erros." },
+
+  "labelApiKey": { "message": "Chave de API da ElevenLabs" },
+  "labelModel": { "message": "Modelo" },
+  "labelVoice": { "message": "Voz" },
+  "labelMaxChars": { "message": "Máximo de caracteres por narração" },
+  "btnPreviewVoice": { "message": "▶ Ouvir a voz" },
+  "btnSave": { "message": "Salvar" },
+  "btnCheckUsage": { "message": "Verificar uso da conta" },
+
+  "hintVoices": { "message": "Apenas vozes <strong>gratuitas</strong> (predefinidas) são listadas. Vozes profissionais, clonadas ou da biblioteca compartilhada exigem um plano pago e ficam ocultas." },
+
+  "permSummary": { "message": "Permissões e privacidade" },
+  "permIntro": { "message": "Esta extensão solicita apenas o necessário para funcionar:" },
+  "permStorage": { "message": "<strong>Armazenamento</strong> — salva sua chave de API e a escolha de voz/modelo no navegador. Atenção: ela é armazenada como texto sem criptografia no seu perfil do Chrome, então qualquer pessoa com acesso a este perfil (ou aos seus dados sincronizados do Chrome) pode lê-la. Use uma chave <em>com escopo limitado</em> e um limite de gastos." },
+  "permHost": { "message": "<strong>Acesso a <code>api.elevenlabs.io</code></strong> — o único site que a extensão contata. O texto selecionado e sua chave de API são enviados para cá para gerar o áudio. Nenhum outro domínio é acessado." },
+  "permAllPages": { "message": "<strong>É executada em todas as páginas</strong> — necessário para detectar quando você seleciona texto e mostrar o botão. Ela <em>não</em> lê nem transmite o conteúdo da página por conta própria. Apenas o texto que você destaca <em>e</em> sobre o qual clica no botão é enviado, e somente para a ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>O que isso significa para você:</strong>" },
+  "permNoDev": { "message": "<strong>Nada nunca é enviado ao desenvolvedor desta extensão.</strong> Não há servidor do desenvolvedor, nem análises, nem rastreamento de qualquer tipo. Seu texto e sua chave de API vão <em>diretamente</em> do seu navegador para a ElevenLabs e para nenhum outro lugar." },
+  "permThirdParty": { "message": "O texto destacado é enviado à ElevenLabs (um terceiro) e está sujeito à política de privacidade dela. Não narre senhas nem dados sensíveis." },
+  "permKeyLocal": { "message": "Sua chave de API nunca sai do seu navegador, exceto como cabeçalho de autenticação nas solicitações à ElevenLabs." },
+  "permSync": { "message": "Se você sincroniza o Chrome entre dispositivos, sua chave salva também é sincronizada (pela sua própria conta Google, não pelo desenvolvedor)." },
+
+  "guideSummary": { "message": "Como obter uma chave de API da ElevenLabs" },
+  "guideStep1": { "message": "Crie uma conta gratuita em <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Abra a <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">página de chaves de API</a> (Profile → API Keys) e clique em <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Limite o escopo ao que a extensão usa:" },
+  "tblAccess": { "message": "Acesso" },
+  "tblLevel": { "message": "Nível" },
+  "tblWhy": { "message": "Por que é necessário" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Gera a narração e a prévia da voz. <em>Obrigatório.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Lista as vozes gratuitas (predefinidas) disponíveis." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Carrega a lista de modelos e os idiomas suportados por cada um." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Ativa o botão <em>Verificar uso da conta</em>." },
+  "guideStep3Outro": { "message": "Deixe todo o resto em <strong>No Access</strong>. Se alguma seção não carregar, habilitar o acesso correspondente resolve." },
+  "guideStep4": { "message": "Defina um <strong>limite de créditos/caracteres</strong> na chave para que um vazamento ou descontrole não esvazie sua conta." },
+  "guideStep5": { "message": "Copie a chave e cole-a no campo no topo desta página." },
+  "guideFreeNote": { "message": "O plano gratuito funciona bem aqui — apenas lembre-se de que, no nível gratuito, só é possível usar vozes <strong>predefinidas</strong> pela API." },
+
+  "popupSettings": { "message": "Abrir configurações" },
+  "popupHint": { "message": "Selecione texto em qualquer página e clique no botão 🔊." },
+  "stateChecking": { "message": "Verificando…" },
+  "stateReady": { "message": "✅ Chave de API configurada — tudo pronto." },
+  "stateNoKey": { "message": "⚠️ Ainda não há chave de API. Abra as configurações." },
+
+  "msgSaved": { "message": "Salvo." },
+  "msgEnterKeyFirst": { "message": "Insira primeiro sua chave de API." },
+  "msgLoadingPreview": { "message": "Carregando prévia…" },
+  "msgNoResponse": { "message": "Sem resposta — recarregue a extensão em chrome://extensions." },
+  "msgChecking": { "message": "Verificando…" },
+  "msgPreviewing": {
+    "message": "Reproduzindo “$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Olá, meu nome é $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ idiomas: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Este modelo detecta automaticamente o idioma do texto." },
+  "usageLine": {
+    "message": "Plano $tier$ · $used$ / $limit$ caracteres usados · $left$ restantes · redefine em $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Ver uso detalhado →" },
+
+  "btnReadAloud": {
+    "message": "Ler em voz alta — $count$ / $max$ caracteres",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Muito longo: $count$ / $max$ caracteres — encurte a seleção",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Carregando…" },
+  "btnStop": { "message": "Parar" },
+  "errUnknown": { "message": "Erro desconhecido" },
+  "errNoKey": { "message": "Nenhuma chave de API configurada. Abra as configurações da extensão." },
+  "errTooLong": {
+    "message": "Seleção muito longa: $len$ / $max$ caracteres.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

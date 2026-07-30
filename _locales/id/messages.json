@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Setelan" },
+  "poweredBy": { "message": "Didukung oleh ElevenLabs" },
+  "aiTranslatedNote": { "message": "Catatan: antarmuka ini diterjemahkan oleh AI, jadi mohon maklum jika ada kesalahan." },
+
+  "labelApiKey": { "message": "Kunci API ElevenLabs" },
+  "labelModel": { "message": "Model" },
+  "labelVoice": { "message": "Suara" },
+  "labelMaxChars": { "message": "Maksimum karakter per pembacaan" },
+  "btnPreviewVoice": { "message": "▶ Pratinjau suara" },
+  "btnSave": { "message": "Simpan" },
+  "btnCheckUsage": { "message": "Periksa penggunaan akun" },
+
+  "hintVoices": { "message": "Hanya suara <strong>gratis</strong> (bawaan) yang ditampilkan. Suara profesional, kloning, atau dari pustaka bersama memerlukan paket berbayar dan disembunyikan." },
+
+  "permSummary": { "message": "Izin & privasi" },
+  "permIntro": { "message": "Ekstensi ini hanya meminta apa yang diperlukan agar berfungsi:" },
+  "permStorage": { "message": "<strong>Penyimpanan</strong> — menyimpan kunci API dan pilihan suara/model Anda di browser. Perhatian: disimpan sebagai teks biasa di profil Chrome Anda, sehingga siapa pun yang memiliki akses ke profil ini (atau data Chrome tersinkron Anda) dapat membacanya. Gunakan kunci <em>dengan cakupan terbatas</em> dan batas pengeluaran." },
+  "permHost": { "message": "<strong>Akses ke <code>api.elevenlabs.io</code></strong> — satu-satunya situs yang dihubungi ekstensi. Teks yang Anda pilih dan kunci API dikirim ke sini untuk menghasilkan audio. Tidak ada domain lain yang dihubungi." },
+  "permAllPages": { "message": "<strong>Berjalan di semua halaman</strong> — diperlukan untuk mendeteksi saat Anda memilih teks dan menampilkan tombol. Ekstensi <em>tidak</em> membaca atau mengirim konten halaman dengan sendirinya. Hanya teks yang Anda sorot <em>dan</em> Anda klik tombolnya yang dikirim, dan hanya ke ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Apa artinya bagi Anda:</strong>" },
+  "permNoDev": { "message": "<strong>Tidak ada apa pun yang pernah dikirim ke pengembang ekstensi ini.</strong> Tidak ada server pengembang, tidak ada analitik, dan tidak ada pelacakan apa pun. Teks dan kunci API Anda dikirim <em>langsung</em> dari browser Anda ke ElevenLabs dan tidak ke tempat lain." },
+  "permThirdParty": { "message": "Teks yang disorot dikirim ke ElevenLabs (pihak ketiga) dan tunduk pada kebijakan privasi mereka. Jangan membacakan kata sandi atau data sensitif." },
+  "permKeyLocal": { "message": "Kunci API Anda tidak pernah meninggalkan browser kecuali sebagai header autentikasi pada permintaan ke ElevenLabs." },
+  "permSync": { "message": "Jika Anda menyinkronkan Chrome di beberapa perangkat, kunci tersimpan Anda juga ikut tersinkron (melalui akun Google Anda sendiri, bukan pengembang)." },
+
+  "guideSummary": { "message": "Cara mendapatkan kunci API ElevenLabs" },
+  "guideStep1": { "message": "Buat akun gratis di <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Buka <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">halaman API Keys</a> (Profile → API Keys) lalu klik <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Batasi cakupannya pada yang digunakan ekstensi:" },
+  "tblAccess": { "message": "Akses" },
+  "tblLevel": { "message": "Tingkat" },
+  "tblWhy": { "message": "Alasan diperlukan" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Menghasilkan pembacaan dan pratinjau suara. <em>Wajib.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Menampilkan suara gratis (bawaan) yang tersedia." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Memuat daftar model dan bahasa yang didukung tiap model." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Mengaktifkan tombol <em>Periksa penggunaan akun</em>." },
+  "guideStep3Outro": { "message": "Biarkan yang lain pada <strong>No Access</strong>. Jika suatu bagian tidak dimuat, mengaktifkan aksesnya adalah solusinya." },
+  "guideStep4": { "message": "Tetapkan <strong>batas kredit/karakter</strong> pada kunci agar kebocoran atau kesalahan tidak menguras akun Anda." },
+  "guideStep5": { "message": "Salin kunci dan tempel ke kolom di bagian atas halaman ini." },
+  "guideFreeNote": { "message": "Paket gratis sudah cukup di sini — ingat saja bahwa pada tingkat gratis hanya suara <strong>bawaan</strong> yang dapat digunakan melalui API." },
+
+  "popupSettings": { "message": "Buka setelan" },
+  "popupHint": { "message": "Pilih teks di halaman mana pun, lalu klik tombol 🔊." },
+  "stateChecking": { "message": "Memeriksa…" },
+  "stateReady": { "message": "✅ Kunci API telah diatur — Anda siap." },
+  "stateNoKey": { "message": "⚠️ Belum ada kunci API. Buka setelan." },
+
+  "msgSaved": { "message": "Tersimpan." },
+  "msgEnterKeyFirst": { "message": "Masukkan kunci API Anda terlebih dahulu." },
+  "msgLoadingPreview": { "message": "Memuat pratinjau…" },
+  "msgNoResponse": { "message": "Tidak ada respons — muat ulang ekstensi di chrome://extensions." },
+  "msgChecking": { "message": "Memeriksa…" },
+  "msgPreviewing": {
+    "message": "Memutar “$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Halo, nama saya $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ bahasa: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Model ini mendeteksi bahasa teks secara otomatis." },
+  "usageLine": {
+    "message": "Paket $tier$ · $used$ / $limit$ karakter terpakai · sisa $left$ · disetel ulang pada $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Lihat penggunaan detail →" },
+
+  "btnReadAloud": {
+    "message": "Bacakan — $count$ / $max$ karakter",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Terlalu panjang: $count$ / $max$ karakter — perpendek pilihan",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Memuat…" },
+  "btnStop": { "message": "Hentikan" },
+  "errUnknown": { "message": "Kesalahan tidak diketahui" },
+  "errNoKey": { "message": "Kunci API belum diatur. Buka setelan ekstensi." },
+  "errTooLong": {
+    "message": "Pilihan terlalu panjang: $len$ / $max$ karakter.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

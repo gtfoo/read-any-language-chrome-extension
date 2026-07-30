@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – الإعدادات" },
+  "poweredBy": { "message": "مُشغَّل بواسطة ElevenLabs" },
+  "aiTranslatedNote": { "message": "ملاحظة: تُرجمت هذه الواجهة بواسطة الذكاء الاصطناعي، فالمعذرة عن أي أخطاء." },
+
+  "labelApiKey": { "message": "مفتاح واجهة برمجة تطبيقات ElevenLabs" },
+  "labelModel": { "message": "النموذج" },
+  "labelVoice": { "message": "الصوت" },
+  "labelMaxChars": { "message": "الحد الأقصى للأحرف في كل قراءة" },
+  "btnPreviewVoice": { "message": "▶ معاينة الصوت" },
+  "btnSave": { "message": "حفظ" },
+  "btnCheckUsage": { "message": "التحقق من استخدام الحساب" },
+
+  "hintVoices": { "message": "تُعرض الأصوات <strong>المجانية</strong> (المعدّة مسبقًا) فقط. أما الأصوات الاحترافية أو المستنسخة أو من المكتبة المشتركة فتتطلب خطة مدفوعة وتكون مخفية." },
+
+  "permSummary": { "message": "الأذونات والخصوصية" },
+  "permIntro": { "message": "لا يطلب هذا الملحق سوى ما يحتاجه للعمل:" },
+  "permStorage": { "message": "<strong>التخزين</strong> — يحفظ مفتاح واجهة البرمجة واختيارك للصوت/النموذج في المتصفح. تنبيه: يُخزَّن كنص عادي في ملفك الشخصي في Chrome، لذا يمكن لأي شخص لديه وصول إلى هذا الملف الشخصي (أو إلى بيانات Chrome المتزامنة) قراءته. استخدم مفتاحًا <em>محدود الصلاحيات</em> مع حد للإنفاق." },
+  "permHost": { "message": "<strong>الوصول إلى <code>api.elevenlabs.io</code></strong> — الموقع الوحيد الذي يتصل به الملحق. يُرسَل النص المحدد ومفتاح واجهة البرمجة إلى هنا لإنشاء الصوت. لا يتم الاتصال بأي نطاق آخر." },
+  "permAllPages": { "message": "<strong>يعمل على جميع الصفحات</strong> — ضروري لاكتشاف تحديدك للنص وإظهار الزر. وهو <em>لا</em> يقرأ محتوى الصفحة أو يرسله من تلقاء نفسه. لا يُرسَل سوى النص الذي تحدّده <em>وتنقر</em> عليه الزر، وإلى ElevenLabs فقط." },
+  "permMeansHeading": { "message": "<strong>ماذا يعني هذا لك:</strong>" },
+  "permNoDev": { "message": "<strong>لا يُرسَل أي شيء إطلاقًا إلى مطوّر هذا الملحق.</strong> لا يوجد خادم للمطوّر ولا تحليلات ولا أي تتبّع من أي نوع. ينتقل نصك ومفتاح واجهة البرمجة <em>مباشرةً</em> من متصفحك إلى ElevenLabs وليس إلى أي مكان آخر." },
+  "permThirdParty": { "message": "يُرسَل النص المميّز إلى ElevenLabs (طرف ثالث) ويخضع لسياسة الخصوصية الخاصة بها. لا تقرأ كلمات المرور أو البيانات الحساسة." },
+  "permKeyLocal": { "message": "لا يغادر مفتاح واجهة البرمجة متصفحك إلا كترويسة مصادقة في الطلبات المرسلة إلى ElevenLabs." },
+  "permSync": { "message": "إذا كنت تُزامن Chrome عبر الأجهزة، فسيُزامَن مفتاحك المحفوظ أيضًا (عبر حساب Google الخاص بك، وليس المطوّر)." },
+
+  "guideSummary": { "message": "كيفية الحصول على مفتاح واجهة برمجة تطبيقات ElevenLabs" },
+  "guideStep1": { "message": "أنشئ حسابًا مجانيًا على <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "افتح <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">صفحة مفاتيح واجهة البرمجة</a> (Profile → API Keys) وانقر على <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "قصر نطاقه على ما يستخدمه الملحق:" },
+  "tblAccess": { "message": "الوصول" },
+  "tblLevel": { "message": "المستوى" },
+  "tblWhy": { "message": "سبب الحاجة إليه" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "يُنشئ القراءة ومعاينة الصوت. <em>مطلوب.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "يعرض الأصوات المجانية (المعدّة مسبقًا) المتاحة." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "يحمّل قائمة النماذج واللغات التي يدعمها كل نموذج." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "يُفعّل زر <em>التحقق من استخدام الحساب</em>." },
+  "guideStep3Outro": { "message": "اترك كل شيء آخر على <strong>No Access</strong>. إذا لم يُحمَّل قسم ما، فإن تفعيل وصوله هو الحل." },
+  "guideStep4": { "message": "عيّن <strong>حدًّا للرصيد/الأحرف</strong> على المفتاح كي لا يؤدي تسريب أو خطأ إلى استنزاف حسابك." },
+  "guideStep5": { "message": "انسخ المفتاح والصقه في الحقل أعلى هذه الصفحة." },
+  "guideFreeNote": { "message": "الخطة المجانية مناسبة تمامًا هنا — تذكّر فقط أنه في المستوى المجاني لا يمكن استخدام سوى الأصوات <strong>المعدّة مسبقًا</strong> عبر واجهة البرمجة." },
+
+  "popupSettings": { "message": "فتح الإعدادات" },
+  "popupHint": { "message": "حدّد نصًا في أي صفحة، ثم انقر على زر 🔊." },
+  "stateChecking": { "message": "جارٍ التحقق…" },
+  "stateReady": { "message": "✅ تم ضبط مفتاح واجهة البرمجة — أنت جاهز." },
+  "stateNoKey": { "message": "⚠️ لا يوجد مفتاح واجهة برمجة بعد. افتح الإعدادات." },
+
+  "msgSaved": { "message": "تم الحفظ." },
+  "msgEnterKeyFirst": { "message": "أدخل مفتاح واجهة البرمجة أولًا." },
+  "msgLoadingPreview": { "message": "جارٍ تحميل المعاينة…" },
+  "msgNoResponse": { "message": "لا استجابة — أعد تحميل الملحق من chrome://extensions." },
+  "msgChecking": { "message": "جارٍ التحقق…" },
+  "msgPreviewing": {
+    "message": "جارٍ تشغيل «$voice$»…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "مرحبًا، اسمي $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ لغة: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "يكتشف هذا النموذج لغة النص تلقائيًا." },
+  "usageLine": {
+    "message": "خطة $tier$ · $used$ / $limit$ حرفًا مُستخدمًا · المتبقي $left$ · تُعاد التهيئة في $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "عرض الاستخدام التفصيلي →" },
+
+  "btnReadAloud": {
+    "message": "قراءة بصوت عالٍ — $count$ / $max$ حرفًا",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "طويل جدًا: $count$ / $max$ حرفًا — اختصر التحديد",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "جارٍ التحميل…" },
+  "btnStop": { "message": "إيقاف" },
+  "errUnknown": { "message": "خطأ غير معروف" },
+  "errNoKey": { "message": "لم يتم ضبط مفتاح واجهة برمجة. افتح إعدادات الملحق." },
+  "errTooLong": {
+    "message": "التحديد طويل جدًا: $len$ / $max$ حرفًا.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

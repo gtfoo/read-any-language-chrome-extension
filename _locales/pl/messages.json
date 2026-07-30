@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Ustawienia" },
+  "poweredBy": { "message": "Obsługiwane przez ElevenLabs" },
+  "aiTranslatedNote": { "message": "Uwaga: ten interfejs został przetłumaczony przez SI, więc wybacz ewentualne błędy." },
+
+  "labelApiKey": { "message": "Klucz API ElevenLabs" },
+  "labelModel": { "message": "Model" },
+  "labelVoice": { "message": "Głos" },
+  "labelMaxChars": { "message": "Maksymalna liczba znaków na odczyt" },
+  "btnPreviewVoice": { "message": "▶ Odsłuchaj głos" },
+  "btnSave": { "message": "Zapisz" },
+  "btnCheckUsage": { "message": "Sprawdź użycie konta" },
+
+  "hintVoices": { "message": "Wyświetlane są tylko <strong>bezpłatne</strong> (gotowe) głosy. Głosy profesjonalne, sklonowane lub z biblioteki współdzielonej wymagają planu płatnego i są ukryte." },
+
+  "permSummary": { "message": "Uprawnienia i prywatność" },
+  "permIntro": { "message": "To rozszerzenie prosi tylko o to, czego potrzebuje do działania:" },
+  "permStorage": { "message": "<strong>Pamięć</strong> — zapisuje Twój klucz API oraz wybór głosu/modelu w przeglądarce. Uwaga: jest przechowywany jako zwykły tekst w Twoim profilu Chrome, więc każdy, kto ma dostęp do tego profilu (lub do zsynchronizowanych danych Chrome), może go odczytać. Używaj klucza <em>o ograniczonym zakresie</em> z limitem wydatków." },
+  "permHost": { "message": "<strong>Dostęp do <code>api.elevenlabs.io</code></strong> — jedyna witryna, z którą łączy się rozszerzenie. Zaznaczony tekst i Twój klucz API są wysyłane tutaj w celu wygenerowania dźwięku. Żadna inna domena nie jest używana." },
+  "permAllPages": { "message": "<strong>Działa na wszystkich stronach</strong> — potrzebne do wykrycia zaznaczenia tekstu i wyświetlenia przycisku. Rozszerzenie <em>nie</em> odczytuje ani nie przesyła samodzielnie treści strony. Wysyłany jest tylko tekst, który zaznaczysz <em>i</em> na którym klikniesz przycisk, i wyłącznie do ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Co to oznacza dla Ciebie:</strong>" },
+  "permNoDev": { "message": "<strong>Do twórcy tego rozszerzenia nigdy nic nie jest wysyłane.</strong> Nie ma serwera twórcy, żadnej analityki ani żadnego śledzenia. Twój tekst i klucz API trafiają <em>bezpośrednio</em> z Twojej przeglądarki do ElevenLabs i nigdzie indziej." },
+  "permThirdParty": { "message": "Zaznaczony tekst jest wysyłany do ElevenLabs (strony trzeciej) i podlega ich polityce prywatności. Nie odczytuj haseł ani danych poufnych." },
+  "permKeyLocal": { "message": "Twój klucz API nigdy nie opuszcza przeglądarki, poza użyciem jako nagłówek uwierzytelniający w żądaniach do ElevenLabs." },
+  "permSync": { "message": "Jeśli synchronizujesz Chrome między urządzeniami, Twój zapisany klucz również jest synchronizowany (przez Twoje własne konto Google, a nie twórcy)." },
+
+  "guideSummary": { "message": "Jak uzyskać klucz API ElevenLabs" },
+  "guideStep1": { "message": "Załóż bezpłatne konto na <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Otwórz <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">stronę kluczy API</a> (Profile → API Keys) i kliknij <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Ogranicz zakres do tego, czego używa rozszerzenie:" },
+  "tblAccess": { "message": "Dostęp" },
+  "tblLevel": { "message": "Poziom" },
+  "tblWhy": { "message": "Dlaczego jest potrzebne" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Generuje odczyt i podgląd głosu. <em>Wymagane.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Wyświetla dostępne bezpłatne (gotowe) głosy." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Ładuje listę modeli oraz języki obsługiwane przez każdy z nich." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Włącza przycisk <em>Sprawdź użycie konta</em>." },
+  "guideStep3Outro": { "message": "Wszystko inne pozostaw na <strong>No Access</strong>. Jeśli jakaś sekcja się nie ładuje, włączenie odpowiedniego dostępu rozwiązuje problem." },
+  "guideStep4": { "message": "Ustaw na kluczu <strong>limit środków/znaków</strong>, aby wyciek lub awaria nie opróżniły Twojego konta." },
+  "guideStep5": { "message": "Skopiuj klucz i wklej go w polu na górze tej strony." },
+  "guideFreeNote": { "message": "Plan bezpłatny w zupełności tu wystarcza — pamiętaj tylko, że w warstwie bezpłatnej przez API można używać wyłącznie głosów <strong>gotowych</strong>." },
+
+  "popupSettings": { "message": "Otwórz ustawienia" },
+  "popupHint": { "message": "Zaznacz tekst na dowolnej stronie, a następnie kliknij przycisk 🔊." },
+  "stateChecking": { "message": "Sprawdzanie…" },
+  "stateReady": { "message": "✅ Klucz API ustawiony — wszystko gotowe." },
+  "stateNoKey": { "message": "⚠️ Brak klucza API. Otwórz ustawienia." },
+
+  "msgSaved": { "message": "Zapisano." },
+  "msgEnterKeyFirst": { "message": "Najpierw wprowadź swój klucz API." },
+  "msgLoadingPreview": { "message": "Ładowanie podglądu…" },
+  "msgNoResponse": { "message": "Brak odpowiedzi — przeładuj rozszerzenie na chrome://extensions." },
+  "msgChecking": { "message": "Sprawdzanie…" },
+  "msgPreviewing": {
+    "message": "Odtwarzanie „$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Cześć, nazywam się $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ języków: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Ten model automatycznie wykrywa język tekstu." },
+  "usageLine": {
+    "message": "Plan $tier$ · użyto $used$ / $limit$ znaków · pozostało $left$ · reset $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Zobacz szczegółowe użycie →" },
+
+  "btnReadAloud": {
+    "message": "Czytaj na głos — $count$ / $max$ znaków",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Za długie: $count$ / $max$ znaków — skróć zaznaczenie",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Ładowanie…" },
+  "btnStop": { "message": "Zatrzymaj" },
+  "errUnknown": { "message": "Nieznany błąd" },
+  "errNoKey": { "message": "Nie ustawiono klucza API. Otwórz ustawienia rozszerzenia." },
+  "errTooLong": {
+    "message": "Zaznaczenie za długie: $len$ / $max$ znaków.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

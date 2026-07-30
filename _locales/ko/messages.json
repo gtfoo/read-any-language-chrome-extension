@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – 설정" },
+  "poweredBy": { "message": "ElevenLabs 제공" },
+  "aiTranslatedNote": { "message": "참고: 이 인터페이스는 AI로 번역되었으므로 오류가 있어도 양해 부탁드립니다." },
+
+  "labelApiKey": { "message": "ElevenLabs API 키" },
+  "labelModel": { "message": "모델" },
+  "labelVoice": { "message": "음성" },
+  "labelMaxChars": { "message": "낭독당 최대 글자 수" },
+  "btnPreviewVoice": { "message": "▶ 음성 미리듣기" },
+  "btnSave": { "message": "저장" },
+  "btnCheckUsage": { "message": "계정 사용량 확인" },
+
+  "hintVoices": { "message": "<strong>무료</strong>(기본 제공) 음성만 표시됩니다. 프로페셔널, 복제, 공유 라이브러리 음성은 유료 요금제가 필요하며 숨겨집니다." },
+
+  "permSummary": { "message": "권한 및 개인정보" },
+  "permIntro": { "message": "이 확장 프로그램은 작동에 필요한 것만 요청합니다:" },
+  "permStorage": { "message": "<strong>저장소</strong> — API 키와 음성/모델 선택을 브라우저에 저장합니다. 참고: Chrome 프로필에 일반 텍스트로 저장되므로 이 프로필(또는 동기화된 Chrome 데이터)에 접근할 수 있는 사람은 누구나 읽을 수 있습니다. 지출 한도가 있는 <em>범위가 제한된</em> 키를 사용하세요." },
+  "permHost": { "message": "<strong><code>api.elevenlabs.io</code> 접근</strong> — 확장 프로그램이 연결하는 유일한 사이트입니다. 선택한 텍스트와 API 키가 오디오 생성을 위해 이곳으로 전송됩니다. 다른 도메인에는 연결하지 않습니다." },
+  "permAllPages": { "message": "<strong>모든 페이지에서 실행</strong> — 텍스트 선택을 감지하고 버튼을 표시하는 데 필요합니다. 스스로 페이지 콘텐츠를 읽거나 전송하지 <em>않습니다</em>. 강조 표시하고 <em>버튼을 클릭한</em> 텍스트만 전송되며, ElevenLabs에만 전송됩니다." },
+  "permMeansHeading": { "message": "<strong>이것이 의미하는 바:</strong>" },
+  "permNoDev": { "message": "<strong>이 확장 프로그램의 개발자에게는 어떤 것도 전송되지 않습니다.</strong> 개발자 서버도, 분석도, 어떠한 추적도 없습니다. 사용자의 텍스트와 API 키는 브라우저에서 <em>직접</em> ElevenLabs로 전송되며 그 외 어디로도 전송되지 않습니다." },
+  "permThirdParty": { "message": "강조 표시한 텍스트는 ElevenLabs(제3자)로 전송되며 해당 개인정보 처리방침이 적용됩니다. 비밀번호나 민감한 데이터를 낭독하지 마세요." },
+  "permKeyLocal": { "message": "API 키는 ElevenLabs 요청의 인증 헤더로 사용되는 경우를 제외하고는 브라우저를 벗어나지 않습니다." },
+  "permSync": { "message": "여러 기기에서 Chrome을 동기화하면 저장된 키도 함께 동기화됩니다(개발자가 아닌 사용자 본인의 Google 계정을 통해)." },
+
+  "guideSummary": { "message": "ElevenLabs API 키를 얻는 방법" },
+  "guideStep1": { "message": "<a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>에서 무료 계정을 만드세요." },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API 키 페이지</a>(Profile → API Keys)를 열고 <strong>Create API Key</strong>를 클릭하세요." },
+  "guideStep3Intro": { "message": "확장 프로그램이 사용하는 범위로 제한하세요:" },
+  "tblAccess": { "message": "권한" },
+  "tblLevel": { "message": "수준" },
+  "tblWhy": { "message": "필요한 이유" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "낭독과 음성 미리듣기를 생성합니다. <em>필수.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "사용 가능한 무료(기본 제공) 음성을 나열합니다." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "모델 목록과 각 모델이 지원하는 언어를 불러옵니다." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "<em>계정 사용량 확인</em> 버튼을 활성화합니다." },
+  "guideStep3Outro": { "message": "나머지는 모두 <strong>No Access</strong>로 두세요. 특정 섹션이 로드되지 않으면 해당 권한을 활성화하면 해결됩니다." },
+  "guideStep4": { "message": "유출이나 오작동으로 계정이 소진되지 않도록 키에 <strong>크레딧/글자 수 한도</strong>를 설정하세요." },
+  "guideStep5": { "message": "키를 복사해 이 페이지 상단의 입력란에 붙여넣으세요." },
+  "guideFreeNote": { "message": "여기서는 무료 요금제로 충분합니다 — 다만 무료 등급에서는 API를 통해 <strong>기본 제공</strong> 음성만 사용할 수 있다는 점을 기억하세요." },
+
+  "popupSettings": { "message": "설정 열기" },
+  "popupHint": { "message": "아무 페이지에서나 텍스트를 선택한 다음 🔊 버튼을 클릭하세요." },
+  "stateChecking": { "message": "확인 중…" },
+  "stateReady": { "message": "✅ API 키가 설정됨 — 준비 완료." },
+  "stateNoKey": { "message": "⚠️ 아직 API 키가 없습니다. 설정을 여세요." },
+
+  "msgSaved": { "message": "저장됨." },
+  "msgEnterKeyFirst": { "message": "먼저 API 키를 입력하세요." },
+  "msgLoadingPreview": { "message": "미리듣기 로드 중…" },
+  "msgNoResponse": { "message": "응답 없음 — chrome://extensions에서 확장 프로그램을 다시 로드하세요." },
+  "msgChecking": { "message": "확인 중…" },
+  "msgPreviewing": {
+    "message": "“$voice$” 미리듣는 중…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "안녕하세요, 제 이름은 $voice$입니다.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$개 언어: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "이 모델은 텍스트의 언어를 자동으로 감지합니다." },
+  "usageLine": {
+    "message": "$tier$ 요금제 · $used$ / $limit$자 사용 · $left$자 남음 · $reset$에 초기화",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "자세한 사용량 보기 →" },
+
+  "btnReadAloud": {
+    "message": "소리내어 읽기 — $count$ / $max$자",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "너무 김: $count$ / $max$자 — 선택 범위를 줄이세요",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "로드 중…" },
+  "btnStop": { "message": "중지" },
+  "errUnknown": { "message": "알 수 없는 오류" },
+  "errNoKey": { "message": "API 키가 설정되지 않았습니다. 확장 프로그램 설정을 여세요." },
+  "errTooLong": {
+    "message": "선택이 너무 깁니다: $len$ / $max$자.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

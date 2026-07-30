@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – सेटिंग्स" },
+  "poweredBy": { "message": "ElevenLabs द्वारा संचालित" },
+  "aiTranslatedNote": { "message": "नोट: यह इंटरफ़ेस AI द्वारा अनुवादित है, इसलिए किसी भी त्रुटि के लिए क्षमा करें।" },
+
+  "labelApiKey": { "message": "ElevenLabs API कुंजी" },
+  "labelModel": { "message": "मॉडल" },
+  "labelVoice": { "message": "आवाज़" },
+  "labelMaxChars": { "message": "प्रति वाचन अधिकतम अक्षर" },
+  "btnPreviewVoice": { "message": "▶ आवाज़ सुनें" },
+  "btnSave": { "message": "सहेजें" },
+  "btnCheckUsage": { "message": "खाता उपयोग जाँचें" },
+
+  "hintVoices": { "message": "केवल <strong>निःशुल्क</strong> (पूर्वनिर्धारित) आवाज़ें दिखाई जाती हैं। पेशेवर, क्लोन की गई या साझा लाइब्रेरी की आवाज़ों के लिए सशुल्क योजना चाहिए और वे छिपी रहती हैं।" },
+
+  "permSummary": { "message": "अनुमतियाँ और गोपनीयता" },
+  "permIntro": { "message": "यह एक्सटेंशन केवल वही माँगता है जो इसे काम करने के लिए चाहिए:" },
+  "permStorage": { "message": "<strong>स्टोरेज</strong> — आपकी API कुंजी और आवाज़/मॉडल का चयन ब्राउज़र में सहेजता है। ध्यान दें: यह आपके Chrome प्रोफ़ाइल में सादे टेक्स्ट के रूप में संग्रहीत होती है, इसलिए इस प्रोफ़ाइल (या आपके सिंक किए गए Chrome डेटा) तक पहुँच रखने वाला कोई भी इसे पढ़ सकता है। खर्च सीमा वाली <em>सीमित-दायरे</em> की कुंजी का उपयोग करें।" },
+  "permHost": { "message": "<strong><code>api.elevenlabs.io</code> तक पहुँच</strong> — यही एकमात्र साइट है जिससे एक्सटेंशन संपर्क करता है। ऑडियो बनाने के लिए आपका चयनित टेक्स्ट और API कुंजी यहाँ भेजी जाती है। किसी अन्य डोमेन से संपर्क नहीं किया जाता।" },
+  "permAllPages": { "message": "<strong>सभी पृष्ठों पर चलता है</strong> — यह पता लगाने के लिए ज़रूरी है कि आपने कब टेक्स्ट चुना और बटन दिखाने के लिए। यह अपने आप पृष्ठ की सामग्री को <em>न</em> पढ़ता है और न भेजता है। केवल वही टेक्स्ट भेजा जाता है जिसे आप हाइलाइट करते हैं <em>और</em> जिस पर बटन क्लिक करते हैं, और केवल ElevenLabs को।" },
+  "permMeansHeading": { "message": "<strong>आपके लिए इसका मतलब:</strong>" },
+  "permNoDev": { "message": "<strong>इस एक्सटेंशन के डेवलपर को कभी कुछ नहीं भेजा जाता।</strong> कोई डेवलपर सर्वर नहीं, कोई एनालिटिक्स नहीं, किसी भी तरह की ट्रैकिंग नहीं। आपका टेक्स्ट और API कुंजी आपके ब्राउज़र से <em>सीधे</em> ElevenLabs को जाते हैं और कहीं नहीं।" },
+  "permThirdParty": { "message": "हाइलाइट किया गया टेक्स्ट ElevenLabs (एक तृतीय पक्ष) को भेजा जाता है और उनकी गोपनीयता नीति के अधीन है। पासवर्ड या संवेदनशील डेटा न पढ़वाएँ।" },
+  "permKeyLocal": { "message": "आपकी API कुंजी ElevenLabs के अनुरोधों के प्रमाणीकरण हेडर के रूप में छोड़कर कभी आपके ब्राउज़र से बाहर नहीं जाती।" },
+  "permSync": { "message": "यदि आप Chrome को उपकरणों के बीच सिंक करते हैं, तो आपकी सहेजी गई कुंजी भी सिंक होती है (आपके अपने Google खाते के माध्यम से, डेवलपर के नहीं)।" },
+
+  "guideSummary": { "message": "ElevenLabs API कुंजी कैसे प्राप्त करें" },
+  "guideStep1": { "message": "<a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a> पर एक निःशुल्क खाता बनाएँ।" },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys पृष्ठ</a> (Profile → API Keys) खोलें और <strong>Create API Key</strong> पर क्लिक करें।" },
+  "guideStep3Intro": { "message": "इसका दायरा वही तक सीमित करें जो एक्सटेंशन उपयोग करता है:" },
+  "tblAccess": { "message": "पहुँच" },
+  "tblLevel": { "message": "स्तर" },
+  "tblWhy": { "message": "क्यों ज़रूरी है" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "वाचन और आवाज़ का पूर्वावलोकन बनाता है। <em>आवश्यक।</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "उपलब्ध निःशुल्क (पूर्वनिर्धारित) आवाज़ें सूचीबद्ध करता है।" },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "मॉडल सूची और प्रत्येक मॉडल द्वारा समर्थित भाषाएँ लोड करता है।" },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "<em>खाता उपयोग जाँचें</em> बटन को सक्षम करता है।" },
+  "guideStep3Outro": { "message": "बाकी सब कुछ <strong>No Access</strong> पर छोड़ दें। यदि कोई अनुभाग लोड न हो, तो उसकी पहुँच सक्षम करना समाधान है।" },
+  "guideStep4": { "message": "कुंजी पर <strong>क्रेडिट/अक्षर सीमा</strong> निर्धारित करें ताकि कोई लीक या गड़बड़ी आपके खाते को खाली न कर दे।" },
+  "guideStep5": { "message": "कुंजी कॉपी करें और इस पृष्ठ के शीर्ष पर स्थित फ़ील्ड में चिपकाएँ।" },
+  "guideFreeNote": { "message": "निःशुल्क योजना यहाँ ठीक काम करती है — बस याद रखें कि निःशुल्क स्तर पर API के माध्यम से केवल <strong>पूर्वनिर्धारित</strong> आवाज़ें ही उपयोग की जा सकती हैं।" },
+
+  "popupSettings": { "message": "सेटिंग्स खोलें" },
+  "popupHint": { "message": "किसी भी पृष्ठ पर टेक्स्ट चुनें, फिर 🔊 बटन पर क्लिक करें।" },
+  "stateChecking": { "message": "जाँच हो रही है…" },
+  "stateReady": { "message": "✅ API कुंजी सेट है — आप तैयार हैं।" },
+  "stateNoKey": { "message": "⚠️ अभी कोई API कुंजी नहीं है। सेटिंग्स खोलें।" },
+
+  "msgSaved": { "message": "सहेजा गया।" },
+  "msgEnterKeyFirst": { "message": "पहले अपनी API कुंजी दर्ज करें।" },
+  "msgLoadingPreview": { "message": "पूर्वावलोकन लोड हो रहा है…" },
+  "msgNoResponse": { "message": "कोई प्रतिक्रिया नहीं — chrome://extensions पर एक्सटेंशन पुनः लोड करें।" },
+  "msgChecking": { "message": "जाँच हो रही है…" },
+  "msgPreviewing": {
+    "message": "“$voice$” चल रहा है…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "नमस्ते, मेरा नाम $voice$ है।",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ भाषाएँ: $list$।",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "यह मॉडल टेक्स्ट की भाषा स्वतः पहचान लेता है।" },
+  "usageLine": {
+    "message": "$tier$ योजना · $used$ / $limit$ अक्षर उपयोग किए · $left$ शेष · $reset$ को रीसेट",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "विस्तृत उपयोग देखें →" },
+
+  "btnReadAloud": {
+    "message": "ज़ोर से पढ़ें — $count$ / $max$ अक्षर",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "बहुत लंबा: $count$ / $max$ अक्षर — चयन छोटा करें",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "लोड हो रहा है…" },
+  "btnStop": { "message": "रोकें" },
+  "errUnknown": { "message": "अज्ञात त्रुटि" },
+  "errNoKey": { "message": "कोई API कुंजी सेट नहीं है। एक्सटेंशन सेटिंग्स खोलें।" },
+  "errTooLong": {
+    "message": "चयन बहुत लंबा: $len$ / $max$ अक्षर।",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}
