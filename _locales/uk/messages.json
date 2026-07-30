@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Налаштування" },
+  "poweredBy": { "message": "Працює на ElevenLabs" },
+  "aiTranslatedNote": { "message": "Примітка: цей інтерфейс перекладено ШІ, тож просимо вибачення за можливі помилки." },
+
+  "labelApiKey": { "message": "Ключ API ElevenLabs" },
+  "labelModel": { "message": "Модель" },
+  "labelVoice": { "message": "Голос" },
+  "labelMaxChars": { "message": "Макс. кількість символів на озвучення" },
+  "btnPreviewVoice": { "message": "▶ Прослухати голос" },
+  "btnSave": { "message": "Зберегти" },
+  "btnCheckUsage": { "message": "Перевірити використання облікового запису" },
+
+  "hintVoices": { "message": "Показано лише <strong>безкоштовні</strong> (попередньо задані) голоси. Професійні, клоновані голоси та голоси зі спільної бібліотеки потребують платного тарифу й приховані." },
+
+  "permSummary": { "message": "Дозволи та конфіденційність" },
+  "permIntro": { "message": "Це розширення запитує лише те, що потрібно для роботи:" },
+  "permStorage": { "message": "<strong>Сховище</strong> — зберігає ваш ключ API та вибір голосу/моделі у браузері. Увага: він зберігається як звичайний текст у вашому профілі Chrome, тож будь-хто з доступом до цього профілю (або до синхронізованих даних Chrome) може його прочитати. Використовуйте ключ <em>з обмеженими правами</em> та лімітом витрат." },
+  "permHost": { "message": "<strong>Доступ до <code>api.elevenlabs.io</code></strong> — єдиний сайт, з яким зв’язується розширення. Виділений текст і ваш ключ API надсилаються сюди для генерації звуку. Жодні інші домени не використовуються." },
+  "permAllPages": { "message": "<strong>Працює на всіх сторінках</strong> — потрібно, щоб виявляти виділення тексту й показувати кнопку. Розширення <em>не</em> читає й не передає вміст сторінки самостійно. Надсилається лише текст, який ви виділили <em>та</em> на якому натиснули кнопку, і лише до ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Що це означає для вас:</strong>" },
+  "permNoDev": { "message": "<strong>Розробнику цього розширення ніколи нічого не надсилається.</strong> Немає ані сервера розробника, ані аналітики, ані будь-якого відстеження. Ваш текст і ключ API йдуть <em>безпосередньо</em> з вашого браузера до ElevenLabs і більше нікуди." },
+  "permThirdParty": { "message": "Виділений текст надсилається до ElevenLabs (третьої сторони) і підпадає під їхню політику конфіденційності. Не озвучуйте паролі чи конфіденційні дані." },
+  "permKeyLocal": { "message": "Ваш ключ API ніколи не залишає браузер, окрім як у вигляді заголовка автентифікації в запитах до ElevenLabs." },
+  "permSync": { "message": "Якщо ви синхронізуєте Chrome між пристроями, збережений ключ також синхронізується (через ваш власний обліковий запис Google, а не розробника)." },
+
+  "guideSummary": { "message": "Як отримати ключ API ElevenLabs" },
+  "guideStep1": { "message": "Створіть безкоштовний обліковий запис на <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Відкрийте <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">сторінку ключів API</a> (Profile → API Keys) і натисніть <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Обмежте права тим, що використовує розширення:" },
+  "tblAccess": { "message": "Доступ" },
+  "tblLevel": { "message": "Рівень" },
+  "tblWhy": { "message": "Навіщо це потрібно" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Генерує озвучення та прослуховування голосу. <em>Обов’язково.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Показує доступні безкоштовні (попередньо задані) голоси." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Завантажує список моделей і мови, які підтримує кожна з них." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Активує кнопку <em>Перевірити використання облікового запису</em>." },
+  "guideStep3Outro": { "message": "Усе інше залиште на <strong>No Access</strong>. Якщо якийсь розділ не завантажується, увімкнення відповідного доступу вирішує проблему." },
+  "guideStep4": { "message": "Установіть для ключа <strong>ліміт кредитів/символів</strong>, щоб витік чи збій не спустошили ваш обліковий запис." },
+  "guideStep5": { "message": "Скопіюйте ключ і вставте його в поле вгорі цієї сторінки." },
+  "guideFreeNote": { "message": "Безкоштовний тариф тут цілком підходить — лише пам’ятайте, що на безкоштовному рівні через API доступні лише <strong>попередньо задані</strong> голоси." },
+
+  "popupSettings": { "message": "Відкрити налаштування" },
+  "popupHint": { "message": "Виділіть текст на будь-якій сторінці, потім натисніть кнопку 🔊." },
+  "stateChecking": { "message": "Перевірка…" },
+  "stateReady": { "message": "✅ Ключ API встановлено — усе готово." },
+  "stateNoKey": { "message": "⚠️ Ключа API ще немає. Відкрийте налаштування." },
+
+  "msgSaved": { "message": "Збережено." },
+  "msgEnterKeyFirst": { "message": "Спочатку введіть ваш ключ API." },
+  "msgLoadingPreview": { "message": "Завантаження прослуховування…" },
+  "msgNoResponse": { "message": "Немає відповіді — перезавантажте розширення на chrome://extensions." },
+  "msgChecking": { "message": "Перевірка…" },
+  "msgPreviewing": {
+    "message": "Відтворення «$voice$»…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Вітаю, мене звати $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ мов: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Ця модель автоматично визначає мову тексту." },
+  "usageLine": {
+    "message": "Тариф $tier$ · використано $used$ / $limit$ символів · залишилось $left$ · скидання $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Детальне використання →" },
+
+  "btnReadAloud": {
+    "message": "Озвучити — $count$ / $max$ символів",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Задовго: $count$ / $max$ символів — скоротіть виділення",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Завантаження…" },
+  "btnStop": { "message": "Стоп" },
+  "errUnknown": { "message": "Невідома помилка" },
+  "errNoKey": { "message": "Ключ API не встановлено. Відкрийте налаштування розширення." },
+  "errTooLong": {
+    "message": "Виділення задовге: $len$ / $max$ символів.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

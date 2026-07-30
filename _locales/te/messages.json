@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – సెట్టింగ్‌లు" },
+  "poweredBy": { "message": "ElevenLabs ద్వారా ఆధారితం" },
+  "aiTranslatedNote": { "message": "గమనిక: ఈ ఇంటర్‌ఫేస్ AI ద్వారా అనువదించబడింది, కాబట్టి ఏవైనా పొరపాట్లు ఉంటే క్షమించండి." },
+
+  "labelApiKey": { "message": "ElevenLabs API కీ" },
+  "labelModel": { "message": "మోడల్" },
+  "labelVoice": { "message": "వాయిస్" },
+  "labelMaxChars": { "message": "ఒక్కో పఠనానికి గరిష్ఠ అక్షరాలు" },
+  "btnPreviewVoice": { "message": "▶ వాయిస్‌ను వినండి" },
+  "btnSave": { "message": "సేవ్ చేయి" },
+  "btnCheckUsage": { "message": "ఖాతా వినియోగాన్ని తనిఖీ చేయి" },
+
+  "hintVoices": { "message": "<strong>ఉచిత</strong> (ముందే నిర్ణయించిన) వాయిస్‌లు మాత్రమే జాబితా చేయబడతాయి. ప్రొఫెషనల్, క్లోన్ చేసిన లేదా షేర్డ్ లైబ్రరీ వాయిస్‌లకు చెల్లింపు ప్లాన్ అవసరం, అవి దాచబడతాయి." },
+
+  "permSummary": { "message": "అనుమతులు & గోప్యత" },
+  "permIntro": { "message": "ఈ పొడిగింపు పని చేయడానికి అవసరమైనది మాత్రమే అడుగుతుంది:" },
+  "permStorage": { "message": "<strong>స్టోరేజ్</strong> — మీ API కీని, వాయిస్/మోడల్ ఎంపికను బ్రౌజర్‌లో సేవ్ చేస్తుంది. గమనిక: ఇది మీ Chrome ప్రొఫైల్‌లో సాదా టెక్స్ట్‌గా నిల్వ చేయబడుతుంది, కాబట్టి ఈ ప్రొఫైల్ (లేదా మీ సింక్ చేసిన Chrome డేటా) అందుబాటులో ఉన్న ఎవరైనా దీన్ని చదవగలరు. ఖర్చు పరిమితితో కూడిన <em>పరిమిత-పరిధి</em> కీని ఉపయోగించండి." },
+  "permHost": { "message": "<strong><code>api.elevenlabs.io</code>కు యాక్సెస్</strong> — పొడిగింపు సంప్రదించే ఏకైక సైట్. ఆడియోను రూపొందించడానికి మీరు ఎంచుకున్న టెక్స్ట్ మరియు API కీ ఇక్కడకు పంపబడతాయి. మరే ఇతర డొమైన్‌ను సంప్రదించదు." },
+  "permAllPages": { "message": "<strong>అన్ని పేజీల్లో నడుస్తుంది</strong> — మీరు ఎప్పుడు టెక్స్ట్ ఎంచుకుంటారో గుర్తించి బటన్‌ను చూపడానికి అవసరం. ఇది స్వయంగా పేజీ కంటెంట్‌ను <em>చదవదు</em> లేదా పంపదు. మీరు హైలైట్ చేసి <em>బటన్‌ను క్లిక్ చేసిన</em> టెక్స్ట్ మాత్రమే, అదీ ElevenLabsకు మాత్రమే పంపబడుతుంది." },
+  "permMeansHeading": { "message": "<strong>ఇది మీకు అర్థం:</strong>" },
+  "permNoDev": { "message": "<strong>ఈ పొడిగింపు డెవలపర్‌కు ఎప్పుడూ ఏదీ పంపబడదు.</strong> డెవలపర్ సర్వర్ లేదు, అనలిటిక్స్ లేదు, ఎలాంటి ట్రాకింగ్ లేదు. మీ టెక్స్ట్ మరియు API కీ మీ బ్రౌజర్ నుండి <em>నేరుగా</em> ElevenLabsకు వెళ్తాయి, మరెక్కడికీ కాదు." },
+  "permThirdParty": { "message": "హైలైట్ చేసిన టెక్స్ట్ ElevenLabs (మూడవ పక్షం)కు పంపబడుతుంది మరియు వారి గోప్యతా విధానానికి లోబడి ఉంటుంది. పాస్‌వర్డ్‌లు లేదా సున్నితమైన డేటాను చదివించవద్దు." },
+  "permKeyLocal": { "message": "ElevenLabsకు అభ్యర్థనల్లో ప్రామాణీకరణ హెడర్‌గా తప్ప, మీ API కీ ఎప్పుడూ మీ బ్రౌజర్‌ను వదిలిపెట్టదు." },
+  "permSync": { "message": "మీరు పరికరాల మధ్య Chromeను సింక్ చేస్తే, మీ సేవ్ చేసిన కీ కూడా సింక్ అవుతుంది (డెవలపర్ ద్వారా కాదు, మీ సొంత Google ఖాతా ద్వారా)." },
+
+  "guideSummary": { "message": "ElevenLabs API కీని ఎలా పొందాలి" },
+  "guideStep1": { "message": "<a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>లో ఉచిత ఖాతాను సృష్టించండి." },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys పేజీని</a> (Profile → API Keys) తెరిచి <strong>Create API Key</strong>పై క్లిక్ చేయండి." },
+  "guideStep3Intro": { "message": "పొడిగింపు ఉపయోగించే దానికి దాని పరిధిని పరిమితం చేయండి:" },
+  "tblAccess": { "message": "యాక్సెస్" },
+  "tblLevel": { "message": "స్థాయి" },
+  "tblWhy": { "message": "ఎందుకు అవసరం" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "పఠనాన్ని మరియు వాయిస్ ప్రివ్యూను రూపొందిస్తుంది. <em>తప్పనిసరి.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "అందుబాటులో ఉన్న ఉచిత (ముందే నిర్ణయించిన) వాయిస్‌లను జాబితా చేస్తుంది." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "మోడల్ జాబితాను మరియు ప్రతి మోడల్ మద్దతిచ్చే భాషలను లోడ్ చేస్తుంది." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "<em>ఖాతా వినియోగాన్ని తనిఖీ చేయి</em> బటన్‌ను ప్రారంభిస్తుంది." },
+  "guideStep3Outro": { "message": "మిగతావన్నీ <strong>No Access</strong>లో ఉంచండి. ఏదైనా విభాగం లోడ్ కాకపోతే, దాని యాక్సెస్‌ను ప్రారంభించడమే పరిష్కారం." },
+  "guideStep4": { "message": "లీక్ లేదా పొరపాటు మీ ఖాతాను ఖాళీ చేయకుండా కీకి ఒక <strong>క్రెడిట్/అక్షర పరిమితిని</strong> సెట్ చేయండి." },
+  "guideStep5": { "message": "కీని కాపీ చేసి ఈ పేజీ పైభాగంలోని ఫీల్డ్‌లో పేస్ట్ చేయండి." },
+  "guideFreeNote": { "message": "ఉచిత ప్లాన్ ఇక్కడ బాగా పని చేస్తుంది — ఉచిత స్థాయిలో API ద్వారా <strong>ముందే నిర్ణయించిన</strong> వాయిస్‌లు మాత్రమే వాడగలరని గుర్తుంచుకోండి." },
+
+  "popupSettings": { "message": "సెట్టింగ్‌లను తెరవండి" },
+  "popupHint": { "message": "ఏ పేజీలోనైనా టెక్స్ట్‌ను ఎంచుకుని, ఆపై 🔊 బటన్‌పై క్లిక్ చేయండి." },
+  "stateChecking": { "message": "తనిఖీ చేస్తోంది…" },
+  "stateReady": { "message": "✅ API కీ సెట్ చేయబడింది — మీరు సిద్ధం." },
+  "stateNoKey": { "message": "⚠️ ఇంకా API కీ లేదు. సెట్టింగ్‌లను తెరవండి." },
+
+  "msgSaved": { "message": "సేవ్ చేయబడింది." },
+  "msgEnterKeyFirst": { "message": "ముందుగా మీ API కీని నమోదు చేయండి." },
+  "msgLoadingPreview": { "message": "ప్రివ్యూ లోడ్ అవుతోంది…" },
+  "msgNoResponse": { "message": "స్పందన లేదు — chrome://extensionsలో పొడిగింపును మళ్లీ లోడ్ చేయండి." },
+  "msgChecking": { "message": "తనిఖీ చేస్తోంది…" },
+  "msgPreviewing": {
+    "message": "“$voice$” ప్లే అవుతోంది…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "నమస్కారం, నా పేరు $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ భాషలు: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "ఈ మోడల్ టెక్స్ట్ భాషను స్వయంచాలకంగా గుర్తిస్తుంది." },
+  "usageLine": {
+    "message": "$tier$ ప్లాన్ · $used$ / $limit$ అక్షరాలు వాడారు · $left$ మిగిలి · $reset$న రీసెట్",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "వివరమైన వినియోగాన్ని చూడండి →" },
+
+  "btnReadAloud": {
+    "message": "బిగ్గరగా చదువు — $count$ / $max$ అక్షరాలు",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "చాలా పొడవు: $count$ / $max$ అక్షరాలు — ఎంపికను తగ్గించండి",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "లోడ్ అవుతోంది…" },
+  "btnStop": { "message": "ఆపు" },
+  "errUnknown": { "message": "తెలియని లోపం" },
+  "errNoKey": { "message": "API కీ సెట్ చేయలేదు. పొడిగింపు సెట్టింగ్‌లను తెరవండి." },
+  "errTooLong": {
+    "message": "ఎంపిక చాలా పొడవు: $len$ / $max$ అక్షరాలు.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

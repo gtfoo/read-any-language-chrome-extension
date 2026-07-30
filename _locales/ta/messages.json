@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – அமைப்புகள்" },
+  "poweredBy": { "message": "ElevenLabs மூலம் இயங்குகிறது" },
+  "aiTranslatedNote": { "message": "குறிப்பு: இந்த இடைமுகம் செயற்கை நுண்ணறிவால் மொழிபெயர்க்கப்பட்டது, எனவே பிழைகள் இருந்தால் மன்னிக்கவும்." },
+
+  "labelApiKey": { "message": "ElevenLabs API விசை" },
+  "labelModel": { "message": "மாதிரி" },
+  "labelVoice": { "message": "குரல்" },
+  "labelMaxChars": { "message": "ஒரு வாசிப்புக்கு அதிகபட்ச எழுத்துகள்" },
+  "btnPreviewVoice": { "message": "▶ குரலைக் கேட்டுப் பாருங்கள்" },
+  "btnSave": { "message": "சேமி" },
+  "btnCheckUsage": { "message": "கணக்குப் பயன்பாட்டைச் சரிபார்க்கவும்" },
+
+  "hintVoices": { "message": "<strong>இலவச</strong> (முன்னமைக்கப்பட்ட) குரல்கள் மட்டுமே பட்டியலிடப்படுகின்றன. தொழில்முறை, குளோன் செய்யப்பட்ட அல்லது பகிரப்பட்ட நூலகக் குரல்களுக்குக் கட்டணத் திட்டம் தேவை, அவை மறைக்கப்பட்டுள்ளன." },
+
+  "permSummary": { "message": "அனுமதிகள் மற்றும் தனியுரிமை" },
+  "permIntro": { "message": "இந்த நீட்டிப்பு இயங்குவதற்குத் தேவையானதை மட்டுமே கோருகிறது:" },
+  "permStorage": { "message": "<strong>சேமிப்பகம்</strong> — உங்கள் API விசையையும் குரல்/மாதிரித் தேர்வையும் உலாவியில் சேமிக்கிறது. கவனிக்கவும்: இது உங்கள் Chrome சுயவிவரத்தில் எளிய உரையாகச் சேமிக்கப்படுகிறது, எனவே இந்தச் சுயவிவரத்தை (அல்லது ஒத்திசைக்கப்பட்ட Chrome தரவை) அணுகும் எவரும் அதைப் படிக்கலாம். செலவு வரம்புடன் கூடிய <em>வரம்பிடப்பட்ட</em> விசையைப் பயன்படுத்தவும்." },
+  "permHost": { "message": "<strong><code>api.elevenlabs.io</code>-க்கான அணுகல்</strong> — நீட்டிப்பு தொடர்பு கொள்ளும் ஒரே தளம். நீங்கள் தேர்ந்தெடுத்த உரையும் உங்கள் API விசையும் ஒலியை உருவாக்க இங்கு அனுப்பப்படுகின்றன. வேறு எந்த டொமைனுடனும் தொடர்பு கொள்ளப்படுவதில்லை." },
+  "permAllPages": { "message": "<strong>அனைத்துப் பக்கங்களிலும் இயங்குகிறது</strong> — நீங்கள் எப்போது உரையைத் தேர்ந்தெடுக்கிறீர்கள் என்பதைக் கண்டறிந்து பொத்தானைக் காட்டத் தேவை. இது தானாக பக்க உள்ளடக்கத்தைப் <em>படிக்காது</em> அல்லது அனுப்பாது. நீங்கள் தனிப்படுத்தி <em>பொத்தானைக் கிளிக் செய்யும்</em> உரை மட்டுமே, அதுவும் ElevenLabs-க்கு மட்டுமே அனுப்பப்படுகிறது." },
+  "permMeansHeading": { "message": "<strong>இது உங்களுக்கு என்ன அர்த்தம்:</strong>" },
+  "permNoDev": { "message": "<strong>இந்த நீட்டிப்பின் உருவாக்குநருக்கு எதுவும் ஒருபோதும் அனுப்பப்படுவதில்லை.</strong> உருவாக்குநர் சேவையகம் இல்லை, பகுப்பாய்வு இல்லை, எந்த வகையான கண்காணிப்பும் இல்லை. உங்கள் உரையும் API விசையும் உங்கள் உலாவியிலிருந்து <em>நேரடியாக</em> ElevenLabs-க்குச் செல்கின்றன, வேறு எங்கும் அல்ல." },
+  "permThirdParty": { "message": "தனிப்படுத்தப்பட்ட உரை ElevenLabs (மூன்றாம் தரப்பு)-க்கு அனுப்பப்படுகிறது, அது அவர்களின் தனியுரிமைக் கொள்கைக்கு உட்பட்டது. கடவுச்சொற்களையோ முக்கியமான தரவையோ வாசிக்க வைக்க வேண்டாம்." },
+  "permKeyLocal": { "message": "ElevenLabs-க்கான கோரிக்கைகளில் அங்கீகார தலைப்பாகத் தவிர, உங்கள் API விசை ஒருபோதும் உங்கள் உலாவியை விட்டு வெளியேறாது." },
+  "permSync": { "message": "நீங்கள் சாதனங்களுக்கிடையே Chrome-ஐ ஒத்திசைத்தால், உங்கள் சேமித்த விசையும் ஒத்திசைக்கப்படும் (உருவாக்குநர் அல்ல, உங்கள் சொந்த Google கணக்கின் வழியாக)." },
+
+  "guideSummary": { "message": "ElevenLabs API விசையைப் பெறுவது எப்படி" },
+  "guideStep1": { "message": "<a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>-இல் இலவசக் கணக்கை உருவாக்கவும்." },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys பக்கத்தை</a> (Profile → API Keys) திறந்து <strong>Create API Key</strong>-ஐக் கிளிக் செய்யவும்." },
+  "guideStep3Intro": { "message": "நீட்டிப்பு பயன்படுத்துவதற்கு அதன் வரம்பைக் கட்டுப்படுத்தவும்:" },
+  "tblAccess": { "message": "அணுகல்" },
+  "tblLevel": { "message": "நிலை" },
+  "tblWhy": { "message": "ஏன் தேவை" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "வாசிப்பையும் குரல் முன்னோட்டத்தையும் உருவாக்குகிறது. <em>அவசியம்.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "கிடைக்கும் இலவச (முன்னமைக்கப்பட்ட) குரல்களைப் பட்டியலிடுகிறது." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "மாதிரிப் பட்டியலையும் ஒவ்வொரு மாதிரி ஆதரிக்கும் மொழிகளையும் ஏற்றுகிறது." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "<em>கணக்குப் பயன்பாட்டைச் சரிபார்க்கவும்</em> பொத்தானை இயக்குகிறது." },
+  "guideStep3Outro": { "message": "மற்ற அனைத்தையும் <strong>No Access</strong>-இல் விடவும். ஏதேனும் பகுதி ஏற்றப்படாவிட்டால், அதன் அணுகலை இயக்குவதே தீர்வு." },
+  "guideStep4": { "message": "கசிவு அல்லது தவறு உங்கள் கணக்கை வெறுமையாக்காமல் இருக்க விசைக்கு ஒரு <strong>கிரெடிட்/எழுத்து வரம்பை</strong> அமைக்கவும்." },
+  "guideStep5": { "message": "விசையை நகலெடுத்து இந்தப் பக்கத்தின் மேற்புறத்தில் உள்ள புலத்தில் ஒட்டவும்." },
+  "guideFreeNote": { "message": "இலவசத் திட்டம் இங்கு நன்றாக வேலை செய்கிறது — இலவச நிலையில் API வழியாக <strong>முன்னமைக்கப்பட்ட</strong> குரல்கள் மட்டுமே பயன்படுத்தக்கூடியவை என்பதை நினைவில் கொள்ளவும்." },
+
+  "popupSettings": { "message": "அமைப்புகளைத் திற" },
+  "popupHint": { "message": "எந்தப் பக்கத்திலும் உரையைத் தேர்ந்தெடுத்து, பிறகு 🔊 பொத்தானைக் கிளிக் செய்யவும்." },
+  "stateChecking": { "message": "சரிபார்க்கிறது…" },
+  "stateReady": { "message": "✅ API விசை அமைக்கப்பட்டது — நீங்கள் தயார்." },
+  "stateNoKey": { "message": "⚠️ இன்னும் API விசை இல்லை. அமைப்புகளைத் திறக்கவும்." },
+
+  "msgSaved": { "message": "சேமிக்கப்பட்டது." },
+  "msgEnterKeyFirst": { "message": "முதலில் உங்கள் API விசையை உள்ளிடவும்." },
+  "msgLoadingPreview": { "message": "முன்னோட்டம் ஏற்றப்படுகிறது…" },
+  "msgNoResponse": { "message": "பதில் இல்லை — chrome://extensions-இல் நீட்டிப்பை மீண்டும் ஏற்றவும்." },
+  "msgChecking": { "message": "சரிபார்க்கிறது…" },
+  "msgPreviewing": {
+    "message": "“$voice$” இயக்கப்படுகிறது…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "வணக்கம், என் பெயர் $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ மொழிகள்: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "இந்த மாதிரி உரையின் மொழியைத் தானாகக் கண்டறிகிறது." },
+  "usageLine": {
+    "message": "$tier$ திட்டம் · $used$ / $limit$ எழுத்துகள் பயன்படுத்தப்பட்டன · $left$ மீதம் · $reset$-இல் மீட்டமைக்கப்படும்",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "விரிவான பயன்பாட்டைக் காண்க →" },
+
+  "btnReadAloud": {
+    "message": "உரக்கப் படி — $count$ / $max$ எழுத்துகள்",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "மிக நீளம்: $count$ / $max$ எழுத்துகள் — தேர்வைக் குறைக்கவும்",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "ஏற்றுகிறது…" },
+  "btnStop": { "message": "நிறுத்து" },
+  "errUnknown": { "message": "அறியப்படாத பிழை" },
+  "errNoKey": { "message": "API விசை அமைக்கப்படவில்லை. நீட்டிப்பு அமைப்புகளைத் திறக்கவும்." },
+  "errTooLong": {
+    "message": "தேர்வு மிக நீளம்: $len$ / $max$ எழுத்துகள்.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

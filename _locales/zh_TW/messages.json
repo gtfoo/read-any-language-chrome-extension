@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – 設定" },
+  "poweredBy": { "message": "由 ElevenLabs 提供技術支援" },
+  "aiTranslatedNote": { "message": "注意：此介面由 AI 翻譯，如有錯誤敬請見諒。" },
+
+  "labelApiKey": { "message": "ElevenLabs API 金鑰" },
+  "labelModel": { "message": "模型" },
+  "labelVoice": { "message": "語音" },
+  "labelMaxChars": { "message": "每次朗讀的最大字元數" },
+  "btnPreviewVoice": { "message": "▶ 試聽語音" },
+  "btnSave": { "message": "儲存" },
+  "btnCheckUsage": { "message": "查看帳戶用量" },
+
+  "hintVoices": { "message": "僅列出<strong>免費</strong>（預設）語音。專業、複製或共享庫語音需要付費方案，已隱藏。" },
+
+  "permSummary": { "message": "權限與隱私" },
+  "permIntro": { "message": "本擴充功能僅要求其運作所必需的權限：" },
+  "permStorage": { "message": "<strong>儲存空間</strong>——將您的 API 金鑰以及語音/模型選擇儲存在瀏覽器中。提醒：它以純文字形式儲存在您的 Chrome 設定檔中，因此任何能存取該設定檔（或您同步的 Chrome 資料）的人都能讀取。請使用<em>範圍受限</em>的金鑰並設定支出上限。" },
+  "permHost": { "message": "<strong>存取 <code>api.elevenlabs.io</code></strong>——本擴充功能唯一會連線的網站。您選取的文字和 API 金鑰會傳送到此處以產生音訊。不會存取任何其他網域。" },
+  "permAllPages": { "message": "<strong>在所有頁面上執行</strong>——用於偵測您何時選取文字並顯示按鈕。它本身<em>不會</em>讀取或傳輸頁面內容。僅當您選取文字<em>並</em>按一下按鈕時，選取的文字才會被傳送，且僅傳送給 ElevenLabs。" },
+  "permMeansHeading": { "message": "<strong>這對您而言的意義：</strong>" },
+  "permNoDev": { "message": "<strong>絕不會向本擴充功能的開發者傳送任何資料。</strong>沒有開發者伺服器，沒有任何分析或追蹤。您的文字和 API 金鑰會<em>直接</em>從您的瀏覽器傳送到 ElevenLabs，不會傳送到其他任何地方。" },
+  "permThirdParty": { "message": "反白的文字會傳送給 ElevenLabs（第三方），並受其隱私權政策約束。請勿朗讀密碼或機敏資料。" },
+  "permKeyLocal": { "message": "除了作為傳送給 ElevenLabs 要求的驗證標頭外，您的 API 金鑰絕不會離開您的瀏覽器。" },
+  "permSync": { "message": "如果您在多台裝置間同步 Chrome，儲存的金鑰也會一併同步（透過您自己的 Google 帳戶，而非開發者）。" },
+
+  "guideSummary": { "message": "如何取得 ElevenLabs API 金鑰" },
+  "guideStep1": { "message": "在 <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a> 建立一個免費帳戶。" },
+  "guideStep2": { "message": "開啟 <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API 金鑰頁面</a>（Profile → API Keys），然後按一下 <strong>Create API Key</strong>。" },
+  "guideStep3Intro": { "message": "將其權限範圍限制為本擴充功能所使用的內容：" },
+  "tblAccess": { "message": "權限" },
+  "tblLevel": { "message": "層級" },
+  "tblWhy": { "message": "為何需要" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "產生朗讀音訊和語音試聽。<em>必要。</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "列出可用的免費（預設）語音。" },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "載入模型清單以及每個模型支援的語言。" },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "啟用<em>查看帳戶用量</em>按鈕。" },
+  "guideStep3Outro": { "message": "其餘全部保持 <strong>No Access</strong>。如果某個部分無法載入，啟用相應權限即可解決。" },
+  "guideStep4": { "message": "為金鑰設定<strong>額度/字元上限</strong>，以防外洩或失控耗盡您的帳戶。" },
+  "guideStep5": { "message": "複製金鑰並貼到本頁面頂端的輸入欄位中。" },
+  "guideFreeNote": { "message": "免費方案在這裡完全夠用——只需記住，在免費方案下只能透過 API 使用<strong>預設</strong>語音。" },
+
+  "popupSettings": { "message": "開啟設定" },
+  "popupHint": { "message": "在任何頁面上選取文字，然後按一下 🔊 按鈕。" },
+  "stateChecking": { "message": "檢查中…" },
+  "stateReady": { "message": "✅ 已設定 API 金鑰——一切就緒。" },
+  "stateNoKey": { "message": "⚠️ 尚未設定 API 金鑰。請開啟設定。" },
+
+  "msgSaved": { "message": "已儲存。" },
+  "msgEnterKeyFirst": { "message": "請先輸入您的 API 金鑰。" },
+  "msgLoadingPreview": { "message": "正在載入試聽…" },
+  "msgNoResponse": { "message": "無回應——請在 chrome://extensions 重新載入擴充功能。" },
+  "msgChecking": { "message": "檢查中…" },
+  "msgPreviewing": {
+    "message": "正在試聽「$voice$」…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "你好，我叫 $voice$。",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ 種語言：$list$。",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "此模型會自動偵測文字的語言。" },
+  "usageLine": {
+    "message": "$tier$ 方案 · 已用 $used$ / $limit$ 字元 · 剩餘 $left$ · 於 $reset$ 重設",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "查看詳細用量 →" },
+
+  "btnReadAloud": {
+    "message": "朗讀——$count$ / $max$ 字元",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "過長：$count$ / $max$ 字元——請縮短所選內容",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "載入中…" },
+  "btnStop": { "message": "停止" },
+  "errUnknown": { "message": "未知錯誤" },
+  "errNoKey": { "message": "未設定 API 金鑰。請開啟擴充功能設定。" },
+  "errTooLong": {
+    "message": "所選內容過長：$len$ / $max$ 字元。",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

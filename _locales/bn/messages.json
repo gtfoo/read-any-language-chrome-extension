@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – সেটিংস" },
+  "poweredBy": { "message": "ElevenLabs দ্বারা চালিত" },
+  "aiTranslatedNote": { "message": "দ্রষ্টব্য: এই ইন্টারফেসটি AI দ্বারা অনূদিত, তাই কোনো ভুল থাকলে ক্ষমা করবেন।" },
+
+  "labelApiKey": { "message": "ElevenLabs API কী" },
+  "labelModel": { "message": "মডেল" },
+  "labelVoice": { "message": "কণ্ঠস্বর" },
+  "labelMaxChars": { "message": "প্রতি পাঠে সর্বাধিক অক্ষর" },
+  "btnPreviewVoice": { "message": "▶ কণ্ঠ শুনুন" },
+  "btnSave": { "message": "সংরক্ষণ" },
+  "btnCheckUsage": { "message": "অ্যাকাউন্টের ব্যবহার দেখুন" },
+
+  "hintVoices": { "message": "শুধুমাত্র <strong>বিনামূল্যের</strong> (পূর্বনির্ধারিত) কণ্ঠস্বর তালিকাভুক্ত হয়। পেশাদার, ক্লোন করা বা শেয়ার করা লাইব্রেরির কণ্ঠস্বরের জন্য অর্থপ্রদত্ত প্ল্যান প্রয়োজন এবং সেগুলি লুকানো থাকে।" },
+
+  "permSummary": { "message": "অনুমতি ও গোপনীয়তা" },
+  "permIntro": { "message": "এই এক্সটেনশনটি কাজ করার জন্য যা প্রয়োজন কেবল তাই চায়:" },
+  "permStorage": { "message": "<strong>স্টোরেজ</strong> — আপনার API কী এবং কণ্ঠ/মডেল পছন্দ ব্রাউজারে সংরক্ষণ করে। খেয়াল রাখবেন: এটি আপনার Chrome প্রোফাইলে সাধারণ টেক্সট হিসেবে সংরক্ষিত হয়, তাই এই প্রোফাইল (বা আপনার সিঙ্ক করা Chrome ডেটা) অ্যাক্সেস আছে এমন যে কেউ এটি পড়তে পারে। ব্যয়সীমা সহ একটি <em>সীমিত-পরিধির</em> কী ব্যবহার করুন।" },
+  "permHost": { "message": "<strong><code>api.elevenlabs.io</code>-এ অ্যাক্সেস</strong> — এক্সটেনশনটি যে একমাত্র সাইটের সাথে যোগাযোগ করে। অডিও তৈরির জন্য আপনার নির্বাচিত টেক্সট এবং API কী এখানে পাঠানো হয়। অন্য কোনো ডোমেনের সাথে যোগাযোগ করা হয় না।" },
+  "permAllPages": { "message": "<strong>সব পৃষ্ঠায় চলে</strong> — আপনি কখন টেক্সট নির্বাচন করেন তা শনাক্ত করে বোতাম দেখানোর জন্য প্রয়োজন। এটি নিজে থেকে পৃষ্ঠার বিষয়বস্তু <em>পড়ে না</em> বা পাঠায় না। শুধুমাত্র আপনি যে টেক্সট হাইলাইট করেন <em>এবং</em> বোতামে ক্লিক করেন তাই পাঠানো হয়, এবং কেবল ElevenLabs-এ।" },
+  "permMeansHeading": { "message": "<strong>আপনার জন্য এর অর্থ:</strong>" },
+  "permNoDev": { "message": "<strong>এই এক্সটেনশনের ডেভেলপারের কাছে কখনও কিছু পাঠানো হয় না।</strong> কোনো ডেভেলপার সার্ভার নেই, কোনো অ্যানালিটিক্স নেই, কোনো ধরনের ট্র্যাকিং নেই। আপনার টেক্সট এবং API কী আপনার ব্রাউজার থেকে <em>সরাসরি</em> ElevenLabs-এ যায়, অন্য কোথাও নয়।" },
+  "permThirdParty": { "message": "হাইলাইট করা টেক্সট ElevenLabs (একটি তৃতীয় পক্ষ)-এ পাঠানো হয় এবং তাদের গোপনীয়তা নীতির অধীন। পাসওয়ার্ড বা সংবেদনশীল ডেটা পড়াবেন না।" },
+  "permKeyLocal": { "message": "ElevenLabs-এ অনুরোধের প্রমাণীকরণ হেডার হিসেবে ছাড়া আপনার API কী কখনও আপনার ব্রাউজার ছাড়ে না।" },
+  "permSync": { "message": "আপনি যদি ডিভাইসগুলির মধ্যে Chrome সিঙ্ক করেন, তবে আপনার সংরক্ষিত কীও সিঙ্ক হয় (আপনার নিজের Google অ্যাকাউন্টের মাধ্যমে, ডেভেলপারের নয়)।" },
+
+  "guideSummary": { "message": "ElevenLabs API কী কীভাবে পাবেন" },
+  "guideStep1": { "message": "<a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>-এ একটি বিনামূল্যের অ্যাকাউন্ট তৈরি করুন।" },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys পৃষ্ঠা</a> (Profile → API Keys) খুলুন এবং <strong>Create API Key</strong>-এ ক্লিক করুন।" },
+  "guideStep3Intro": { "message": "এক্সটেনশন যা ব্যবহার করে তার মধ্যে এর পরিধি সীমাবদ্ধ করুন:" },
+  "tblAccess": { "message": "অ্যাক্সেস" },
+  "tblLevel": { "message": "স্তর" },
+  "tblWhy": { "message": "কেন প্রয়োজন" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "পাঠ এবং কণ্ঠের প্রিভিউ তৈরি করে। <em>আবশ্যক।</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "উপলব্ধ বিনামূল্যের (পূর্বনির্ধারিত) কণ্ঠস্বর তালিকাভুক্ত করে।" },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "মডেলের তালিকা এবং প্রতিটি মডেল যে ভাষাগুলি সমর্থন করে তা লোড করে।" },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "<em>অ্যাকাউন্টের ব্যবহার দেখুন</em> বোতামটি সক্রিয় করে।" },
+  "guideStep3Outro": { "message": "বাকি সবকিছু <strong>No Access</strong>-এ রাখুন। কোনো অংশ লোড না হলে, তার অ্যাক্সেস সক্রিয় করাই সমাধান।" },
+  "guideStep4": { "message": "কীতে একটি <strong>ক্রেডিট/অক্ষর সীমা</strong> সেট করুন যাতে ফাঁস বা ত্রুটি আপনার অ্যাকাউন্ট নিঃশেষ করতে না পারে।" },
+  "guideStep5": { "message": "কীটি কপি করে এই পৃষ্ঠার উপরের ঘরে পেস্ট করুন।" },
+  "guideFreeNote": { "message": "বিনামূল্যের প্ল্যান এখানে ভালোভাবেই কাজ করে — শুধু মনে রাখবেন যে বিনামূল্যের স্তরে API-এর মাধ্যমে কেবল <strong>পূর্বনির্ধারিত</strong> কণ্ঠস্বরই ব্যবহারযোগ্য।" },
+
+  "popupSettings": { "message": "সেটিংস খুলুন" },
+  "popupHint": { "message": "যেকোনো পৃষ্ঠায় টেক্সট নির্বাচন করুন, তারপর 🔊 বোতামে ক্লিক করুন।" },
+  "stateChecking": { "message": "যাচাই করা হচ্ছে…" },
+  "stateReady": { "message": "✅ API কী সেট করা হয়েছে — আপনি প্রস্তুত।" },
+  "stateNoKey": { "message": "⚠️ এখনও কোনো API কী নেই। সেটিংস খুলুন।" },
+
+  "msgSaved": { "message": "সংরক্ষিত হয়েছে।" },
+  "msgEnterKeyFirst": { "message": "প্রথমে আপনার API কী লিখুন।" },
+  "msgLoadingPreview": { "message": "প্রিভিউ লোড হচ্ছে…" },
+  "msgNoResponse": { "message": "কোনো প্রতিক্রিয়া নেই — chrome://extensions-এ এক্সটেনশনটি পুনরায় লোড করুন।" },
+  "msgChecking": { "message": "যাচাই করা হচ্ছে…" },
+  "msgPreviewing": {
+    "message": "“$voice$” বাজানো হচ্ছে…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "নমস্কার, আমার নাম $voice$।",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$টি ভাষা: $list$।",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "এই মডেলটি টেক্সটের ভাষা স্বয়ংক্রিয়ভাবে শনাক্ত করে।" },
+  "usageLine": {
+    "message": "$tier$ প্ল্যান · $used$ / $limit$ অক্ষর ব্যবহৃত · $left$ বাকি · $reset$-এ রিসেট",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "বিস্তারিত ব্যবহার দেখুন →" },
+
+  "btnReadAloud": {
+    "message": "সরবে পড়ুন — $count$ / $max$ অক্ষর",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "অতিরিক্ত দীর্ঘ: $count$ / $max$ অক্ষর — নির্বাচন ছোট করুন",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "লোড হচ্ছে…" },
+  "btnStop": { "message": "থামান" },
+  "errUnknown": { "message": "অজানা ত্রুটি" },
+  "errNoKey": { "message": "কোনো API কী সেট করা নেই। এক্সটেনশন সেটিংস খুলুন।" },
+  "errTooLong": {
+    "message": "নির্বাচন অতিরিক্ত দীর্ঘ: $len$ / $max$ অক্ষর।",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

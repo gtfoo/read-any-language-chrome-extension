@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Inställningar" },
+  "poweredBy": { "message": "Drivs av ElevenLabs" },
+  "aiTranslatedNote": { "message": "Obs: det här gränssnittet är översatt av AI, så ha överseende med eventuella fel." },
+
+  "labelApiKey": { "message": "ElevenLabs API-nyckel" },
+  "labelModel": { "message": "Modell" },
+  "labelVoice": { "message": "Röst" },
+  "labelMaxChars": { "message": "Högsta antal tecken per uppläsning" },
+  "btnPreviewVoice": { "message": "▶ Förhandslyssna på röst" },
+  "btnSave": { "message": "Spara" },
+  "btnCheckUsage": { "message": "Kontrollera kontoanvändning" },
+
+  "hintVoices": { "message": "Endast <strong>gratis</strong> (förinställda) röster visas. Professionella, klonade eller röster från det delade biblioteket kräver ett betalabonnemang och är dolda." },
+
+  "permSummary": { "message": "Behörigheter och integritet" },
+  "permIntro": { "message": "Det här tillägget begär bara det som behövs för att fungera:" },
+  "permStorage": { "message": "<strong>Lagring</strong> – sparar din API-nyckel och ditt val av röst/modell i webbläsaren. Obs: den lagras som klartext i din Chrome-profil, så alla med åtkomst till den här profilen (eller dina synkade Chrome-data) kan läsa den. Använd en <em>begränsad</em> nyckel med en utgiftsgräns." },
+  "permHost": { "message": "<strong>Åtkomst till <code>api.elevenlabs.io</code></strong> – den enda webbplats som tillägget kontaktar. Din markerade text och din API-nyckel skickas hit för att generera ljudet. Ingen annan domän kontaktas." },
+  "permAllPages": { "message": "<strong>Körs på alla sidor</strong> – behövs för att upptäcka när du markerar text och visa knappen. Det läser eller överför <em>inte</em> sidinnehåll på egen hand. Endast text som du markerar <em>och</em> klickar på knappen för skickas, och bara till ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Vad detta betyder för dig:</strong>" },
+  "permNoDev": { "message": "<strong>Ingenting skickas någonsin till utvecklaren av det här tillägget.</strong> Det finns ingen utvecklarserver, ingen analys och ingen spårning av något slag. Din text och din API-nyckel går <em>direkt</em> från din webbläsare till ElevenLabs och ingen annanstans." },
+  "permThirdParty": { "message": "Markerad text skickas till ElevenLabs (en tredje part) och omfattas av deras integritetspolicy. Läs inte upp lösenord eller känsliga uppgifter." },
+  "permKeyLocal": { "message": "Din API-nyckel lämnar aldrig din webbläsare, förutom som autentiseringshuvud i förfrågningar till ElevenLabs." },
+  "permSync": { "message": "Om du synkar Chrome mellan enheter synkas även din sparade nyckel (via ditt eget Google-konto, inte utvecklaren)." },
+
+  "guideSummary": { "message": "Så skaffar du en ElevenLabs API-nyckel" },
+  "guideStep1": { "message": "Skapa ett gratiskonto på <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Öppna <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">sidan API Keys</a> (Profile → API Keys) och klicka på <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Begränsa omfattningen till det tillägget använder:" },
+  "tblAccess": { "message": "Åtkomst" },
+  "tblLevel": { "message": "Nivå" },
+  "tblWhy": { "message": "Varför det behövs" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Genererar uppläsningen och röstförhandslyssningen. <em>Krävs.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Listar tillgängliga gratis (förinställda) röster." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Läser in modellistan och de språk varje modell stöder." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Aktiverar knappen <em>Kontrollera kontoanvändning</em>." },
+  "guideStep3Outro": { "message": "Lämna allt annat på <strong>No Access</strong>. Om en sektion inte läses in är lösningen att aktivera dess åtkomst." },
+  "guideStep4": { "message": "Ange en <strong>kredit-/teckengräns</strong> för nyckeln så att en läcka eller ett fel inte tömmer ditt konto." },
+  "guideStep5": { "message": "Kopiera nyckeln och klistra in den i fältet högst upp på den här sidan." },
+  "guideFreeNote": { "message": "Gratisabonnemanget fungerar bra här – kom bara ihåg att endast <strong>förinställda</strong> röster kan användas via API:et på gratisnivån." },
+
+  "popupSettings": { "message": "Öppna inställningar" },
+  "popupHint": { "message": "Markera text på valfri sida och klicka sedan på 🔊-knappen." },
+  "stateChecking": { "message": "Kontrollerar…" },
+  "stateReady": { "message": "✅ API-nyckel angiven – du är redo." },
+  "stateNoKey": { "message": "⚠️ Ingen API-nyckel ännu. Öppna inställningarna." },
+
+  "msgSaved": { "message": "Sparat." },
+  "msgEnterKeyFirst": { "message": "Ange din API-nyckel först." },
+  "msgLoadingPreview": { "message": "Laddar förhandslyssning…" },
+  "msgNoResponse": { "message": "Inget svar – läs in tillägget igen på chrome://extensions." },
+  "msgChecking": { "message": "Kontrollerar…" },
+  "msgPreviewing": {
+    "message": "Spelar upp ”$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Hej, jag heter $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ språk: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Den här modellen identifierar automatiskt textens språk." },
+  "usageLine": {
+    "message": "$tier$-abonnemang · $used$ / $limit$ tecken använda · $left$ kvar · återställs $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Visa detaljerad användning →" },
+
+  "btnReadAloud": {
+    "message": "Läs upp – $count$ / $max$ tecken",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "För långt: $count$ / $max$ tecken – korta ned markeringen",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Laddar…" },
+  "btnStop": { "message": "Stoppa" },
+  "errUnknown": { "message": "Okänt fel" },
+  "errNoKey": { "message": "Ingen API-nyckel angiven. Öppna tilläggets inställningar." },
+  "errTooLong": {
+    "message": "Markeringen är för lång: $len$ / $max$ tecken.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

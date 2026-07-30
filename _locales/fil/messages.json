@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Mga Setting" },
+  "poweredBy": { "message": "Pinapagana ng ElevenLabs" },
+  "aiTranslatedNote": { "message": "Paalala: ang interface na ito ay isinalin ng AI, kaya paumanhin sa anumang mali." },
+
+  "labelApiKey": { "message": "ElevenLabs API key" },
+  "labelModel": { "message": "Modelo" },
+  "labelVoice": { "message": "Boses" },
+  "labelMaxChars": { "message": "Pinakamaraming karakter kada pagbasa" },
+  "btnPreviewVoice": { "message": "▶ I-preview ang boses" },
+  "btnSave": { "message": "I-save" },
+  "btnCheckUsage": { "message": "Tingnan ang paggamit ng account" },
+
+  "hintVoices": { "message": "Mga <strong>libreng</strong> (paunang nakatakda) boses lamang ang nakalista. Ang mga propesyonal, na-clone, o boses mula sa shared library ay nangangailangan ng bayad na plano at nakatago." },
+
+  "permSummary": { "message": "Mga pahintulot at privacy" },
+  "permIntro": { "message": "Ang extension na ito ay humihingi lamang ng kailangan nito para gumana:" },
+  "permStorage": { "message": "<strong>Storage</strong> — nagse-save ng iyong API key at piniling boses/modelo sa browser. Paalala: nakaimbak ito bilang plain text sa iyong Chrome profile, kaya kahit sino na may access sa profile na ito (o sa iyong naka-sync na Chrome data) ay makakabasa nito. Gumamit ng <em>limitadong</em> key na may limitasyon sa paggastos." },
+  "permHost": { "message": "<strong>Access sa <code>api.elevenlabs.io</code></strong> — ang tanging site na kinokontak ng extension. Ang piniling teksto at iyong API key ay ipinapadala rito para gumawa ng audio. Walang ibang domain ang kinokontak." },
+  "permAllPages": { "message": "<strong>Tumatakbo sa lahat ng pahina</strong> — kailangan para matukoy kung kailan ka pumili ng teksto at maipakita ang button. <em>Hindi</em> nito kusang binabasa o ipinapadala ang nilalaman ng pahina. Ang teksto lang na iyong i-highlight <em>at</em> pinindot ang button ang ipinapadala, at sa ElevenLabs lamang." },
+  "permMeansHeading": { "message": "<strong>Ano ang ibig sabihin nito para sa iyo:</strong>" },
+  "permNoDev": { "message": "<strong>Walang ipinapadala kailanman sa developer ng extension na ito.</strong> Walang server ng developer, walang analytics, at walang anumang pagsubaybay. Ang iyong teksto at API key ay <em>direktang</em> pumupunta mula sa iyong browser patungong ElevenLabs at wala nang iba pa." },
+  "permThirdParty": { "message": "Ang naka-highlight na teksto ay ipinapadala sa ElevenLabs (isang third party) at napapailalim sa kanilang patakaran sa privacy. Huwag magpabasa ng mga password o sensitibong datos." },
+  "permKeyLocal": { "message": "Ang iyong API key ay hindi kailanman umaalis sa iyong browser maliban bilang auth header sa mga kahilingan patungong ElevenLabs." },
+  "permSync": { "message": "Kung sini-sync mo ang Chrome sa iba't ibang device, sini-sync din ang iyong naka-save na key (sa pamamagitan ng sarili mong Google account, hindi ng developer)." },
+
+  "guideSummary": { "message": "Paano kumuha ng ElevenLabs API key" },
+  "guideStep1": { "message": "Gumawa ng libreng account sa <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Buksan ang <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">pahina ng API Keys</a> (Profile → API Keys) at i-click ang <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Ilimita ang saklaw nito sa ginagamit ng extension:" },
+  "tblAccess": { "message": "Access" },
+  "tblLevel": { "message": "Antas" },
+  "tblWhy": { "message": "Bakit kailangan" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Gumagawa ng pagbasa at preview ng boses. <em>Kinakailangan.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Naglilista ng magagamit na libreng (paunang nakatakda) boses." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Naglo-load ng listahan ng modelo at mga wikang sinusuportahan ng bawat isa." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Nag-e-enable ng button na <em>Tingnan ang paggamit ng account</em>." },
+  "guideStep3Outro": { "message": "Iwan ang lahat ng iba pa sa <strong>No Access</strong>. Kung may seksyong hindi naglo-load, ang pag-enable ng access nito ang solusyon." },
+  "guideStep4": { "message": "Maglagay ng <strong>limitasyon sa credit/karakter</strong> sa key para hindi maubos ang account mo dahil sa leak o pagkakamali." },
+  "guideStep5": { "message": "Kopyahin ang key at i-paste sa field sa itaas ng pahinang ito." },
+  "guideFreeNote": { "message": "Maganda ang libreng plano dito — tandaan lang na sa libreng antas, mga <strong>paunang nakatakdang</strong> boses lang ang magagamit sa pamamagitan ng API." },
+
+  "popupSettings": { "message": "Buksan ang mga setting" },
+  "popupHint": { "message": "Pumili ng teksto sa kahit anong pahina, tapos i-click ang button na 🔊." },
+  "stateChecking": { "message": "Sinusuri…" },
+  "stateReady": { "message": "✅ Naka-set ang API key — handa ka na." },
+  "stateNoKey": { "message": "⚠️ Wala pang API key. Buksan ang mga setting." },
+
+  "msgSaved": { "message": "Na-save." },
+  "msgEnterKeyFirst": { "message": "Ilagay muna ang iyong API key." },
+  "msgLoadingPreview": { "message": "Nilo-load ang preview…" },
+  "msgNoResponse": { "message": "Walang tugon — i-reload ang extension sa chrome://extensions." },
+  "msgChecking": { "message": "Sinusuri…" },
+  "msgPreviewing": {
+    "message": "Pinipatugtog ang “$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Kumusta, ako si $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ na wika: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Awtomatikong tinutukoy ng modelong ito ang wika ng teksto." },
+  "usageLine": {
+    "message": "Planong $tier$ · $used$ / $limit$ karakter ang nagamit · $left$ ang natitira · magre-reset sa $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Tingnan ang detalyadong paggamit →" },
+
+  "btnReadAloud": {
+    "message": "Basahin nang malakas — $count$ / $max$ karakter",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Masyadong mahaba: $count$ / $max$ karakter — paikliin ang pinili",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Nilo-load…" },
+  "btnStop": { "message": "Ihinto" },
+  "errUnknown": { "message": "Hindi kilalang error" },
+  "errNoKey": { "message": "Walang naka-set na API key. Buksan ang mga setting ng extension." },
+  "errTooLong": {
+    "message": "Masyadong mahaba ang pinili: $len$ / $max$ karakter.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

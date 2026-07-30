@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – הגדרות" },
+  "poweredBy": { "message": "מופעל על ידי ElevenLabs" },
+  "aiTranslatedNote": { "message": "הערה: ממשק זה תורגם על ידי בינה מלאכותית, אז סליחה על טעויות כלשהן." },
+
+  "labelApiKey": { "message": "מפתח API של ElevenLabs" },
+  "labelModel": { "message": "מודל" },
+  "labelVoice": { "message": "קול" },
+  "labelMaxChars": { "message": "מספר תווים מרבי להקראה" },
+  "btnPreviewVoice": { "message": "▶ תצוגה מקדימה של הקול" },
+  "btnSave": { "message": "שמירה" },
+  "btnCheckUsage": { "message": "בדיקת השימוש בחשבון" },
+
+  "hintVoices": { "message": "מוצגים רק קולות <strong>חינמיים</strong> (מוגדרים מראש). קולות מקצועיים, משוכפלים או מהספרייה המשותפת דורשים תוכנית בתשלום ומוסתרים." },
+
+  "permSummary": { "message": "הרשאות ופרטיות" },
+  "permIntro": { "message": "התוסף הזה מבקש רק את מה שנחוץ לו כדי לפעול:" },
+  "permStorage": { "message": "<strong>אחסון</strong> — שומר את מפתח ה-API ואת בחירת הקול/המודל בדפדפן. לתשומת לבך: הוא נשמר כטקסט רגיל בפרופיל Chrome שלך, כך שכל מי שיש לו גישה לפרופיל הזה (או לנתוני Chrome המסונכרנים שלך) יכול לקרוא אותו. השתמש במפתח <em>בעל היקף מוגבל</em> עם תקרת הוצאה." },
+  "permHost": { "message": "<strong>גישה אל <code>api.elevenlabs.io</code></strong> — האתר היחיד שהתוסף פונה אליו. הטקסט שבחרת ומפתח ה-API שלך נשלחים לכאן כדי ליצור את השמע. לא נוצר קשר עם אף דומיין אחר." },
+  "permAllPages": { "message": "<strong>פועל בכל הדפים</strong> — נחוץ כדי לזהות מתי אתה בוחר טקסט ולהציג את הכפתור. הוא <em>אינו</em> קורא או משדר את תוכן הדף מיוזמתו. נשלח רק טקסט שאתה מסמן <em>ו</em>לוחץ עליו על הכפתור, ורק אל ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>מה זה אומר עבורך:</strong>" },
+  "permNoDev": { "message": "<strong>שום דבר לעולם אינו נשלח למפתח של התוסף הזה.</strong> אין שרת של המפתח, אין ניתוח נתונים ואין מעקב מכל סוג. הטקסט ומפתח ה-API שלך עוברים <em>ישירות</em> מהדפדפן שלך אל ElevenLabs ולשום מקום אחר." },
+  "permThirdParty": { "message": "טקסט מסומן נשלח אל ElevenLabs (צד שלישי) וכפוף למדיניות הפרטיות שלהם. אל תקריא סיסמאות או מידע רגיש." },
+  "permKeyLocal": { "message": "מפתח ה-API שלך לעולם אינו עוזב את הדפדפן, למעט ככותרת אימות בבקשות אל ElevenLabs." },
+  "permSync": { "message": "אם אתה מסנכרן את Chrome בין מכשירים, גם המפתח השמור שלך מסונכרן (דרך חשבון Google שלך, לא של המפתח)." },
+
+  "guideSummary": { "message": "כיצד להשיג מפתח API של ElevenLabs" },
+  "guideStep1": { "message": "צור חשבון חינמי בכתובת <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "פתח את <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">דף מפתחות ה-API</a> (Profile → API Keys) ולחץ על <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "הגבל את ההיקף למה שהתוסף משתמש בו:" },
+  "tblAccess": { "message": "גישה" },
+  "tblLevel": { "message": "רמה" },
+  "tblWhy": { "message": "מדוע נחוץ" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "יוצר את ההקראה ואת התצוגה המקדימה של הקול. <em>נדרש.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "מציג את הקולות החינמיים (המוגדרים מראש) הזמינים." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "טוען את רשימת המודלים ואת השפות שכל מודל תומך בהן." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "מפעיל את הכפתור <em>בדיקת השימוש בחשבון</em>." },
+  "guideStep3Outro": { "message": "השאר את כל השאר על <strong>No Access</strong>. אם קטע כלשהו אינו נטען, הפעלת הגישה שלו היא הפתרון." },
+  "guideStep4": { "message": "הגדר <strong>מגבלת קרדיט/תווים</strong> על המפתח כדי שדליפה או תקלה לא ירוקנו את חשבונך." },
+  "guideStep5": { "message": "העתק את המפתח והדבק אותו בשדה שבראש הדף." },
+  "guideFreeNote": { "message": "התוכנית החינמית מספיקה כאן — רק זכור שברמה החינמית ניתן להשתמש דרך ה-API רק בקולות <strong>מוגדרים מראש</strong>." },
+
+  "popupSettings": { "message": "פתיחת ההגדרות" },
+  "popupHint": { "message": "בחר טקסט בכל דף, ואז לחץ על הכפתור 🔊." },
+  "stateChecking": { "message": "בודק…" },
+  "stateReady": { "message": "✅ מפתח API הוגדר — הכול מוכן." },
+  "stateNoKey": { "message": "⚠️ אין עדיין מפתח API. פתח את ההגדרות." },
+
+  "msgSaved": { "message": "נשמר." },
+  "msgEnterKeyFirst": { "message": "הזן תחילה את מפתח ה-API שלך." },
+  "msgLoadingPreview": { "message": "טוען תצוגה מקדימה…" },
+  "msgNoResponse": { "message": "אין תגובה — טען מחדש את התוסף בכתובת chrome://extensions." },
+  "msgChecking": { "message": "בודק…" },
+  "msgPreviewing": {
+    "message": "מנגן את «$voice$»…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "שלום, קוראים לי $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ שפות: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "מודל זה מזהה אוטומטית את שפת הטקסט." },
+  "usageLine": {
+    "message": "תוכנית $tier$ · $used$ / $limit$ תווים בשימוש · נותרו $left$ · מתאפס ב-$reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "הצגת שימוש מפורט →" },
+
+  "btnReadAloud": {
+    "message": "הקראה — $count$ / $max$ תווים",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "ארוך מדי: $count$ / $max$ תווים — קצר את הבחירה",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "טוען…" },
+  "btnStop": { "message": "עצור" },
+  "errUnknown": { "message": "שגיאה לא ידועה" },
+  "errNoKey": { "message": "לא הוגדר מפתח API. פתח את הגדרות התוסף." },
+  "errTooLong": {
+    "message": "הבחירה ארוכה מדי: $len$ / $max$ תווים.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

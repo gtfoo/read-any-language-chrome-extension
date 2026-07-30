@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Nastavení" },
+  "poweredBy": { "message": "Využívá ElevenLabs" },
+  "aiTranslatedNote": { "message": "Poznámka: toto rozhraní přeložila UI, takže prosíme o prominutí případných chyb." },
+
+  "labelApiKey": { "message": "Klíč API ElevenLabs" },
+  "labelModel": { "message": "Model" },
+  "labelVoice": { "message": "Hlas" },
+  "labelMaxChars": { "message": "Maximální počet znaků na přečtení" },
+  "btnPreviewVoice": { "message": "▶ Přehrát ukázku hlasu" },
+  "btnSave": { "message": "Uložit" },
+  "btnCheckUsage": { "message": "Zkontrolovat využití účtu" },
+
+  "hintVoices": { "message": "Zobrazují se pouze <strong>bezplatné</strong> (přednastavené) hlasy. Profesionální, klonované nebo sdílené knihovní hlasy vyžadují placený tarif a jsou skryté." },
+
+  "permSummary": { "message": "Oprávnění a soukromí" },
+  "permIntro": { "message": "Toto rozšíření požaduje jen to, co potřebuje k fungování:" },
+  "permStorage": { "message": "<strong>Úložiště</strong> — ukládá váš klíč API a volbu hlasu/modelu v prohlížeči. Upozornění: ukládá se jako prostý text ve vašem profilu Chrome, takže kdokoli s přístupem k tomuto profilu (nebo k vašim synchronizovaným datům Chrome) si jej může přečíst. Použijte klíč <em>s omezeným rozsahem</em> a limitem útrat." },
+  "permHost": { "message": "<strong>Přístup k <code>api.elevenlabs.io</code></strong> — jediný web, se kterým rozšíření komunikuje. Vybraný text a váš klíč API se sem odesílají za účelem vygenerování zvuku. Žádná jiná doména není kontaktována." },
+  "permAllPages": { "message": "<strong>Běží na všech stránkách</strong> — potřebné k rozpoznání, kdy vyberete text, a k zobrazení tlačítka. Samo o sobě <em>nečte</em> ani nepřenáší obsah stránky. Odesílá se pouze text, který zvýrazníte <em>a</em> na němž kliknete na tlačítko, a to pouze do ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Co to pro vás znamená:</strong>" },
+  "permNoDev": { "message": "<strong>Vývojáři tohoto rozšíření se nikdy nic neodesílá.</strong> Neexistuje žádný server vývojáře, žádná analytika ani žádné sledování. Váš text a klíč API putují <em>přímo</em> z vašeho prohlížeče do ElevenLabs a nikam jinam." },
+  "permThirdParty": { "message": "Zvýrazněný text se odesílá do ElevenLabs (třetí strana) a podléhá jejich zásadám ochrany soukromí. Nenechávejte předčítat hesla ani citlivá data." },
+  "permKeyLocal": { "message": "Váš klíč API nikdy neopustí prohlížeč, kromě jako autentizační hlavička v požadavcích na ElevenLabs." },
+  "permSync": { "message": "Pokud synchronizujete Chrome mezi zařízeními, synchronizuje se i váš uložený klíč (prostřednictvím vašeho vlastního účtu Google, nikoli vývojáře)." },
+
+  "guideSummary": { "message": "Jak získat klíč API ElevenLabs" },
+  "guideStep1": { "message": "Vytvořte si bezplatný účet na <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Otevřete <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">stránku API Keys</a> (Profile → API Keys) a klikněte na <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Omezte rozsah na to, co rozšíření používá:" },
+  "tblAccess": { "message": "Přístup" },
+  "tblLevel": { "message": "Úroveň" },
+  "tblWhy": { "message": "Proč je potřeba" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Generuje předčítání a ukázku hlasu. <em>Povinné.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Vypíše dostupné bezplatné (přednastavené) hlasy." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Načte seznam modelů a jazyky, které každý z nich podporuje." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Aktivuje tlačítko <em>Zkontrolovat využití účtu</em>." },
+  "guideStep3Outro": { "message": "Vše ostatní ponechte na <strong>No Access</strong>. Pokud se některá část nenačte, řešením je zapnutí příslušného přístupu." },
+  "guideStep4": { "message": "Nastavte klíči <strong>limit kreditů/znaků</strong>, aby únik nebo chyba nevyčerpaly váš účet." },
+  "guideStep5": { "message": "Zkopírujte klíč a vložte jej do pole v horní části této stránky." },
+  "guideFreeNote": { "message": "Bezplatný tarif zde funguje výborně — jen nezapomeňte, že v bezplatné úrovni lze přes API používat pouze <strong>přednastavené</strong> hlasy." },
+
+  "popupSettings": { "message": "Otevřít nastavení" },
+  "popupHint": { "message": "Vyberte text na libovolné stránce a klikněte na tlačítko 🔊." },
+  "stateChecking": { "message": "Kontrola…" },
+  "stateReady": { "message": "✅ Klíč API nastaven — vše připraveno." },
+  "stateNoKey": { "message": "⚠️ Zatím žádný klíč API. Otevřete nastavení." },
+
+  "msgSaved": { "message": "Uloženo." },
+  "msgEnterKeyFirst": { "message": "Nejprve zadejte svůj klíč API." },
+  "msgLoadingPreview": { "message": "Načítání ukázky…" },
+  "msgNoResponse": { "message": "Žádná odpověď — načtěte rozšíření znovu na chrome://extensions." },
+  "msgChecking": { "message": "Kontrola…" },
+  "msgPreviewing": {
+    "message": "Přehrávání „$voice$“…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Dobrý den, jmenuji se $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ jazyků: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Tento model automaticky rozpozná jazyk textu." },
+  "usageLine": {
+    "message": "Tarif $tier$ · využito $used$ / $limit$ znaků · zbývá $left$ · reset $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Zobrazit podrobné využití →" },
+
+  "btnReadAloud": {
+    "message": "Přečíst nahlas — $count$ / $max$ znaků",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Příliš dlouhé: $count$ / $max$ znaků — zkraťte výběr",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Načítání…" },
+  "btnStop": { "message": "Zastavit" },
+  "errUnknown": { "message": "Neznámá chyba" },
+  "errNoKey": { "message": "Není nastaven klíč API. Otevřete nastavení rozšíření." },
+  "errTooLong": {
+    "message": "Výběr je příliš dlouhý: $len$ / $max$ znaků.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

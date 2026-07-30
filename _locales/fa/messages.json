@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – تنظیمات" },
+  "poweredBy": { "message": "قدرت‌گرفته از ElevenLabs" },
+  "aiTranslatedNote": { "message": "توجه: این رابط توسط هوش مصنوعی ترجمه شده است، بابت هر گونه خطا پوزش می‌خواهیم." },
+
+  "labelApiKey": { "message": "کلید API الون‌لبز (ElevenLabs)" },
+  "labelModel": { "message": "مدل" },
+  "labelVoice": { "message": "صدا" },
+  "labelMaxChars": { "message": "حداکثر تعداد نویسه در هر خوانش" },
+  "btnPreviewVoice": { "message": "▶ پیش‌نمایش صدا" },
+  "btnSave": { "message": "ذخیره" },
+  "btnCheckUsage": { "message": "بررسی مصرف حساب" },
+
+  "hintVoices": { "message": "فقط صداهای <strong>رایگان</strong> (از پیش تعیین‌شده) فهرست می‌شوند. صداهای حرفه‌ای، شبیه‌سازی‌شده یا از کتابخانهٔ اشتراکی به طرح پولی نیاز دارند و پنهان هستند." },
+
+  "permSummary": { "message": "مجوزها و حریم خصوصی" },
+  "permIntro": { "message": "این افزونه فقط چیزی را که برای کار کردن لازم دارد درخواست می‌کند:" },
+  "permStorage": { "message": "<strong>ذخیره‌سازی</strong> — کلید API و انتخاب صدا/مدل شما را در مرورگر ذخیره می‌کند. توجه: به‌صورت متن ساده در نمایهٔ Chrome شما ذخیره می‌شود، بنابراین هر کسی که به این نمایه (یا داده‌های همگام‌شدهٔ Chrome شما) دسترسی داشته باشد می‌تواند آن را بخواند. از کلیدی <em>با دامنهٔ محدود</em> و سقف هزینه استفاده کنید." },
+  "permHost": { "message": "<strong>دسترسی به <code>api.elevenlabs.io</code></strong> — تنها سایتی که افزونه با آن ارتباط برقرار می‌کند. متن انتخابی و کلید API شما برای تولید صدا به اینجا فرستاده می‌شود. با هیچ دامنهٔ دیگری ارتباط برقرار نمی‌شود." },
+  "permAllPages": { "message": "<strong>روی همهٔ صفحه‌ها اجرا می‌شود</strong> — برای تشخیص زمان انتخاب متن و نمایش دکمه لازم است. به‌خودی‌خود محتوای صفحه را <em>نمی‌خواند</em> و ارسال نمی‌کند. فقط متنی که برجسته می‌کنید <em>و</em> روی دکمهٔ آن کلیک می‌کنید ارسال می‌شود، آن هم فقط به ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>این برای شما یعنی:</strong>" },
+  "permNoDev": { "message": "<strong>هیچ‌گاه چیزی به توسعه‌دهندهٔ این افزونه فرستاده نمی‌شود.</strong> هیچ سرور توسعه‌دهنده، تحلیل یا ردیابی‌ای وجود ندارد. متن و کلید API شما <em>مستقیماً</em> از مرورگرتان به ElevenLabs می‌رود و جای دیگری نمی‌رود." },
+  "permThirdParty": { "message": "متن برجسته‌شده به ElevenLabs (شخص ثالث) فرستاده می‌شود و مشمول سیاست حریم خصوصی آن‌هاست. رمزهای عبور یا داده‌های حساس را خوانده نکنید." },
+  "permKeyLocal": { "message": "کلید API شما هرگز از مرورگرتان خارج نمی‌شود، مگر به‌عنوان سرایند احراز هویت در درخواست‌ها به ElevenLabs." },
+  "permSync": { "message": "اگر Chrome را بین دستگاه‌ها همگام کنید، کلید ذخیره‌شدهٔ شما نیز همگام می‌شود (از طریق حساب Google خودتان، نه توسعه‌دهنده)." },
+
+  "guideSummary": { "message": "چگونه کلید API ElevenLabs دریافت کنیم" },
+  "guideStep1": { "message": "یک حساب رایگان در <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a> بسازید." },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">صفحهٔ API Keys</a> (Profile → API Keys) را باز کنید و روی <strong>Create API Key</strong> کلیک کنید." },
+  "guideStep3Intro": { "message": "دامنهٔ آن را به آنچه افزونه استفاده می‌کند محدود کنید:" },
+  "tblAccess": { "message": "دسترسی" },
+  "tblLevel": { "message": "سطح" },
+  "tblWhy": { "message": "چرا لازم است" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "خوانش و پیش‌نمایش صدا را تولید می‌کند. <em>الزامی.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "صداهای رایگان (از پیش تعیین‌شده) موجود را فهرست می‌کند." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "فهرست مدل‌ها و زبان‌هایی را که هر مدل پشتیبانی می‌کند بارگذاری می‌کند." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "دکمهٔ <em>بررسی مصرف حساب</em> را فعال می‌کند." },
+  "guideStep3Outro": { "message": "بقیه را روی <strong>No Access</strong> بگذارید. اگر بخشی بارگذاری نشد، فعال‌کردن دسترسی مربوط راه‌حل است." },
+  "guideStep4": { "message": "برای کلید یک <strong>سقف اعتبار/نویسه</strong> تعیین کنید تا نشت یا خطا حساب شما را خالی نکند." },
+  "guideStep5": { "message": "کلید را کپی کنید و در کادر بالای این صفحه بچسبانید." },
+  "guideFreeNote": { "message": "طرح رایگان اینجا کاملاً کافی است — فقط به یاد داشته باشید که در سطح رایگان تنها صداهای <strong>از پیش تعیین‌شده</strong> از طریق API قابل استفاده‌اند." },
+
+  "popupSettings": { "message": "باز کردن تنظیمات" },
+  "popupHint": { "message": "در هر صفحه‌ای متنی را انتخاب کنید، سپس روی دکمهٔ 🔊 کلیک کنید." },
+  "stateChecking": { "message": "در حال بررسی…" },
+  "stateReady": { "message": "✅ کلید API تنظیم شد — آماده‌اید." },
+  "stateNoKey": { "message": "⚠️ هنوز کلید API وجود ندارد. تنظیمات را باز کنید." },
+
+  "msgSaved": { "message": "ذخیره شد." },
+  "msgEnterKeyFirst": { "message": "ابتدا کلید API خود را وارد کنید." },
+  "msgLoadingPreview": { "message": "در حال بارگذاری پیش‌نمایش…" },
+  "msgNoResponse": { "message": "پاسخی دریافت نشد — افزونه را در chrome://extensions دوباره بارگذاری کنید." },
+  "msgChecking": { "message": "در حال بررسی…" },
+  "msgPreviewing": {
+    "message": "در حال پخش «$voice$»…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "سلام، نام من $voice$ است.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ زبان: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "این مدل زبان متن را به‌طور خودکار تشخیص می‌دهد." },
+  "usageLine": {
+    "message": "طرح $tier$ · $used$ / $limit$ نویسه مصرف‌شده · $left$ باقی‌مانده · بازنشانی در $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "مشاهدهٔ مصرف تفصیلی →" },
+
+  "btnReadAloud": {
+    "message": "خواندن با صدای بلند — $count$ / $max$ نویسه",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "خیلی بلند: $count$ / $max$ نویسه — انتخاب را کوتاه کنید",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "در حال بارگذاری…" },
+  "btnStop": { "message": "توقف" },
+  "errUnknown": { "message": "خطای ناشناخته" },
+  "errNoKey": { "message": "کلید API تنظیم نشده است. تنظیمات افزونه را باز کنید." },
+  "errTooLong": {
+    "message": "انتخاب خیلی بلند است: $len$ / $max$ نویسه.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

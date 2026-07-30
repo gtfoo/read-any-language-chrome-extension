@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – सेटिंग्ज" },
+  "poweredBy": { "message": "ElevenLabs द्वारे समर्थित" },
+  "aiTranslatedNote": { "message": "टीप: हा इंटरफेस AI ने भाषांतरित केला आहे, त्यामुळे काही चुका असल्यास क्षमा करा." },
+
+  "labelApiKey": { "message": "ElevenLabs API की" },
+  "labelModel": { "message": "मॉडेल" },
+  "labelVoice": { "message": "आवाज" },
+  "labelMaxChars": { "message": "प्रत्येक वाचनासाठी कमाल अक्षरे" },
+  "btnPreviewVoice": { "message": "▶ आवाज ऐका" },
+  "btnSave": { "message": "जतन करा" },
+  "btnCheckUsage": { "message": "खात्याचा वापर तपासा" },
+
+  "hintVoices": { "message": "फक्त <strong>मोफत</strong> (पूर्वनिर्धारित) आवाज सूचीबद्ध केले जातात. व्यावसायिक, क्लोन केलेले किंवा शेअर केलेल्या लायब्ररीतील आवाजांसाठी सशुल्क योजना आवश्यक असते व ते लपवलेले असतात." },
+
+  "permSummary": { "message": "परवानग्या आणि गोपनीयता" },
+  "permIntro": { "message": "हे विस्तार फक्त कार्य करण्यासाठी आवश्यक तेवढेच मागते:" },
+  "permStorage": { "message": "<strong>स्टोरेज</strong> — तुमची API की आणि आवाज/मॉडेल निवड ब्राउझरमध्ये जतन करते. लक्षात ठेवा: ती तुमच्या Chrome प्रोफाइलमध्ये साध्या मजकुराच्या स्वरूपात साठवली जाते, त्यामुळे या प्रोफाइलमध्ये (किंवा तुमच्या सिंक केलेल्या Chrome डेटामध्ये) प्रवेश असलेला कोणीही ती वाचू शकतो. खर्च मर्यादेसह <em>मर्यादित-व्याप्तीची</em> की वापरा." },
+  "permHost": { "message": "<strong><code>api.elevenlabs.io</code> वर प्रवेश</strong> — विस्तार संपर्क साधणारे एकमेव संकेतस्थळ. तुम्ही निवडलेला मजकूर आणि तुमची API की ऑडिओ तयार करण्यासाठी येथे पाठवली जाते. इतर कोणत्याही डोमेनशी संपर्क साधला जात नाही." },
+  "permAllPages": { "message": "<strong>सर्व पृष्ठांवर चालते</strong> — तुम्ही मजकूर कधी निवडता हे ओळखून बटण दाखवण्यासाठी आवश्यक. ते स्वतःहून पृष्ठाची सामग्री <em>वाचत नाही</em> किंवा पाठवत नाही. तुम्ही ठळक करून <em>बटणावर क्लिक करता</em> तोच मजकूर, तोही फक्त ElevenLabs ला पाठवला जातो." },
+  "permMeansHeading": { "message": "<strong>याचा तुमच्यासाठी अर्थ:</strong>" },
+  "permNoDev": { "message": "<strong>या विस्ताराच्या विकसकाला कधीही काहीही पाठवले जात नाही.</strong> विकसकाचा सर्व्हर नाही, विश्लेषण नाही, कोणत्याही प्रकारचे ट्रॅकिंग नाही. तुमचा मजकूर आणि API की तुमच्या ब्राउझरमधून <em>थेट</em> ElevenLabs कडे जातात, इतर कुठेही नाही." },
+  "permThirdParty": { "message": "ठळक केलेला मजकूर ElevenLabs (तृतीय पक्ष) कडे पाठवला जातो आणि तो त्यांच्या गोपनीयता धोरणाच्या अधीन असतो. पासवर्ड किंवा संवेदनशील डेटा वाचू देऊ नका." },
+  "permKeyLocal": { "message": "ElevenLabs ला केलेल्या विनंत्यांमधील प्रमाणीकरण हेडर म्हणून वगळता, तुमची API की कधीही तुमचा ब्राउझर सोडत नाही." },
+  "permSync": { "message": "तुम्ही उपकरणांदरम्यान Chrome सिंक केल्यास, तुमची जतन केलेली की देखील सिंक होते (विकसकामार्फत नव्हे, तर तुमच्या स्वतःच्या Google खात्यामार्फत)." },
+
+  "guideSummary": { "message": "ElevenLabs API की कशी मिळवावी" },
+  "guideStep1": { "message": "<a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a> वर मोफत खाते तयार करा." },
+  "guideStep2": { "message": "<a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys पृष्ठ</a> (Profile → API Keys) उघडा आणि <strong>Create API Key</strong> वर क्लिक करा." },
+  "guideStep3Intro": { "message": "विस्तार वापरत असलेल्यापुरती त्याची व्याप्ती मर्यादित करा:" },
+  "tblAccess": { "message": "प्रवेश" },
+  "tblLevel": { "message": "स्तर" },
+  "tblWhy": { "message": "का आवश्यक" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "वाचन आणि आवाजाचे पूर्वावलोकन तयार करते. <em>आवश्यक.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "उपलब्ध मोफत (पूर्वनिर्धारित) आवाज सूचीबद्ध करते." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "मॉडेल यादी आणि प्रत्येक मॉडेल समर्थन करत असलेल्या भाषा लोड करते." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "<em>खात्याचा वापर तपासा</em> बटण सक्षम करते." },
+  "guideStep3Outro": { "message": "बाकी सर्व <strong>No Access</strong> वर ठेवा. एखादा विभाग लोड होत नसेल, तर त्याचा प्रवेश सक्षम करणे हा उपाय आहे." },
+  "guideStep4": { "message": "गळती किंवा चूक तुमचे खाते रिकामे करू नये म्हणून कीला <strong>क्रेडिट/अक्षर मर्यादा</strong> सेट करा." },
+  "guideStep5": { "message": "की कॉपी करा आणि या पृष्ठाच्या वरील रकान्यात पेस्ट करा." },
+  "guideFreeNote": { "message": "मोफत योजना येथे उत्तम कार्य करते — फक्त लक्षात ठेवा की मोफत स्तरावर API द्वारे केवळ <strong>पूर्वनिर्धारित</strong> आवाज वापरता येतात." },
+
+  "popupSettings": { "message": "सेटिंग्ज उघडा" },
+  "popupHint": { "message": "कोणत्याही पृष्ठावर मजकूर निवडा, नंतर 🔊 बटणावर क्लिक करा." },
+  "stateChecking": { "message": "तपासत आहे…" },
+  "stateReady": { "message": "✅ API की सेट केली — तुम्ही तयार आहात." },
+  "stateNoKey": { "message": "⚠️ अजून API की नाही. सेटिंग्ज उघडा." },
+
+  "msgSaved": { "message": "जतन केले." },
+  "msgEnterKeyFirst": { "message": "प्रथम तुमची API की प्रविष्ट करा." },
+  "msgLoadingPreview": { "message": "पूर्वावलोकन लोड होत आहे…" },
+  "msgNoResponse": { "message": "प्रतिसाद नाही — chrome://extensions वर विस्तार पुन्हा लोड करा." },
+  "msgChecking": { "message": "तपासत आहे…" },
+  "msgPreviewing": {
+    "message": "“$voice$” प्ले होत आहे…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "नमस्कार, माझे नाव $voice$ आहे.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ भाषा: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "हे मॉडेल मजकुराची भाषा आपोआप ओळखते." },
+  "usageLine": {
+    "message": "$tier$ योजना · $used$ / $limit$ अक्षरे वापरली · $left$ शिल्लक · $reset$ रोजी रीसेट",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "तपशीलवार वापर पाहा →" },
+
+  "btnReadAloud": {
+    "message": "मोठ्याने वाचा — $count$ / $max$ अक्षरे",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "खूप लांब: $count$ / $max$ अक्षरे — निवड लहान करा",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "लोड होत आहे…" },
+  "btnStop": { "message": "थांबवा" },
+  "errUnknown": { "message": "अज्ञात त्रुटी" },
+  "errNoKey": { "message": "API की सेट केलेली नाही. विस्ताराच्या सेटिंग्ज उघडा." },
+  "errTooLong": {
+    "message": "निवड खूप लांब: $len$ / $max$ अक्षरे.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

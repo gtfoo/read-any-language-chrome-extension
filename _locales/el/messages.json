@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Ρυθμίσεις" },
+  "poweredBy": { "message": "Με την υποστήριξη του ElevenLabs" },
+  "aiTranslatedNote": { "message": "Σημείωση: αυτή η διεπαφή μεταφράστηκε από ΤΝ, γι’ αυτό συγχωρέστε τυχόν λάθη." },
+
+  "labelApiKey": { "message": "Κλειδί API του ElevenLabs" },
+  "labelModel": { "message": "Μοντέλο" },
+  "labelVoice": { "message": "Φωνή" },
+  "labelMaxChars": { "message": "Μέγιστος αριθμός χαρακτήρων ανά ανάγνωση" },
+  "btnPreviewVoice": { "message": "▶ Προεπισκόπηση φωνής" },
+  "btnSave": { "message": "Αποθήκευση" },
+  "btnCheckUsage": { "message": "Έλεγχος χρήσης λογαριασμού" },
+
+  "hintVoices": { "message": "Εμφανίζονται μόνο <strong>δωρεάν</strong> (προκαθορισμένες) φωνές. Οι επαγγελματικές, κλωνοποιημένες ή από την κοινόχρηστη βιβλιοθήκη φωνές απαιτούν επί πληρωμή πρόγραμμα και είναι κρυμμένες." },
+
+  "permSummary": { "message": "Δικαιώματα και απόρρητο" },
+  "permIntro": { "message": "Αυτή η επέκταση ζητά μόνο ό,τι χρειάζεται για να λειτουργήσει:" },
+  "permStorage": { "message": "<strong>Αποθήκευση</strong> — αποθηκεύει το κλειδί API και την επιλογή φωνής/μοντέλου στο πρόγραμμα περιήγησης. Προσοχή: αποθηκεύεται ως απλό κείμενο στο προφίλ σας στο Chrome, οπότε οποιοσδήποτε έχει πρόσβαση σε αυτό το προφίλ (ή στα συγχρονισμένα δεδομένα σας στο Chrome) μπορεί να το διαβάσει. Χρησιμοποιήστε κλειδί <em>περιορισμένης εμβέλειας</em> με όριο δαπανών." },
+  "permHost": { "message": "<strong>Πρόσβαση στο <code>api.elevenlabs.io</code></strong> — ο μόνος ιστότοπος με τον οποίο επικοινωνεί η επέκταση. Το επιλεγμένο κείμενο και το κλειδί API σας αποστέλλονται εδώ για τη δημιουργία του ήχου. Δεν γίνεται επικοινωνία με κανέναν άλλο τομέα." },
+  "permAllPages": { "message": "<strong>Εκτελείται σε όλες τις σελίδες</strong> — απαιτείται για να εντοπίζει πότε επιλέγετε κείμενο και να εμφανίζει το κουμπί. <em>Δεν</em> διαβάζει ούτε μεταδίδει το περιεχόμενο της σελίδας από μόνη της. Αποστέλλεται μόνο το κείμενο που επισημαίνετε <em>και</em> στο οποίο κάνετε κλικ στο κουμπί, και μόνο στο ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>Τι σημαίνει αυτό για εσάς:</strong>" },
+  "permNoDev": { "message": "<strong>Τίποτα δεν αποστέλλεται ποτέ στον προγραμματιστή αυτής της επέκτασης.</strong> Δεν υπάρχει διακομιστής προγραμματιστή, ούτε αναλυτικά στοιχεία, ούτε καμία παρακολούθηση. Το κείμενο και το κλειδί API σας πηγαίνουν <em>απευθείας</em> από το πρόγραμμα περιήγησής σας στο ElevenLabs και πουθενά αλλού." },
+  "permThirdParty": { "message": "Το επισημασμένο κείμενο αποστέλλεται στο ElevenLabs (τρίτο μέρος) και υπόκειται στην πολιτική απορρήτου τους. Μην εκφωνείτε κωδικούς πρόσβασης ή ευαίσθητα δεδομένα." },
+  "permKeyLocal": { "message": "Το κλειδί API σας δεν φεύγει ποτέ από το πρόγραμμα περιήγησής σας, παρά μόνο ως κεφαλίδα ελέγχου ταυτότητας στα αιτήματα προς το ElevenLabs." },
+  "permSync": { "message": "Αν συγχρονίζετε το Chrome σε συσκευές, το αποθηκευμένο κλειδί σας συγχρονίζεται επίσης (μέσω του δικού σας λογαριασμού Google, όχι του προγραμματιστή)." },
+
+  "guideSummary": { "message": "Πώς να αποκτήσετε κλειδί API του ElevenLabs" },
+  "guideStep1": { "message": "Δημιουργήστε δωρεάν λογαριασμό στο <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Ανοίξτε τη <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">σελίδα API Keys</a> (Profile → API Keys) και κάντε κλικ στο <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Περιορίστε την εμβέλεια σε ό,τι χρησιμοποιεί η επέκταση:" },
+  "tblAccess": { "message": "Πρόσβαση" },
+  "tblLevel": { "message": "Επίπεδο" },
+  "tblWhy": { "message": "Γιατί χρειάζεται" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Δημιουργεί την ανάγνωση και την προεπισκόπηση φωνής. <em>Απαιτείται.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Παραθέτει τις διαθέσιμες δωρεάν (προκαθορισμένες) φωνές." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Φορτώνει τη λίστα μοντέλων και τις γλώσσες που υποστηρίζει το καθένα." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Ενεργοποιεί το κουμπί <em>Έλεγχος χρήσης λογαριασμού</em>." },
+  "guideStep3Outro": { "message": "Αφήστε όλα τα υπόλοιπα στο <strong>No Access</strong>. Αν κάποια ενότητα δεν φορτώνει, η ενεργοποίηση της αντίστοιχης πρόσβασης το διορθώνει." },
+  "guideStep4": { "message": "Ορίστε ένα <strong>όριο μονάδων/χαρακτήρων</strong> στο κλειδί ώστε μια διαρροή ή αστοχία να μην αδειάσει τον λογαριασμό σας." },
+  "guideStep5": { "message": "Αντιγράψτε το κλειδί και επικολλήστε το στο πεδίο στην κορυφή αυτής της σελίδας." },
+  "guideFreeNote": { "message": "Το δωρεάν πρόγραμμα λειτουργεί μια χαρά εδώ — απλώς θυμηθείτε ότι στο δωρεάν επίπεδο μέσω του API μπορούν να χρησιμοποιηθούν μόνο <strong>προκαθορισμένες</strong> φωνές." },
+
+  "popupSettings": { "message": "Άνοιγμα ρυθμίσεων" },
+  "popupHint": { "message": "Επιλέξτε κείμενο σε οποιαδήποτε σελίδα και μετά κάντε κλικ στο κουμπί 🔊." },
+  "stateChecking": { "message": "Έλεγχος…" },
+  "stateReady": { "message": "✅ Το κλειδί API ορίστηκε — είστε έτοιμοι." },
+  "stateNoKey": { "message": "⚠️ Δεν υπάρχει ακόμη κλειδί API. Ανοίξτε τις ρυθμίσεις." },
+
+  "msgSaved": { "message": "Αποθηκεύτηκε." },
+  "msgEnterKeyFirst": { "message": "Εισαγάγετε πρώτα το κλειδί API σας." },
+  "msgLoadingPreview": { "message": "Φόρτωση προεπισκόπησης…" },
+  "msgNoResponse": { "message": "Καμία απόκριση — επαναφορτώστε την επέκταση στο chrome://extensions." },
+  "msgChecking": { "message": "Έλεγχος…" },
+  "msgPreviewing": {
+    "message": "Αναπαραγωγή «$voice$»…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Γεια σας, ονομάζομαι $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ γλώσσες: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "Αυτό το μοντέλο εντοπίζει αυτόματα τη γλώσσα του κειμένου." },
+  "usageLine": {
+    "message": "Πρόγραμμα $tier$ · $used$ / $limit$ χαρακτήρες σε χρήση · απομένουν $left$ · επαναφορά στις $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "Προβολή αναλυτικής χρήσης →" },
+
+  "btnReadAloud": {
+    "message": "Ανάγνωση — $count$ / $max$ χαρακτήρες",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Πολύ μεγάλο: $count$ / $max$ χαρακτήρες — συντομεύστε την επιλογή",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Φόρτωση…" },
+  "btnStop": { "message": "Διακοπή" },
+  "errUnknown": { "message": "Άγνωστο σφάλμα" },
+  "errNoKey": { "message": "Δεν έχει οριστεί κλειδί API. Ανοίξτε τις ρυθμίσεις της επέκτασης." },
+  "errTooLong": {
+    "message": "Η επιλογή είναι πολύ μεγάλη: $len$ / $max$ χαρακτήρες.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}
