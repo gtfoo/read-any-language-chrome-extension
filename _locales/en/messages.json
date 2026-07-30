@@ -1,0 +1,103 @@
+{
+  "settingsTitle": { "message": "Read Any Language – Settings" },
+  "poweredBy": { "message": "Powered by ElevenLabs" },
+  "aiTranslatedNote": { "message": "" },
+
+  "labelApiKey": { "message": "ElevenLabs API key" },
+  "labelModel": { "message": "Model" },
+  "labelVoice": { "message": "Voice" },
+  "labelMaxChars": { "message": "Max characters per narration" },
+  "btnPreviewVoice": { "message": "▶ Preview voice" },
+  "btnSave": { "message": "Save" },
+  "btnCheckUsage": { "message": "Check account usage" },
+
+  "hintVoices": { "message": "Only <strong>free</strong> (premade) voices are listed. Professional, cloned, or shared-library voices need a paid plan and are hidden." },
+
+  "permSummary": { "message": "Permissions & privacy" },
+  "permIntro": { "message": "This extension requests only what it needs to work:" },
+  "permStorage": { "message": "<strong>Storage</strong> — saves your API key and voice/model choice in the browser. Heads-up: it's stored as plain text in your Chrome profile, so anyone with access to this profile (or your synced Chrome data) can read it. Use a <em>scoped</em> key with a spending cap." },
+  "permHost": { "message": "<strong>Access to <code>api.elevenlabs.io</code></strong> — the only site the extension ever contacts. Your selected text and API key are sent here to generate the audio. No other domain is touched." },
+  "permAllPages": { "message": "<strong>Runs on all pages</strong> — needed to detect when you select text and show the button. It does <em>not</em> read or transmit page content on its own. Only text you highlight <em>and</em> click the button on is sent, and only to ElevenLabs." },
+  "permMeansHeading": { "message": "<strong>What this means for you:</strong>" },
+  "permNoDev": { "message": "<strong>Nothing is ever sent to the developer of this extension.</strong> There is no developer server, no analytics, and no tracking of any kind. Your text and API key go <em>directly</em> from your browser to ElevenLabs and nowhere else." },
+  "permThirdParty": { "message": "Highlighted text is sent to ElevenLabs (a third party) and is subject to their privacy policy. Don't narrate passwords or sensitive data." },
+  "permKeyLocal": { "message": "Your API key never leaves your browser except as the auth header on requests to ElevenLabs." },
+  "permSync": { "message": "If you sync Chrome across devices, your saved key syncs too (via your own Google account, not the developer)." },
+
+  "guideSummary": { "message": "How to get an ElevenLabs API key" },
+  "guideStep1": { "message": "Create a free account at <a href=\"https://elevenlabs.io/sign-up\" target=\"_blank\" rel=\"noopener\">elevenlabs.io/sign-up</a>." },
+  "guideStep2": { "message": "Open the <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener\">API Keys page</a> (Profile → API Keys) and click <strong>Create API Key</strong>." },
+  "guideStep3Intro": { "message": "Scope it to what the extension uses:" },
+  "tblAccess": { "message": "Access" },
+  "tblLevel": { "message": "Level" },
+  "tblWhy": { "message": "Why it's needed" },
+  "tblTts": { "message": "Text to Speech" },
+  "tblLevelAccess": { "message": "Access" },
+  "tblWhyTts": { "message": "Generates the narration and the voice preview. <em>Required.</em>" },
+  "tblVoices": { "message": "Voices" },
+  "tblLevelRead": { "message": "Read" },
+  "tblWhyVoices": { "message": "Lists the available free (premade) voices." },
+  "tblModels": { "message": "Models" },
+  "tblLevelRead2": { "message": "Read" },
+  "tblWhyModels": { "message": "Loads the model list and each model's supported languages." },
+  "tblUser": { "message": "User" },
+  "tblLevelRead3": { "message": "Read" },
+  "tblWhyUser": { "message": "Powers the <em>Check account usage</em> button." },
+  "guideStep3Outro": { "message": "Leave everything else at <strong>No Access</strong>. If a section doesn't load, enabling its access is the fix." },
+  "guideStep4": { "message": "Set a <strong>credit / character limit</strong> on the key so a leak or runaway can't drain your account." },
+  "guideStep5": { "message": "Copy the key and paste it into the field at the top of this page." },
+  "guideFreeNote": { "message": "Free plan works fine here — just remember only <strong>premade</strong> voices are usable via the API on the free tier." },
+
+  "popupSettings": { "message": "Open settings" },
+  "popupHint": { "message": "Select text on any page, then click the 🔊 button." },
+  "stateChecking": { "message": "Checking…" },
+  "stateReady": { "message": "✅ API key set — you're ready." },
+  "stateNoKey": { "message": "⚠️ No API key yet. Open settings." },
+
+  "msgSaved": { "message": "Saved." },
+  "msgEnterKeyFirst": { "message": "Enter your API key first." },
+  "msgLoadingPreview": { "message": "Loading preview…" },
+  "msgNoResponse": { "message": "No response — reload the extension at chrome://extensions." },
+  "msgChecking": { "message": "Checking…" },
+  "msgPreviewing": {
+    "message": "Previewing “$voice$”…",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "previewText": {
+    "message": "Hello, my name is $voice$.",
+    "placeholders": { "voice": { "content": "$1" } }
+  },
+  "langCount": {
+    "message": "$count$ languages: $list$.",
+    "placeholders": { "count": { "content": "$1" }, "list": { "content": "$2" } }
+  },
+  "langAutoDetect": { "message": "This model auto-detects the language of the text." },
+  "usageLine": {
+    "message": "$tier$ plan · $used$ / $limit$ characters used · $left$ left · resets $reset$",
+    "placeholders": {
+      "tier": { "content": "$1" },
+      "used": { "content": "$2" },
+      "limit": { "content": "$3" },
+      "left": { "content": "$4" },
+      "reset": { "content": "$5" }
+    }
+  },
+  "usageViewDetailed": { "message": "View detailed usage →" },
+
+  "btnReadAloud": {
+    "message": "Read aloud — $count$ / $max$ chars",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnTooLong": {
+    "message": "Too long: $count$ / $max$ chars — shorten the selection",
+    "placeholders": { "count": { "content": "$1" }, "max": { "content": "$2" } }
+  },
+  "btnLoading": { "message": "Loading…" },
+  "btnStop": { "message": "Stop" },
+  "errUnknown": { "message": "Unknown error" },
+  "errNoKey": { "message": "No API key set. Open the extension settings." },
+  "errTooLong": {
+    "message": "Selection too long: $len$ / $max$ chars.",
+    "placeholders": { "len": { "content": "$1" }, "max": { "content": "$2" } }
+  }
+}

@@ -26,10 +26,15 @@ async function synthesize(text, overrides = {}) {
   const apiKey = overrides.apiKey || cfg.apiKey;
   const voiceId = overrides.voiceId || cfg.voiceId;
   const modelId = overrides.modelId || cfg.modelId;
-  if (!apiKey) throw new Error("No API key set. Open the extension settings.");
+  if (!apiKey) throw new Error(chrome.i18n.getMessage("errNoKey"));
   if (text.length > cfg.maxChars) {
     // Backstop the content-script cap so we never spend quota on oversized text.
-    throw new Error(`Selection too long: ${text.length} / ${cfg.maxChars} chars.`);
+    throw new Error(
+      chrome.i18n.getMessage("errTooLong", [
+        String(text.length),
+        String(cfg.maxChars),
+      ])
+    );
   }
 
   const res = await fetch(

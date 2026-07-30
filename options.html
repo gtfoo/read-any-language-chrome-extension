@@ -4,15 +4,16 @@
 <link rel="stylesheet" href="options.css" />
 <main>
   <h1>Read Any Language</h1>
-  <p class="subtitle">Powered by ElevenLabs</p>
+  <p class="subtitle" data-i18n="poweredBy">Powered by ElevenLabs</p>
+  <p class="ai-note" data-i18n="aiTranslatedNote" hidden></p>
 
   <label>
-    ElevenLabs API key
+    <span data-i18n="labelApiKey">ElevenLabs API key</span>
     <input id="apiKey" type="password" placeholder="sk_..." autocomplete="off" />
   </label>
 
   <label>
-    Model
+    <span data-i18n="labelModel">Model</span>
     <select id="modelId">
       <!-- Replaced at runtime with the live model list from ElevenLabs;
            this is only a fallback if the list can't be fetched. -->
@@ -23,7 +24,7 @@
   <p id="languages" class="hint"></p>
 
   <label>
-    Voice
+    <span data-i18n="labelVoice">Voice</span>
     <select id="voiceId">
       <!-- Replaced at runtime with the free (premade) voices from ElevenLabs;
            this is only a fallback if the list can't be fetched. -->
@@ -31,124 +32,127 @@
     </select>
   </label>
 
-  <p class="hint">
+  <p class="hint" data-i18n="hintVoices">
     Only <strong>free</strong> (premade) voices are listed. Professional,
     cloned, or shared-library voices need a paid plan and are hidden.
   </p>
 
-  <button id="previewVoice" type="button">▶ Preview voice</button>
+  <button id="previewVoice" type="button" data-i18n="btnPreviewVoice">▶ Preview voice</button>
 
   <label>
-    Max characters per narration
+    <span data-i18n="labelMaxChars">Max characters per narration</span>
     <input id="maxChars" type="number" min="1" step="50" value="1000" />
   </label>
 
   <div class="row">
-    <button id="save" type="button">Save</button>
+    <button id="save" type="button" data-i18n="btnSave">Save</button>
   </div>
 
   <p id="status" class="status"></p>
 
   <div class="row">
-    <button id="checkUsage" type="button">Check account usage</button>
+    <button id="checkUsage" type="button" data-i18n="btnCheckUsage">Check account usage</button>
   </div>
   <p id="usage" class="status"></p>
 
   <details class="info">
-    <summary>Permissions &amp; privacy</summary>
-    <p>This extension requests only what it needs to work:</p>
+    <summary data-i18n="permSummary">Permissions &amp; privacy</summary>
+    <p data-i18n="permIntro">This extension requests only what it needs to work:</p>
     <ul>
-      <li>
+      <li data-i18n="permStorage">
         <strong>Storage</strong> — saves your API key and voice/model choice in
         the browser. Heads-up: it's stored as plain text in your Chrome profile,
         so anyone with access to this profile (or your synced Chrome data) can
         read it. Use a <em>scoped</em> key with a spending cap.
       </li>
-      <li>
+      <li data-i18n="permHost">
         <strong>Access to <code>api.elevenlabs.io</code></strong> — the only
         site the extension ever contacts. Your selected text and API key are
         sent here to generate the audio. No other domain is touched.
       </li>
-      <li>
+      <li data-i18n="permAllPages">
         <strong>Runs on all pages</strong> — needed to detect when you select
         text and show the button. It does <em>not</em> read or transmit page
         content on its own. Only text you highlight <em>and</em> click the
         button on is sent, and only to ElevenLabs.
       </li>
     </ul>
-    <p><strong>What this means for you:</strong></p>
+    <p data-i18n="permMeansHeading"><strong>What this means for you:</strong></p>
     <ul>
-      <li>
+      <li data-i18n="permNoDev">
         <strong>Nothing is ever sent to the developer of this extension.</strong>
         There is no developer server, no analytics, and no tracking of any kind.
         Your text and API key go <em>directly</em> from your browser to
         ElevenLabs and nowhere else.
       </li>
-      <li>Highlighted text is sent to ElevenLabs (a third party) and is subject
+      <li data-i18n="permThirdParty">Highlighted text is sent to ElevenLabs (a third party) and is subject
         to their privacy policy. Don't narrate passwords or sensitive data.</li>
-      <li>Your API key never leaves your browser except as the auth header on
+      <li data-i18n="permKeyLocal">Your API key never leaves your browser except as the auth header on
         requests to ElevenLabs.</li>
-      <li>If you sync Chrome across devices, your saved key syncs too (via your
+      <li data-i18n="permSync">If you sync Chrome across devices, your saved key syncs too (via your
         own Google account, not the developer).</li>
     </ul>
   </details>
 
   <details class="info" open>
-    <summary>How to get an ElevenLabs API key</summary>
+    <summary data-i18n="guideSummary">How to get an ElevenLabs API key</summary>
     <ol>
-      <li>
+      <li data-i18n="guideStep1">
         Create a free account at
-        <a href="https://elevenlabs.io/sign-up" target="_blank" rel="noopener">
-          elevenlabs.io/sign-up</a>.
+        <a href="https://elevenlabs.io/sign-up" target="_blank" rel="noopener">elevenlabs.io/sign-up</a>.
       </li>
-      <li>
+      <li data-i18n="guideStep2">
         Open the
-        <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" rel="noopener">
-          API Keys page</a> (Profile → API Keys) and click
+        <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" rel="noopener">API Keys page</a> (Profile → API Keys) and click
         <strong>Create API Key</strong>.
       </li>
       <li>
-        Scope it to what the extension uses:
+        <span data-i18n="guideStep3Intro">Scope it to what the extension uses:</span>
         <table class="scopes">
           <thead>
-            <tr><th>Access</th><th>Level</th><th>Why it's needed</th></tr>
+            <tr>
+              <th data-i18n="tblAccess">Access</th>
+              <th data-i18n="tblLevel">Level</th>
+              <th data-i18n="tblWhy">Why it's needed</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Text to Speech</td>
-              <td>Access</td>
-              <td>Generates the narration and the voice preview. <em>Required.</em></td>
+              <td data-i18n="tblTts">Text to Speech</td>
+              <td data-i18n="tblLevelAccess">Access</td>
+              <td data-i18n="tblWhyTts">Generates the narration and the voice preview. <em>Required.</em></td>
             </tr>
             <tr>
-              <td>Voices</td>
-              <td>Read</td>
-              <td>Lists the available free (premade) voices.</td>
+              <td data-i18n="tblVoices">Voices</td>
+              <td data-i18n="tblLevelRead">Read</td>
+              <td data-i18n="tblWhyVoices">Lists the available free (premade) voices.</td>
             </tr>
             <tr>
-              <td>Models</td>
-              <td>Read</td>
-              <td>Loads the model list and each model's supported languages.</td>
+              <td data-i18n="tblModels">Models</td>
+              <td data-i18n="tblLevelRead2">Read</td>
+              <td data-i18n="tblWhyModels">Loads the model list and each model's supported languages.</td>
             </tr>
             <tr>
-              <td>User</td>
-              <td>Read</td>
-              <td>Powers the <em>Check account usage</em> button.</td>
+              <td data-i18n="tblUser">User</td>
+              <td data-i18n="tblLevelRead3">Read</td>
+              <td data-i18n="tblWhyUser">Powers the <em>Check account usage</em> button.</td>
             </tr>
           </tbody>
         </table>
-        Leave everything else at <strong>No Access</strong>. If a section
-        doesn't load, enabling its access is the fix.
+        <span data-i18n="guideStep3Outro">Leave everything else at <strong>No Access</strong>. If a section
+        doesn't load, enabling its access is the fix.</span>
       </li>
-      <li>
+      <li data-i18n="guideStep4">
         Set a <strong>credit / character limit</strong> on the key so a leak or
         runaway can't drain your account.
       </li>
-      <li>Copy the key and paste it into the field at the top of this page.</li>
+      <li data-i18n="guideStep5">Copy the key and paste it into the field at the top of this page.</li>
     </ol>
-    <p class="hint">
+    <p class="hint" data-i18n="guideFreeNote">
       Free plan works fine here — just remember only <strong>premade</strong>
       voices are usable via the API on the free tier.
     </p>
   </details>
 </main>
+<script src="i18n.js"></script>
 <script src="options.js"></script>

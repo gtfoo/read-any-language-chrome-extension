@@ -3,9 +3,10 @@
 <link rel="stylesheet" href="popup.css" />
 <div class="wrap">
   <strong>Read Any Language</strong>
-  <div class="subtitle">Powered by ElevenLabs</div>
-  <p id="state">Checking…</p>
-  <button id="settings" type="button">Open settings</button>
-  <p class="hint">Select text on any page, then click the 🔊 button.</p>
+  <div class="subtitle" data-i18n="poweredBy">Powered by ElevenLabs</div>
+  <p id="state"></p>
+  <button id="settings" type="button" data-i18n="popupSettings">Open settings</button>
+  <p class="hint" data-i18n="popupHint">Select text on any page, then click the 🔊 button.</p>
 </div>
+<script src="i18n.js"></script>
 <script src="popup.js"></script>

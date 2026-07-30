@@ -1,4 +1,5 @@
 const $ = (id) => document.getElementById(id);
+const msg = (key, subs) => chrome.i18n.getMessage(key, subs);
 
 function setStatus(msg, isError) {
   const el = $("status");
@@ -38,9 +39,12 @@ function renderLanguages() {
   const el = $("languages");
   const m = models.find((x) => x.id === $("modelId").value);
   if (m && m.languages.length) {
-    el.textContent = `${m.languages.length} languages: ${m.languages.join(", ")}.`;
+    el.textContent = msg("langCount", [
+      String(m.languages.length),
+      m.languages.join(", "),
+    ]);
   } else if (m) {
-    el.textContent = "This model auto-detects the language of the text.";
+    el.textContent = msg("langAutoDetect");
   } else {
     el.textContent = "";
   }
@@ -102,22 +106,22 @@ $("save").addEventListener("click", async () => {
     modelId: $("modelId").value,
     maxChars: Math.max(1, parseInt($("maxChars").value, 10) || 1000),
   });
-  setStatus("Saved.", false);
+  setStatus(msg("msgSaved"), false);
 });
 
 let previewAudio = null;
 
 $("previewVoice").addEventListener("click", async () => {
   const apiKey = $("apiKey").value.trim();
-  if (!apiKey) return setStatus("Enter your API key first.", true);
+  if (!apiKey) return setStatus(msg("msgEnterKeyFirst"), true);
 
   const sel = $("voiceId");
   const voiceName = sel.options[sel.selectedIndex].text;
-  const text = `Hello, my name is ${voiceName}.`;
+  const text = msg("previewText", [voiceName]);
 
   if (previewAudio) previewAudio.pause(); // don't overlap previews
 
-  setStatus("Loading preview…", false);
+  setStatus(msg("msgLoadingPreview"), false);
   const resp = await chrome.runtime.sendMessage({
     type: "preview",
     text,
@@ -126,29 +130,23 @@ $("previewVoice").addEventListener("click", async () => {
     modelId: $("modelId").value,
   });
   if (!resp || !resp.ok) {
-    return setStatus(
-      resp?.error || "No response — reload the extension at chrome://extensions.",
-      true
-    );
+    return setStatus(resp?.error || msg("msgNoResponse"), true);
   }
 
   previewAudio = new Audio(`data:audio/mpeg;base64,${resp.audioBase64}`);
   previewAudio.addEventListener("ended", () => setStatus("", false));
   await previewAudio.play();
-  setStatus(`Previewing “${voiceName}”…`, false);
+  setStatus(msg("msgPreviewing", [voiceName]), false);
 });
 
 $("checkUsage").addEventListener("click", async () => {
   const apiKey = $("apiKey").value.trim();
-  if (!apiKey) return setUsage("Enter your API key first.", true);
+  if (!apiKey) return setUsage(msg("msgEnterKeyFirst"), true);
 
-  setUsage("Checking…", false);
+  setUsage(msg("msgChecking"), false);
   const resp = await chrome.runtime.sendMessage({ type: "getUsage", apiKey });
   if (!resp || !resp.ok) {
-    return setUsage(
-      resp?.error || "No response — reload the extension at chrome://extensions.",
-      true
-    );
+    return setUsage(resp?.error || msg("msgNoResponse"), true);
   }
 
   const { tier, used, limit, resetUnix } = resp.usage;
@@ -160,13 +158,18 @@ $("checkUsage").addEventListener("click", async () => {
   const el = $("usage");
   el.style.color = "#333";
   el.textContent =
-    `${tier} plan · ${used.toLocaleString()} / ${limit.toLocaleString()} ` +
-    `characters used · ${left.toLocaleString()} left · resets ${reset} · `;
+    msg("usageLine", [
+      tier,
+      used.toLocaleString(),
+      limit.toLocaleString(),
+      left.toLocaleString(),
+      reset,
+    ]) + " · ";
   const link = document.createElement("a");
   link.href = "https://elevenlabs.io/app/usage";
   link.target = "_blank";
   link.rel = "noopener";
-  link.textContent = "View detailed usage →";
+  link.textContent = msg("usageViewDetailed");
   el.appendChild(link);
 });
 

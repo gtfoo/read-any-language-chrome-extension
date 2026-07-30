@@ -45,15 +45,16 @@ function setState(next) {
     const over = charCount > maxChars;
     button.classList.toggle("elr-over", over);
     button.textContent = over ? "⚠️" : "🔊";
+    const subs = [String(charCount), String(maxChars)];
     button.title = over
-      ? `Too long: ${charCount} / ${maxChars} chars — shorten the selection`
-      : `Read aloud — ${charCount} / ${maxChars} chars`;
+      ? chrome.i18n.getMessage("btnTooLong", subs)
+      : chrome.i18n.getMessage("btnReadAloud", subs);
   } else if (next === "loading") {
     button.textContent = "…";
-    button.title = "Loading…";
+    button.title = chrome.i18n.getMessage("btnLoading");
   } else if (next === "playing") {
     button.textContent = "⏹";
-    button.title = "Stop";
+    button.title = chrome.i18n.getMessage("btnStop");
   }
 }
 
@@ -105,7 +106,9 @@ async function narrate(text) {
   try {
     const resp = await chrome.runtime.sendMessage({ type: "narrate", text });
     if (myReq !== requestSeq) return; // a newer click/selection superseded this one
-    if (!resp || !resp.ok) throw new Error(resp?.error || "Unknown error");
+    if (!resp || !resp.ok) {
+      throw new Error(resp?.error || chrome.i18n.getMessage("errUnknown"));
+    }
 
     const audio = new Audio(`data:audio/mpeg;base64,${resp.audioBase64}`);
     currentAudio = audio;
