@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Đọc mọi ngôn ngữ - Powered by ElevenLabs" },
+  "extDescription": { "message": "Chuyển văn bản thành giọng nói: bôi đen văn bản ở bất kỳ ngôn ngữ nào và nghe bằng giọng tự nhiên. Bởi ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Cài đặt" },
   "poweredBy": { "message": "Được cung cấp bởi ElevenLabs" },
   "aiTranslatedNote": { "message": "Lưu ý: giao diện này được dịch bằng AI, nên mong bạn thông cảm nếu có lỗi." },

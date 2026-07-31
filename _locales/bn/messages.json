@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "যেকোনো ভাষা পড়ুন - Powered by ElevenLabs" },
+  "extDescription": { "message": "টেক্সট-টু-স্পিচ: যেকোনো ভাষার লেখা নির্বাচন করে স্বাভাবিক কণ্ঠে শুনুন। ElevenLabs দ্বারা চালিত।" },
+
   "settingsTitle": { "message": "Read Any Language – সেটিংস" },
   "poweredBy": { "message": "ElevenLabs দ্বারা চালিত" },
   "aiTranslatedNote": { "message": "দ্রষ্টব্য: এই ইন্টারফেসটি AI দ্বারা অনূদিত, তাই কোনো ভুল থাকলে ক্ষমা করবেন।" },

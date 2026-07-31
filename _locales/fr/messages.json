@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Lire n'importe quelle langue - Powered by ElevenLabs" },
+  "extDescription": { "message": "Synthèse vocale : surlignez du texte dans n'importe quelle langue et écoutez-le avec une voix naturelle. Par ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Paramètres" },
   "poweredBy": { "message": "Propulsé par ElevenLabs" },
   "aiTranslatedNote": { "message": "Remarque : cette interface a été traduite par IA — pardonnez notre français !" },

@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "هر زبانی را بخوان - Powered by ElevenLabs" },
+  "extDescription": { "message": "تبدیل متن به گفتار: متن را به هر زبانی انتخاب کنید و با صدایی طبیعی بشنوید. قدرت‌گرفته از ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – تنظیمات" },
   "poweredBy": { "message": "قدرت‌گرفته از ElevenLabs" },
   "aiTranslatedNote": { "message": "توجه: این رابط توسط هوش مصنوعی ترجمه شده است، بابت هر گونه خطا پوزش می‌خواهیم." },

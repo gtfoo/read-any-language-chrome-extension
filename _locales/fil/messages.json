@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Basahin ang Anumang Wika - Powered by ElevenLabs" },
+  "extDescription": { "message": "Text to speech: i-highlight ang teksto sa anumang wika at pakinggan sa natural na boses. Pinapagana ng ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Mga Setting" },
   "poweredBy": { "message": "Pinapagana ng ElevenLabs" },
   "aiTranslatedNote": { "message": "Paalala: ang interface na ito ay isinalin ng AI, kaya paumanhin sa anumang mali." },

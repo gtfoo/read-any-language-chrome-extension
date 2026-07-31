@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Beliebige Sprache vorlesen - Powered by ElevenLabs" },
+  "extDescription": { "message": "Text-zu-Sprache: Text in jeder Sprache markieren und mit natürlicher Stimme anhören. Unterstützt von ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Einstellungen" },
   "poweredBy": { "message": "Unterstützt von ElevenLabs" },
   "aiTranslatedNote": { "message": "Hinweis: Diese Oberfläche wurde von einer KI übersetzt – bitte entschuldige etwaige Fehler." },

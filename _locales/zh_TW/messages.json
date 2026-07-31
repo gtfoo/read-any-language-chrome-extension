@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "朗讀任何語言 - Powered by ElevenLabs" },
+  "extDescription": { "message": "文字轉語音：選取任意語言的文字，即可聽到自然語音朗讀。由 ElevenLabs 提供技術支援。" },
+
   "settingsTitle": { "message": "Read Any Language – 設定" },
   "poweredBy": { "message": "由 ElevenLabs 提供技術支援" },
   "aiTranslatedNote": { "message": "注意：此介面由 AI 翻譯，如有錯誤敬請見諒。" },

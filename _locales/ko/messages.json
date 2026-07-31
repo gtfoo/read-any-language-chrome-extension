@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "모든 언어 읽기 - Powered by ElevenLabs" },
+  "extDescription": { "message": "텍스트 음성 변환: 어떤 언어의 텍스트든 선택하면 자연스러운 음성으로 들려줍니다. ElevenLabs 제공." },
+
   "settingsTitle": { "message": "Read Any Language – 설정" },
   "poweredBy": { "message": "ElevenLabs 제공" },
   "aiTranslatedNote": { "message": "참고: 이 인터페이스는 AI로 번역되었으므로 오류가 있어도 양해 부탁드립니다." },

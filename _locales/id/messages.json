@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Baca Bahasa Apa Pun - Powered by ElevenLabs" },
+  "extDescription": { "message": "Teks ke ucapan: sorot teks dalam bahasa apa pun dan dengarkan dengan suara alami. Didukung oleh ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Setelan" },
   "poweredBy": { "message": "Didukung oleh ElevenLabs" },
   "aiTranslatedNote": { "message": "Catatan: antarmuka ini diterjemahkan oleh AI, jadi mohon maklum jika ada kesalahan." },

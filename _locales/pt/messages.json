@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Ler qualquer idioma - Powered by ElevenLabs" },
+  "extDescription": { "message": "Texto para voz: destaque texto em qualquer idioma e ouça com uma voz natural. Com tecnologia da ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Configurações" },
   "poweredBy": { "message": "Com tecnologia da ElevenLabs" },
   "aiTranslatedNote": { "message": "Observação: esta interface foi traduzida por IA, então perdoe eventuais erros." },

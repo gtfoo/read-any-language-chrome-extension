@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Czytaj w każdym języku - Powered by ElevenLabs" },
+  "extDescription": { "message": "Zamiana tekstu na mowę: zaznacz tekst w dowolnym języku i posłuchaj go naturalnym głosem. Obsługiwane przez ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Ustawienia" },
   "poweredBy": { "message": "Obsługiwane przez ElevenLabs" },
   "aiTranslatedNote": { "message": "Uwaga: ten interfejs został przetłumaczony przez SI, więc wybacz ewentualne błędy." },

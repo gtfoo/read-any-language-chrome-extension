@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "קרא כל שפה - Powered by ElevenLabs" },
+  "extDescription": { "message": "טקסט לדיבור: סמנו טקסט בכל שפה ושמעו אותו בקול טבעי. מופעל על ידי ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – הגדרות" },
   "poweredBy": { "message": "מופעל על ידי ElevenLabs" },
   "aiTranslatedNote": { "message": "הערה: ממשק זה תורגם על ידי בינה מלאכותית, אז סליחה על טעויות כלשהן." },

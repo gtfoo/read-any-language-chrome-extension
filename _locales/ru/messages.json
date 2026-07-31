@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Читать на любом языке - Powered by ElevenLabs" },
+  "extDescription": { "message": "Текст в речь: выделите текст на любом языке и слушайте его естественным голосом. Работает на ElevenLabs." },
+
   "settingsTitle": { "message": "Read Any Language – Настройки" },
   "poweredBy": { "message": "Работает на ElevenLabs" },
   "aiTranslatedNote": { "message": "Примечание: этот интерфейс переведён ИИ, поэтому просим прощения за возможные ошибки." },

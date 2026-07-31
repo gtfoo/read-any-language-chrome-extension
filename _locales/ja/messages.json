@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "どんな言語も読み上げ - Powered by ElevenLabs" },
+  "extDescription": { "message": "テキスト読み上げ：どんな言語のテキストも選択するだけで自然な音声で読み上げます。Powered by ElevenLabs。" },
+
   "settingsTitle": { "message": "Read Any Language – 設定" },
   "poweredBy": { "message": "Powered by ElevenLabs" },
   "aiTranslatedNote": { "message": "注意：このインターフェースは AI によって翻訳されています。誤りがあればご容赦ください。" },

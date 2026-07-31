@@ -1,4 +1,7 @@
 {
+  "extName": { "message": "Her Dili Oku - Powered by ElevenLabs" },
+  "extDescription": { "message": "Metin okuma: herhangi bir dildeki metni seçin ve doğal bir sesle dinleyin. ElevenLabs tarafından desteklenir." },
+
   "settingsTitle": { "message": "Read Any Language – Ayarlar" },
   "poweredBy": { "message": "ElevenLabs tarafından desteklenir" },
   "aiTranslatedNote": { "message": "Not: Bu arayüz yapay zekâ tarafından çevrildi, olası hatalar için kusura bakmayın." },
