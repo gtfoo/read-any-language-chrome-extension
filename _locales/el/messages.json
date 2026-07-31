@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "Διαβάστε οποιαδήποτε γλώσσα - Powered by ElevenLabs" },
+  "extName": { "message": "Διαβάστε οποιαδήποτε γλώσσα - Με την υποστήριξη του ElevenLabs" },
   "extDescription": { "message": "Κείμενο σε ομιλία: επισημάνετε κείμενο σε οποιαδήποτε γλώσσα και ακούστε το με φυσική φωνή. Με ElevenLabs." },
 
-  "settingsTitle": { "message": "Read Any Language – Ρυθμίσεις" },
+  "appName": { "message": "Διαβάστε οποιαδήποτε γλώσσα" },
+  "settingsTitle": { "message": "Διαβάστε οποιαδήποτε γλώσσα – Ρυθμίσεις" },
   "poweredBy": { "message": "Με την υποστήριξη του ElevenLabs" },
   "aiTranslatedNote": { "message": "Σημείωση: αυτή η διεπαφή μεταφράστηκε από ΤΝ, γι’ αυτό συγχωρέστε τυχόν λάθη." },
 

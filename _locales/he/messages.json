@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "קרא כל שפה - Powered by ElevenLabs" },
+  "extName": { "message": "קרא כל שפה - מופעל על ידי ElevenLabs" },
   "extDescription": { "message": "טקסט לדיבור: סמנו טקסט בכל שפה ושמעו אותו בקול טבעי. מופעל על ידי ElevenLabs." },
 
-  "settingsTitle": { "message": "Read Any Language – הגדרות" },
+  "appName": { "message": "קרא כל שפה" },
+  "settingsTitle": { "message": "קרא כל שפה – הגדרות" },
   "poweredBy": { "message": "מופעל על ידי ElevenLabs" },
   "aiTranslatedNote": { "message": "הערה: ממשק זה תורגם על ידי בינה מלאכותית, אז סליחה על טעויות כלשהן." },
 

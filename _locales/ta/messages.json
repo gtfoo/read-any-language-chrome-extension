@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "எந்த மொழியையும் படி - Powered by ElevenLabs" },
+  "extName": { "message": "எந்த மொழியையும் படி - ElevenLabs மூலம் இயங்குகிறது" },
   "extDescription": { "message": "உரையிலிருந்து பேச்சு: எந்த மொழியிலும் உரையைத் தேர்ந்தெடுத்து இயற்கையான குரலில் கேளுங்கள். ElevenLabs மூலம்." },
 
-  "settingsTitle": { "message": "Read Any Language – அமைப்புகள்" },
+  "appName": { "message": "எந்த மொழியையும் படி" },
+  "settingsTitle": { "message": "எந்த மொழியையும் படி – அமைப்புகள்" },
   "poweredBy": { "message": "ElevenLabs மூலம் இயங்குகிறது" },
   "aiTranslatedNote": { "message": "குறிப்பு: இந்த இடைமுகம் செயற்கை நுண்ணறிவால் மொழிபெயர்க்கப்பட்டது, எனவே பிழைகள் இருந்தால் மன்னிக்கவும்." },
 

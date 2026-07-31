@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "اقرأ أي لغة - Powered by ElevenLabs" },
+  "extName": { "message": "اقرأ أي لغة - مُشغَّل بواسطة ElevenLabs" },
   "extDescription": { "message": "تحويل النص إلى كلام: حدّد نصًا بأي لغة واستمع إليه بصوت طبيعي. مدعوم من ElevenLabs." },
 
-  "settingsTitle": { "message": "Read Any Language – الإعدادات" },
+  "appName": { "message": "اقرأ أي لغة" },
+  "settingsTitle": { "message": "اقرأ أي لغة – الإعدادات" },
   "poweredBy": { "message": "مُشغَّل بواسطة ElevenLabs" },
   "aiTranslatedNote": { "message": "ملاحظة: تُرجمت هذه الواجهة بواسطة الذكاء الاصطناعي، فالمعذرة عن أي أخطاء." },
 

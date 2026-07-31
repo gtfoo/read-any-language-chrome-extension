@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "कोणतीही भाषा वाचा - Powered by ElevenLabs" },
+  "extName": { "message": "कोणतीही भाषा वाचा - ElevenLabs द्वारे समर्थित" },
   "extDescription": { "message": "मजकूर ते भाषण: कोणत्याही भाषेतील मजकूर निवडा आणि नैसर्गिक आवाजात ऐका. ElevenLabs द्वारे समर्थित." },
 
-  "settingsTitle": { "message": "Read Any Language – सेटिंग्ज" },
+  "appName": { "message": "कोणतीही भाषा वाचा" },
+  "settingsTitle": { "message": "कोणतीही भाषा वाचा – सेटिंग्ज" },
   "poweredBy": { "message": "ElevenLabs द्वारे समर्थित" },
   "aiTranslatedNote": { "message": "टीप: हा इंटरफेस AI ने भाषांतरित केला आहे, त्यामुळे काही चुका असल्यास क्षमा करा." },
 

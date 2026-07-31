@@ -2,6 +2,7 @@
   "extName": { "message": "Read Any Language - Powered by ElevenLabs" },
   "extDescription": { "message": "Text to speech: highlight text in any language and hear it read aloud in a natural voice. Powered by ElevenLabs." },
 
+  "appName": { "message": "Read Any Language" },
   "settingsTitle": { "message": "Read Any Language – Settings" },
   "poweredBy": { "message": "Powered by ElevenLabs" },
   "aiTranslatedNote": { "message": "" },

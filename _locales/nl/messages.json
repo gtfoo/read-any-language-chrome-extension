@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "Lees elke taal - Powered by ElevenLabs" },
+  "extName": { "message": "Lees elke taal - Mogelijk gemaakt door ElevenLabs" },
   "extDescription": { "message": "Tekst-naar-spraak: markeer tekst in elke taal en hoor het met een natuurlijke stem. Mogelijk gemaakt door ElevenLabs." },
 
-  "settingsTitle": { "message": "Read Any Language – Instellingen" },
+  "appName": { "message": "Lees elke taal" },
+  "settingsTitle": { "message": "Lees elke taal – Instellingen" },
   "poweredBy": { "message": "Mogelijk gemaakt door ElevenLabs" },
   "aiTranslatedNote": { "message": "Let op: deze interface is vertaald door AI, dus vergeef ons eventuele fouten." },
 

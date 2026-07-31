@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "ఏ భాషనైనా చదవండి - Powered by ElevenLabs" },
+  "extName": { "message": "ఏ భాషనైనా చదవండి - ElevenLabs ద్వారా ఆధారితం" },
   "extDescription": { "message": "టెక్స్ట్ టు స్పీచ్: ఏ భాషలోని వచనాన్నైనా ఎంచుకుని సహజ స్వరంతో వినండి. ElevenLabs ద్వారా." },
 
-  "settingsTitle": { "message": "Read Any Language – సెట్టింగ్‌లు" },
+  "appName": { "message": "ఏ భాషనైనా చదవండి" },
+  "settingsTitle": { "message": "ఏ భాషనైనా చదవండి – సెట్టింగ్‌లు" },
   "poweredBy": { "message": "ElevenLabs ద్వారా ఆధారితం" },
   "aiTranslatedNote": { "message": "గమనిక: ఈ ఇంటర్‌ఫేస్ AI ద్వారా అనువదించబడింది, కాబట్టి ఏవైనా పొరపాట్లు ఉంటే క్షమించండి." },
 

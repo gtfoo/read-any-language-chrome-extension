@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "Läs vilket språk som helst - Powered by ElevenLabs" },
+  "extName": { "message": "Läs vilket språk som helst - Drivs av ElevenLabs" },
   "extDescription": { "message": "Text till tal: markera text på valfritt språk och hör den uppläst med naturlig röst. Drivs av ElevenLabs." },
 
-  "settingsTitle": { "message": "Read Any Language – Inställningar" },
+  "appName": { "message": "Läs vilket språk som helst" },
+  "settingsTitle": { "message": "Läs vilket språk som helst – Inställningar" },
   "poweredBy": { "message": "Drivs av ElevenLabs" },
   "aiTranslatedNote": { "message": "Obs: det här gränssnittet är översatt av AI, så ha överseende med eventuella fel." },
 

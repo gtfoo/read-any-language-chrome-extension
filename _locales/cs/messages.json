@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "Čtěte jakýkoli jazyk - Powered by ElevenLabs" },
+  "extName": { "message": "Čtěte jakýkoli jazyk - Využívá ElevenLabs" },
   "extDescription": { "message": "Převod textu na řeč: označte text v jakémkoli jazyce a poslechněte si jej přirozeným hlasem. Využívá ElevenLabs." },
 
-  "settingsTitle": { "message": "Read Any Language – Nastavení" },
+  "appName": { "message": "Čtěte jakýkoli jazyk" },
+  "settingsTitle": { "message": "Čtěte jakýkoli jazyk – Nastavení" },
   "poweredBy": { "message": "Využívá ElevenLabs" },
   "aiTranslatedNote": { "message": "Poznámka: toto rozhraní přeložila UI, takže prosíme o prominutí případných chyb." },
 

@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "कोई भी भाषा पढ़ें - Powered by ElevenLabs" },
+  "extName": { "message": "कोई भी भाषा पढ़ें - ElevenLabs द्वारा संचालित" },
   "extDescription": { "message": "टेक्स्ट-टू-स्पीच: किसी भी भाषा का टेक्स्ट चुनें और उसे प्राकृतिक आवाज़ में सुनें। ElevenLabs द्वारा संचालित।" },
 
-  "settingsTitle": { "message": "Read Any Language – सेटिंग्स" },
+  "appName": { "message": "कोई भी भाषा पढ़ें" },
+  "settingsTitle": { "message": "कोई भी भाषा पढ़ें – सेटिंग्स" },
   "poweredBy": { "message": "ElevenLabs द्वारा संचालित" },
   "aiTranslatedNote": { "message": "नोट: यह इंटरफ़ेस AI द्वारा अनुवादित है, इसलिए किसी भी त्रुटि के लिए क्षमा करें।" },
 

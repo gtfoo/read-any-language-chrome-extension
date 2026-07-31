@@ -1,8 +1,9 @@
 {
-  "extName": { "message": "อ่านออกเสียงทุกภาษา - Powered by ElevenLabs" },
+  "extName": { "message": "อ่านออกเสียงทุกภาษา - ขับเคลื่อนโดย ElevenLabs" },
   "extDescription": { "message": "แปลงข้อความเป็นเสียง: เลือกข้อความภาษาใดก็ได้แล้วฟังด้วยเสียงที่เป็นธรรมชาติ ขับเคลื่อนโดย ElevenLabs" },
 
-  "settingsTitle": { "message": "Read Any Language – การตั้งค่า" },
+  "appName": { "message": "อ่านออกเสียงทุกภาษา" },
+  "settingsTitle": { "message": "อ่านออกเสียงทุกภาษา – การตั้งค่า" },
   "poweredBy": { "message": "ขับเคลื่อนโดย ElevenLabs" },
   "aiTranslatedNote": { "message": "หมายเหตุ: อินเทอร์เฟซนี้แปลโดย AI จึงขออภัยหากมีข้อผิดพลาด" },
 
