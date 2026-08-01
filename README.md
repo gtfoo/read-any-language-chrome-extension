@@ -40,15 +40,15 @@ display language**, falling back to English. (This is separate from the
 languages the extension can *read aloud* — the ElevenLabs multilingual models
 handle those regardless of UI language.)
 
-30 locales are bundled under `_locales/`:
+31 locales are bundled under `_locales/`:
 
 `en` English · `es` Spanish · `fr` French · `de` German · `zh_CN` Chinese
-(Simplified) · `zh_TW` Chinese (Traditional) · `ja` Japanese · `pt` Portuguese ·
-`ru` Russian · `it` Italian · `ar` Arabic · `hi` Hindi · `ko` Korean ·
-`id` Indonesian · `tr` Turkish · `nl` Dutch · `pl` Polish · `vi` Vietnamese ·
-`th` Thai · `bn` Bengali · `fa` Persian · `uk` Ukrainian · `fil` Filipino ·
-`el` Greek · `sv` Swedish · `cs` Czech · `he` Hebrew · `ta` Tamil · `te` Telugu ·
-`mr` Marathi
+(Simplified) · `zh_TW` Chinese (Traditional) · `ja` Japanese · `pt_BR` Portuguese
+(Brazil) · `pt_PT` Portuguese (Portugal) · `ru` Russian · `it` Italian ·
+`ar` Arabic · `hi` Hindi · `ko` Korean · `id` Indonesian · `tr` Turkish ·
+`nl` Dutch · `pl` Polish · `vi` Vietnamese · `th` Thai · `bn` Bengali ·
+`fa` Persian · `uk` Ukrainian · `fil` Filipino · `el` Greek · `sv` Swedish ·
+`cs` Czech · `he` Hebrew · `ta` Tamil · `te` Telugu · `mr` Marathi
 
 Arabic, Persian, and Hebrew render right-to-left automatically. Non-English
 locales carry an AI-translation disclaimer, since the translations are
@@ -56,9 +56,13 @@ machine-generated and not yet natively reviewed.
 
 ### Adding another language
 
-1. Copy `_locales/en/messages.json` to `_locales/<code>/messages.json`, using a
-   Chrome-supported UI locale code (only languages Chrome can be *displayed* in
-   will ever activate).
+1. Copy `_locales/en/messages.json` to `_locales/<code>/messages.json`. The code
+   **must be one Chrome actually supports** — see the table in the
+   [`chrome.i18n` reference](https://developer.chrome.com/docs/extensions/reference/api/i18n#locales).
+   Chrome silently ignores a folder whose code isn't on that list, so the
+   language just goes missing after upload with no error. Watch out for
+   languages that only exist as regional variants: it's `pt_BR` / `pt_PT`, not
+   `pt`, and `en_GB` / `es_419` follow the same pattern.
 2. Translate each `message` value. Leave the `placeholders` blocks, HTML tags,
    URLs, and the ElevenLabs dashboard labels (`Text to Speech`, `Voices`,
    `Models`, `User`, `Access`, `Read`, `No Access`, `Create API Key`) unchanged.

@@ -1,6 +1,7 @@
 # Chrome Web Store — Detailed description (v1.3.0)
 
-Master copy plus a translation for each of the 30 UI locales the extension ships.
+Master copy plus a translation for each of the 31 UI locales the extension ships
+(30 languages — Portuguese ships as both `pt_BR` and `pt_PT`).
 
 **How to use:** in the Developer Dashboard → *Store listing*, use the language
 selector to add each language, then paste the matching block into **Detailed
@@ -361,7 +362,7 @@ Uwaga: wymaga własnego konta ElevenLabs i klucza API (dostępny bezpłatny plan
 
 ---
 
-## pt — Português
+## pt_BR — Português (Brasil)
 
 O Read Any Language transforma qualquer texto da web em fala com som natural. Selecione o texto que deseja ouvir, clique no botão de alto-falante que aparece e ouça — no mesmo idioma do texto.
 
@@ -376,6 +377,24 @@ Como funciona:
 Recursos: voz de IA natural • multilíngue automático • suas vozes e modelos da ElevenLabs carregados ao vivo • prévia de voz • pare quando quiser, uma leitura por vez • limite de caracteres por seleção • exibição da cota restante • interface disponível em 30 idiomas.
 
 Observação: requer sua própria conta na ElevenLabs e chave de API (há plano gratuito).
+
+---
+
+## pt_PT — Português (Portugal)
+
+O Read Any Language transforma qualquer texto da web em fala com som natural. Selecione o texto que pretende ouvir, clique no botão de altifalante que aparece e ouça — no mesmo idioma do texto.
+
+Com a tecnologia de conversão de texto em fala da ElevenLabs, produz vozes realistas em dezenas de idiomas e identifica automaticamente o idioma daquilo que selecionar. Sem copiar e colar, sem trocar de aplicação.
+
+Como funciona:
+1) Crie uma conta gratuita na ElevenLabs e gere uma chave de API com acesso restrito.
+2) Cole a chave de API da ElevenLabs nas definições.
+3) Escolha uma voz e um modelo (com guia integrado).
+4) Selecione o texto e clique no botão de altifalante.
+
+Funcionalidades: voz de IA natural • multilingue automático • as suas vozes e modelos da ElevenLabs carregados em direto • pré-visualização de voz • pare quando quiser, uma leitura de cada vez • limite de caracteres por seleção • apresentação da quota restante • interface disponível em 30 idiomas.
+
+Nota: requer a sua própria conta na ElevenLabs e chave de API (há plano gratuito).
 
 ---
 
