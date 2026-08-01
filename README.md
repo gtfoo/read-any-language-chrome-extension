@@ -67,7 +67,22 @@ machine-generated and not yet natively reviewed.
    URLs, and the ElevenLabs dashboard labels (`Text to Speech`, `Voices`,
    `Models`, `User`, `Access`, `Read`, `No Access`, `Create API Key`) unchanged.
 3. Fill in `aiTranslatedNote` with a short disclaimer in that language.
-4. Reload the extension and set Chrome to that language to test.
+4. Run the validator (below), then reload the extension and set Chrome to that
+   language to test.
+
+### Validating before you upload
+
+```
+python3 tools/validate-locales.py
+```
+
+Stdlib only, exits non-zero on failure so it also works in CI. It checks that
+every locale code is one Chrome supports, that no catalogue is missing a key,
+that `extName`/`extDescription` fit the store's 75/132-character caps, that
+every `$placeholder$` is declared, and that every `data-i18n` and
+`getMessage()` key actually exists. Worth running before every zip — an
+unsupported locale code produces no upload error, just a silently missing
+language.
 
 ## Notes / next steps
 
