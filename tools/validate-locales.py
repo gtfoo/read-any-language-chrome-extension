@@ -193,7 +193,10 @@ def main():
         if not os.path.isfile(path):
             continue
         js = open(path, encoding="utf-8").read()
-        for key in re.findall(r'(?:getMessage|\bmsg)\(\s*["\']([^"\']+)["\']', js):
+        # chrome.i18n.getMessage plus the local wrappers: msg() in options.js
+        # and t() in content.js (which guards against an invalidated context).
+        pattern = r'(?:getMessage|\bmsg|\bt)\(\s*["\']([^"\']+)["\']'
+        for key in re.findall(pattern, js):
             used_keys.add(key)
             if key not in base_keys and not key.startswith("@@"):
                 err(f"{name}: getMessage(\"{key}\") is not defined in "

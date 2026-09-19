@@ -4,20 +4,24 @@ const DEFAULTS = {
   voiceId: "21m00Tcm4TlvDq8ikWAM", // "Rachel" — a built-in ElevenLabs voice
   modelId: "eleven_multilingual_v2",
   maxChars: 1000,
+  genSpeed: 1, // ElevenLabs voice_settings.speed; 1 is normal
 };
 
 async function getConfig() {
-  const { apiKey, voiceId, modelId, maxChars } = await chrome.storage.sync.get([
-    "apiKey",
-    "voiceId",
-    "modelId",
-    "maxChars",
-  ]);
+  const { apiKey, voiceId, modelId, maxChars, genSpeed } =
+    await chrome.storage.sync.get([
+      "apiKey",
+      "voiceId",
+      "modelId",
+      "maxChars",
+      "genSpeed",
+    ]);
   return {
     apiKey,
     voiceId: voiceId || DEFAULTS.voiceId,
     modelId: modelId || DEFAULTS.modelId,
     maxChars: maxChars || DEFAULTS.maxChars,
+    genSpeed: genSpeed || DEFAULTS.genSpeed,
   };
 }
 
@@ -26,6 +30,7 @@ async function synthesize(text, overrides = {}) {
   const apiKey = overrides.apiKey || cfg.apiKey;
   const voiceId = overrides.voiceId || cfg.voiceId;
   const modelId = overrides.modelId || cfg.modelId;
+  const genSpeed = overrides.genSpeed ?? cfg.genSpeed;
   if (!apiKey) throw new Error(chrome.i18n.getMessage("errNoKey"));
   if (text.length > cfg.maxChars) {
     // Backstop the content-script cap so we never spend quota on oversized text.
@@ -49,7 +54,11 @@ async function synthesize(text, overrides = {}) {
       body: JSON.stringify({
         text,
         model_id: modelId,
-        voice_settings: { stability: 0.5, similarity_boost: 0.75 },
+        voice_settings: {
+          stability: 0.5,
+          similarity_boost: 0.75,
+          speed: genSpeed,
+        },
       }),
     }
   );
@@ -161,6 +170,7 @@ chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
       apiKey: msg.apiKey,
       voiceId: msg.voiceId,
       modelId: msg.modelId,
+      genSpeed: msg.genSpeed,
     })
       .then((audioBase64) => sendResponse({ ok: true, audioBase64 }))
       .catch((err) => sendResponse({ ok: false, error: err.message }));

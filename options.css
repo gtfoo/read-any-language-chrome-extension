@@ -95,6 +95,21 @@ button {
   margin-top: 12px;
 }
 
+/* Toggled by options.js. This is a class rather than the `hidden` attribute
+   because i18n.js sets el.hidden = false on every element it localizes, which
+   would immediately undo the toggle. */
+.note-hidden {
+  display: none;
+}
+
+.hint.warn {
+  color: #8a6d00;
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
 .info {
   margin-top: 20px;
   padding: 12px 14px;

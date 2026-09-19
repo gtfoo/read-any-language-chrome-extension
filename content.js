@@ -11,6 +11,26 @@ let state = "idle"; // "idle" | "loading" | "playing"
 let charCount = 0; // length of the current selection
 let maxChars = 1000; // cap; kept in sync with settings below
 
+// Reloading or updating the extension orphans the content scripts already
+// running in open tabs: chrome.runtime.id goes undefined and the chrome.* APIs
+// start throwing. Bail out quietly rather than spraying TypeErrors on every
+// selection — reloading the page restores a live script.
+function extensionAlive() {
+  try {
+    return Boolean(chrome.runtime && chrome.runtime.id);
+  } catch {
+    return false;
+  }
+}
+
+function t(key, subs) {
+  try {
+    return chrome.i18n.getMessage(key, subs) || "";
+  } catch {
+    return "";
+  }
+}
+
 chrome.storage.sync.get("maxChars").then(({ maxChars: m }) => {
   if (m) maxChars = m;
 });
@@ -69,19 +89,18 @@ function setState(next) {
     button.classList.toggle("elr-over", over);
     button.textContent = over ? "⚠️" : "🔊";
     const subs = [String(charCount), String(maxChars)];
-    button.title = over
-      ? chrome.i18n.getMessage("btnTooLong", subs)
-      : chrome.i18n.getMessage("btnReadAloud", subs);
+    button.title = over ? t("btnTooLong", subs) : t("btnReadAloud", subs);
   } else if (next === "loading") {
     button.textContent = "…";
-    button.title = chrome.i18n.getMessage("btnLoading");
+    button.title = t("btnLoading");
   } else if (next === "playing") {
     button.textContent = "⏹";
-    button.title = chrome.i18n.getMessage("btnStop");
+    button.title = t("btnStop");
   }
 }
 
 document.addEventListener("mouseup", (e) => {
+  if (!extensionAlive()) return; // orphaned script; wait for a page reload
   // A click on our own button is handled separately, not as a new selection.
   if (button && button.contains(e.target)) return;
 
@@ -130,7 +149,7 @@ async function narrate(text) {
     const resp = await chrome.runtime.sendMessage({ type: "narrate", text });
     if (myReq !== requestSeq) return; // a newer click/selection superseded this one
     if (!resp || !resp.ok) {
-      throw new Error(resp?.error || chrome.i18n.getMessage("errUnknown"));
+      throw new Error(resp?.error || t("errUnknown") || "Unknown error");
     }
 
     const ctx = getAudioContext();

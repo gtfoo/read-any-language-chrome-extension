@@ -40,6 +40,29 @@
   <button id="previewVoice" type="button" data-i18n="btnPreviewVoice">▶ Preview voice</button>
 
   <label>
+    <span data-i18n="labelGenSpeed">Generation speed</span>
+    <select id="genSpeed">
+      <option value="0.7">0.7×</option>
+      <option value="0.8">0.8×</option>
+      <option value="0.9">0.9×</option>
+      <option value="1" selected>1.0× — normal</option>
+      <option value="1.1">1.1×</option>
+      <option value="1.2">1.2×</option>
+    </select>
+  </label>
+
+  <p class="hint" data-i18n="hintGenSpeed">
+    Sent to ElevenLabs, so the voice genuinely speaks at this pace and the pitch
+    stays natural. Changing it re-generates the audio, which spends characters
+    again.
+  </p>
+
+  <p class="hint warn note-hidden" id="speedUnsupported" data-i18n="hintSpeedUnsupported">
+    The selected model ignores this setting — Eleven v3 does not support speed.
+    Choose Multilingual v2 or Turbo v2.5 to change the pace.
+  </p>
+
+  <label>
     <span data-i18n="labelMaxChars">Max characters per narration</span>
     <input id="maxChars" type="number" min="1" step="50" value="1000" />
   </label>

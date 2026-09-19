@@ -13,6 +13,17 @@ function setUsage(msg, isError) {
   el.style.color = isError ? "#b00020" : "#333";
 }
 
+// /v1/models exposes can_use_style and can_use_speaker_boost, but nothing that
+// says whether a model honours voice_settings.speed — so models that silently
+// ignore it have to be listed by hand. Revisit if a capability flag appears.
+const MODELS_IGNORING_SPEED = new Set(["eleven_v3"]);
+
+function renderSpeedAvailability() {
+  const ignored = MODELS_IGNORING_SPEED.has($("modelId").value);
+  $("genSpeed").disabled = ignored;
+  $("speedUnsupported").classList.toggle("note-hidden", !ignored);
+}
+
 let models = []; // TTS models fetched from the API
 let savedModelId = null; // remembered so it survives dropdown repopulation
 let voices = []; // free (premade) voices fetched from the API
@@ -66,19 +77,23 @@ async function loadModels() {
   models = resp.models.filter((m) => m.tts);
   if (models.length) populateModelSelect();
   renderLanguages();
+  renderSpeedAvailability(); // the restored model may be one that ignores speed
 }
 
 async function restore() {
-  const { apiKey, voiceId, modelId, maxChars } = await chrome.storage.sync.get([
-    "apiKey",
-    "voiceId",
-    "modelId",
-    "maxChars",
-  ]);
+  const { apiKey, voiceId, modelId, maxChars, genSpeed } =
+    await chrome.storage.sync.get([
+      "apiKey",
+      "voiceId",
+      "modelId",
+      "maxChars",
+      "genSpeed",
+    ]);
   if (apiKey) $("apiKey").value = apiKey;
   savedModelId = modelId || null;
   if (modelId) $("modelId").value = modelId;
   if (maxChars) $("maxChars").value = maxChars;
+  $("genSpeed").value = String(genSpeed || 1);
   savedVoiceId = voiceId || null;
   if (voiceId) {
     // Make sure the saved voice is selectable even before the list is loaded.
@@ -89,11 +104,15 @@ async function restore() {
   }
 
   renderLanguages();
+  renderSpeedAvailability();
   loadModels();
   loadVoices();
 }
 
-$("modelId").addEventListener("change", renderLanguages);
+$("modelId").addEventListener("change", () => {
+  renderLanguages();
+  renderSpeedAvailability();
+});
 $("apiKey").addEventListener("change", () => {
   loadModels(); // both fire on blur after editing the key
   loadVoices();
@@ -105,6 +124,7 @@ $("save").addEventListener("click", async () => {
     voiceId: $("voiceId").value,
     modelId: $("modelId").value,
     maxChars: Math.max(1, parseInt($("maxChars").value, 10) || 1000),
+    genSpeed: parseFloat($("genSpeed").value) || 1,
   });
   setStatus(msg("msgSaved"), false);
 });
@@ -128,6 +148,7 @@ $("previewVoice").addEventListener("click", async () => {
     apiKey,
     voiceId: sel.value,
     modelId: $("modelId").value,
+    genSpeed: parseFloat($("genSpeed").value) || 1,
   });
   if (!resp || !resp.ok) {
     return setStatus(resp?.error || msg("msgNoResponse"), true);
