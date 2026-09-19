@@ -59,7 +59,26 @@ async function synthesize(text, overrides = {}) {
     throw new Error(`ElevenLabs error ${res.status}: ${detail.slice(0, 200)}`);
   }
 
+  const contentType = res.headers.get("content-type") || "";
   const buf = await res.arrayBuffer();
+
+  // A 200 carrying an empty or non-audio body still yields a data: URI, and the
+  // page only reports a bare NotSupportedError from play(). Fail here instead,
+  // where we can still say what actually came back.
+  if (!buf.byteLength) {
+    throw new Error(
+      `ElevenLabs returned 200 with an empty body (content-type: ` +
+        `${contentType || "none"}). The voice or model may not be usable ` +
+        `with this key.`
+    );
+  }
+  if (contentType && !contentType.startsWith("audio/")) {
+    const preview = new TextDecoder().decode(buf.slice(0, 300)).trim();
+    throw new Error(
+      `ElevenLabs returned ${contentType} instead of audio: ${preview}`
+    );
+  }
+
   return arrayBufferToBase64(buf);
 }
 

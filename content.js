@@ -4,7 +4,8 @@
 // double-clicks or new selections.
 
 let button = null;
-let currentAudio = null;
+let audioCtx = null; // created lazily on first playback, then reused
+let currentSource = null;
 let requestSeq = 0; // bumped whenever we start/cancel; stale responses are ignored
 let state = "idle"; // "idle" | "loading" | "playing"
 let charCount = 0; // length of the current selection
@@ -19,11 +20,33 @@ chrome.storage.onChanged.addListener((changes, area) => {
   }
 });
 
+// Playback goes through the Web Audio API rather than an <audio> element.
+// A content script inherits the host page's Content-Security-Policy, and plenty
+// of sites block data: (and blob:) media. decodeAudioData takes an in-memory
+// ArrayBuffer, so no resource URL is ever loaded and no CSP directive applies.
+function getAudioContext() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  return audioCtx;
+}
+
+function base64ToArrayBuffer(b64) {
+  const binary = atob(b64);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  return bytes.buffer;
+}
+
 function stopAudio() {
-  if (currentAudio) {
-    currentAudio.pause();
-    currentAudio.src = "";
-    currentAudio = null;
+  if (currentSource) {
+    currentSource.onended = null; // stopping must not fire the ended handler
+    try {
+      currentSource.stop();
+    } catch {
+      // stop() throws if the source already finished; nothing to do.
+    }
+    currentSource = null;
   }
   requestSeq++; // invalidate any in-flight request or pending "ended" handler
   state = "idle";
@@ -110,13 +133,31 @@ async function narrate(text) {
       throw new Error(resp?.error || chrome.i18n.getMessage("errUnknown"));
     }
 
-    const audio = new Audio(`data:audio/mpeg;base64,${resp.audioBase64}`);
-    currentAudio = audio;
-    audio.addEventListener("ended", () => {
+    const ctx = getAudioContext();
+    // The context can start suspended under the autoplay policy; we are inside
+    // a click handler, so resuming here settles immediately.
+    if (ctx.state === "suspended") await ctx.resume();
+
+    let buffer;
+    try {
+      buffer = await ctx.decodeAudioData(base64ToArrayBuffer(resp.audioBase64));
+    } catch {
+      const bytes = Math.floor((resp.audioBase64.length * 3) / 4);
+      throw new Error(
+        `Could not decode the ${bytes} bytes returned by ElevenLabs as audio.`
+      );
+    }
+    if (myReq !== requestSeq) return; // superseded while decoding
+
+    const source = ctx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(ctx.destination);
+    source.onended = () => {
       if (myReq === requestSeq) setState("idle");
-    });
+    };
+    currentSource = source;
     setState("playing");
-    await audio.play();
+    source.start();
   } catch (err) {
     if (myReq !== requestSeq) return;
     setState("idle");
