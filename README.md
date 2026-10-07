@@ -94,6 +94,24 @@ silently missing language — so this runs automatically in two places:
 - **GitHub Actions** (`.github/workflows/validate.yml`) on every push and pull
   request — the backstop that can't be forgotten or bypassed.
 
+## Packaging for the Chrome Web Store
+
+```
+python3 tools/package.py
+```
+
+Writes `web-store/read-any-language-<version>.zip` (gitignored), containing only
+the runtime files — `manifest.json` at the archive root, the scripts, styles,
+icons and `_locales/`. Everything else in the repo, including this README and
+`tools/` itself, is left out.
+
+The file list is an allowlist rather than a set of exclusions, so a file added
+to the repo later is never shipped by accident. Validation runs first, so the
+build cannot produce an upload containing a broken locale.
+
+Remember the store needs the **version in `manifest.json` to increase** on every
+upload, even for a one-line fix.
+
 ## Notes / next steps
 
 - Models, voices, and each model's supported-language list are fetched live from

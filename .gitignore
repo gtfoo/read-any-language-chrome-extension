@@ -2,6 +2,9 @@
 *.zip
 web-store/
 
+# Python bytecode from tools/
+__pycache__/
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
