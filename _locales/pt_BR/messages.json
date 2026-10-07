@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "Máximo de caracteres por narração" },
   "labelGenSpeed": { "message": "Velocidade de geração" },
   "hintGenSpeed": { "message": "Enviada à ElevenLabs, então a voz realmente fala nesse ritmo e o tom permanece natural. Alterá-la regenera o áudio, o que consome caracteres novamente." },
-  "hintSpeedUnsupported": { "message": "O modelo selecionado ignora esta configuração — o Eleven v3 não oferece suporte a velocidade. Escolha Multilingual v2 ou Turbo v2.5 para mudar o ritmo." },
+  "hintSpeedUnsupported": { "message": "O modelo selecionado ignora esta configuração. Escolha Multilingual v2 ou Turbo v2.5 para mudar o ritmo." },
   "btnPreviewVoice": { "message": "▶ Ouvir a voz" },
   "btnSave": { "message": "Salvar" },
   "btnCheckUsage": { "message": "Verificar uso da conta" },

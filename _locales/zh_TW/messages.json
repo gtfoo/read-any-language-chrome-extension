@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "每次朗讀的最大字元數" },
   "labelGenSpeed": { "message": "生成速度" },
   "hintGenSpeed": { "message": "此設定會傳送給 ElevenLabs，因此語音會真正以此速度朗讀，音高維持自然。變更後會重新生成音訊，並再次消耗字元。" },
-  "hintSpeedUnsupported": { "message": "所選模型會忽略此設定——Eleven v3 不支援速度調整。請選擇 Multilingual v2 或 Turbo v2.5 來變更語速。" },
+  "hintSpeedUnsupported": { "message": "所選模型會忽略此設定。請選擇 Multilingual v2 或 Turbo v2.5 來變更語速。" },
   "btnPreviewVoice": { "message": "▶ 試聽語音" },
   "btnSave": { "message": "儲存" },
   "btnCheckUsage": { "message": "查看帳戶用量" },

@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "Pinakamaraming karakter kada pagbasa" },
   "labelGenSpeed": { "message": "Bilis ng paggawa" },
   "hintGenSpeed": { "message": "Ipinapadala sa ElevenLabs, kaya talagang nagsasalita ang boses sa bilis na ito at nananatiling natural ang tono. Ang pagbabago nito ay muling gumagawa ng audio at muling gumagamit ng mga karakter." },
-  "hintSpeedUnsupported": { "message": "Binabalewala ng napiling modelo ang setting na ito — hindi sinusuportahan ng Eleven v3 ang bilis. Pumili ng Multilingual v2 o Turbo v2.5 para baguhin ang bilis." },
+  "hintSpeedUnsupported": { "message": "Binabalewala ng napiling modelo ang setting na ito. Pumili ng Multilingual v2 o Turbo v2.5 para baguhin ang bilis." },
   "btnPreviewVoice": { "message": "▶ I-preview ang boses" },
   "btnSave": { "message": "I-save" },
   "btnCheckUsage": { "message": "Tingnan ang paggamit ng account" },

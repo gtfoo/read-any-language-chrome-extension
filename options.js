@@ -13,13 +13,24 @@ function setUsage(msg, isError) {
   el.style.color = isError ? "#b00020" : "#333";
 }
 
-// /v1/models exposes can_use_style and can_use_speaker_boost, but nothing that
-// says whether a model honours voice_settings.speed — so models that silently
-// ignore it have to be listed by hand. Revisit if a capability flag appears.
-const MODELS_IGNORING_SPEED = new Set(["eleven_v3"]);
+// Measured, not documented. /v1/models exposes can_use_style and
+// can_use_speaker_boost but nothing for speed, and the model docs never mention
+// it, so this was established by comparing the duration of the same text at
+// 0.7x and 1.2x:
+//   eleven_multilingual_v2 .............. durations differ -> honours speed
+//   eleven_v3 / v4 / v4_turbo ........... identical        -> ignore it
+// Matched by family prefix so variants (eleven_v3_conversational, future
+// eleven_v4_*) are covered without another release. When a new family appears
+// — v5 and onward — re-run that duration comparison rather than assuming:
+// the preview shows the length inline for exactly this purpose.
+const SPEED_IGNORING_PREFIXES = ["eleven_v3", "eleven_v4"];
+
+function modelIgnoresSpeed(modelId) {
+  return SPEED_IGNORING_PREFIXES.some((prefix) => modelId.startsWith(prefix));
+}
 
 function renderSpeedAvailability() {
-  const ignored = MODELS_IGNORING_SPEED.has($("modelId").value);
+  const ignored = modelIgnoresSpeed($("modelId").value);
   $("genSpeed").disabled = ignored;
   $("speedUnsupported").classList.toggle("note-hidden", !ignored);
 }
@@ -157,7 +168,13 @@ $("previewVoice").addEventListener("click", async () => {
   previewAudio = new Audio(`data:audio/mpeg;base64,${resp.audioBase64}`);
   previewAudio.addEventListener("ended", () => setStatus("", false));
   await previewAudio.play();
-  setStatus(msg("msgPreviewing", [voiceName]), false);
+
+  // Duration is the objective way to tell whether a model honoured
+  // voice_settings.speed: the same text at two speeds should come back with two
+  // different durations. Shown inline so reading it needs no DevTools.
+  const secs = previewAudio.duration;
+  const length = Number.isFinite(secs) ? ` · ${secs.toFixed(2)}s` : "";
+  setStatus(msg("msgPreviewing", [voiceName]) + length, false);
 });
 
 $("checkUsage").addEventListener("click", async () => {

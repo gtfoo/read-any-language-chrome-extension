@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "حداکثر تعداد نویسه در هر خوانش" },
   "labelGenSpeed": { "message": "سرعت تولید" },
   "hintGenSpeed": { "message": "به ElevenLabs فرستاده می‌شود، بنابراین صدا واقعاً با این سرعت صحبت می‌کند و زیر و بمی طبیعی می‌ماند. تغییر آن صدا را دوباره تولید می‌کند و نویسه‌ها را دوباره مصرف می‌کند." },
-  "hintSpeedUnsupported": { "message": "مدل انتخاب‌شده این تنظیم را نادیده می‌گیرد — Eleven v3 از سرعت پشتیبانی نمی‌کند. برای تغییر سرعت، Multilingual v2 یا Turbo v2.5 را انتخاب کنید." },
+  "hintSpeedUnsupported": { "message": "مدل انتخاب‌شده این تنظیم را نادیده می‌گیرد. برای تغییر سرعت، Multilingual v2 یا Turbo v2.5 را انتخاب کنید." },
   "btnPreviewVoice": { "message": "▶ پیش‌نمایش صدا" },
   "btnSave": { "message": "ذخیره" },
   "btnCheckUsage": { "message": "بررسی مصرف حساب" },

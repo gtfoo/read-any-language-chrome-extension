@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "ఒక్కో పఠనానికి గరిష్ఠ అక్షరాలు" },
   "labelGenSpeed": { "message": "జనరేషన్ వేగం" },
   "hintGenSpeed": { "message": "ఇది ElevenLabsకు పంపబడుతుంది, కాబట్టి స్వరం నిజంగా ఈ వేగంతో మాట్లాడుతుంది మరియు పిచ్ సహజంగా ఉంటుంది. మార్చితే ఆడియో మళ్లీ రూపొందుతుంది, అక్షరాలు మళ్లీ ఖర్చవుతాయి." },
-  "hintSpeedUnsupported": { "message": "ఎంచుకున్న మోడల్ ఈ సెట్టింగ్‌ను విస్మరిస్తుంది — Eleven v3 వేగానికి మద్దతు ఇవ్వదు. వేగాన్ని మార్చడానికి Multilingual v2 లేదా Turbo v2.5 ఎంచుకోండి." },
+  "hintSpeedUnsupported": { "message": "ఎంచుకున్న మోడల్ ఈ సెట్టింగ్‌ను విస్మరిస్తుంది. వేగాన్ని మార్చడానికి Multilingual v2 లేదా Turbo v2.5 ఎంచుకోండి." },
   "btnPreviewVoice": { "message": "▶ వాయిస్‌ను వినండి" },
   "btnSave": { "message": "సేవ్ చేయి" },
   "btnCheckUsage": { "message": "ఖాతా వినియోగాన్ని తనిఖీ చేయి" },

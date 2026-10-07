@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "الحد الأقصى للأحرف في كل قراءة" },
   "labelGenSpeed": { "message": "سرعة التوليد" },
   "hintGenSpeed": { "message": "تُرسل إلى ElevenLabs، لذا ينطق الصوت فعليًا بهذه السرعة وتبقى طبقة الصوت طبيعية. تغييرها يعيد توليد الصوت ويستهلك الأحرف من جديد." },
-  "hintSpeedUnsupported": { "message": "النموذج المحدد يتجاهل هذا الإعداد — لا يدعم Eleven v3 السرعة. اختر Multilingual v2 أو Turbo v2.5 لتغيير الإيقاع." },
+  "hintSpeedUnsupported": { "message": "النموذج المحدد يتجاهل هذا الإعداد. اختر Multilingual v2 أو Turbo v2.5 لتغيير الإيقاع." },
   "btnPreviewVoice": { "message": "▶ معاينة الصوت" },
   "btnSave": { "message": "حفظ" },
   "btnCheckUsage": { "message": "التحقق من استخدام الحساب" },

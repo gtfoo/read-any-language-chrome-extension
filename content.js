@@ -168,6 +168,14 @@ async function narrate(text) {
     }
     if (myReq !== requestSeq) return; // superseded while decoding
 
+    // Verbose-level only, so it costs normal users nothing. Duration is the
+    // objective way to tell whether a model honoured voice_settings.speed:
+    // same text at two speeds should give two different durations.
+    console.debug(
+      `[Read Any Language] ${buffer.duration.toFixed(2)}s of audio, ` +
+        `${Math.floor((resp.audioBase64.length * 3) / 4)} bytes`
+    );
+
     const source = ctx.createBufferSource();
     source.buffer = buffer;
     source.connect(ctx.destination);

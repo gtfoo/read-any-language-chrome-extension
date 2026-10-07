@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "Högsta antal tecken per uppläsning" },
   "labelGenSpeed": { "message": "Genereringshastighet" },
   "hintGenSpeed": { "message": "Skickas till ElevenLabs, så rösten talar verkligen i det här tempot och tonhöjden förblir naturlig. Att ändra den genererar ljudet på nytt och förbrukar tecken igen." },
-  "hintSpeedUnsupported": { "message": "Den valda modellen ignorerar den här inställningen – Eleven v3 stöder inte hastighet. Välj Multilingual v2 eller Turbo v2.5 för att ändra tempot." },
+  "hintSpeedUnsupported": { "message": "Den valda modellen ignorerar den här inställningen. Välj Multilingual v2 eller Turbo v2.5 för att ändra tempot." },
   "btnPreviewVoice": { "message": "▶ Förhandslyssna på röst" },
   "btnSave": { "message": "Spara" },
   "btnCheckUsage": { "message": "Kontrollera kontoanvändning" },

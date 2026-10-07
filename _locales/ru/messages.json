@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "Макс. число символов на озвучивание" },
   "labelGenSpeed": { "message": "Скорость генерации" },
   "hintGenSpeed": { "message": "Передаётся в ElevenLabs, поэтому голос действительно говорит в таком темпе, а высота звука остаётся естественной. Изменение заново генерирует аудио и снова расходует символы." },
-  "hintSpeedUnsupported": { "message": "Выбранная модель игнорирует эту настройку — Eleven v3 не поддерживает скорость. Выберите Multilingual v2 или Turbo v2.5, чтобы изменить темп." },
+  "hintSpeedUnsupported": { "message": "Выбранная модель игнорирует эту настройку. Выберите Multilingual v2 или Turbo v2.5, чтобы изменить темп." },
   "btnPreviewVoice": { "message": "▶ Прослушать голос" },
   "btnSave": { "message": "Сохранить" },
   "btnCheckUsage": { "message": "Проверить использование аккаунта" },

@@ -13,7 +13,7 @@
   "labelMaxChars": { "message": "Số ký tự tối đa mỗi lần đọc" },
   "labelGenSpeed": { "message": "Tốc độ tạo giọng" },
   "hintGenSpeed": { "message": "Được gửi tới ElevenLabs, nên giọng đọc thực sự nói ở tốc độ này và cao độ vẫn tự nhiên. Thay đổi sẽ tạo lại âm thanh và tiêu tốn ký tự một lần nữa." },
-  "hintSpeedUnsupported": { "message": "Mô hình đã chọn bỏ qua thiết lập này — Eleven v3 không hỗ trợ tốc độ. Hãy chọn Multilingual v2 hoặc Turbo v2.5 để thay đổi nhịp đọc." },
+  "hintSpeedUnsupported": { "message": "Mô hình đã chọn bỏ qua thiết lập này. Hãy chọn Multilingual v2 hoặc Turbo v2.5 để thay đổi nhịp đọc." },
   "btnPreviewVoice": { "message": "▶ Nghe thử giọng" },
   "btnSave": { "message": "Lưu" },
   "btnCheckUsage": { "message": "Kiểm tra mức dùng tài khoản" },
