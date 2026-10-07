@@ -110,7 +110,17 @@ to the repo later is never shipped by accident. Validation runs first, so the
 build cannot produce an upload containing a broken locale.
 
 Remember the store needs the **version in `manifest.json` to increase** on every
-upload, even for a one-line fix.
+upload, even for a one-line fix. Add the entry to
+[CHANGELOG.md](CHANGELOG.md) in the same commit as the bump.
+
+### Why the changelog is not in the store listing
+
+The Chrome Web Store has no release-notes field — update logs go inside the
+**detailed description**, which is written per locale. Publishing release notes
+there would mean translating them into 31 locales on every release, for
+something most users never read. So the changelog lives in this repo, and the
+listing's **Homepage URL** points here instead. A URL needs no translation and
+never goes stale.
 
 ## Notes / next steps
 
